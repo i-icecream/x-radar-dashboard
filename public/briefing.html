@@ -3,33 +3,44 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>X 雷达简报</title>
+    <title>Briefing - Follow-up Builders</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
-    <main class="shell briefing-shell">
-      <header class="timeline-header">
-        <div>
-          <div class="title-line">
-            <h1>最新简报</h1>
-            <span class="view-badge live">最新</span>
-          </div>
-          <p id="briefingMeta">加载中...</p>
-        </div>
-        <div class="header-actions">
-          <a class="nav-link active" href="briefing.html">简报</a>
-          <a class="nav-link" href="./">时间线</a>
-          <a class="nav-link" href="history.html">历史</a>
-        </div>
-      </header>
+  <body class="x-shell-page">
+    <div class="app-frame secondary-frame">
+      <aside class="left-rail" aria-label="Primary">
+        <a class="brand-lockup" href="./" aria-label="Follow-up Builders">
+          <span class="brand-mark">F</span>
+          <span><strong>Follow-up Builders</strong><small>Personal Radar</small></span>
+        </a>
+        <nav class="side-nav" aria-label="Views">
+          <a class="side-nav-item active" href="briefing.html"><span aria-hidden="true">B</span><strong>Briefing</strong></a>
+          <a class="side-nav-item" href="./"><span aria-hidden="true">T</span><strong>Timeline</strong></a>
+          <a class="side-nav-item" href="history.html"><span aria-hidden="true">H</span><strong>History</strong></a>
+        </nav>
+        <a class="compose-button" href="./">Open Timeline</a>
+        <div class="rail-profile"><span class="profile-avatar">FB</span><span><strong>Radar</strong><small>@followup_builders</small></span></div>
+      </aside>
 
-      <section id="briefingSummary" class="briefing-summary"></section>
-      <section id="briefingSections" class="briefing-sections"></section>
-      <section id="briefingEmpty" class="empty" hidden>
-        <h2>还没有简报</h2>
-        <p>下一次扫描后会自动生成。</p>
-      </section>
-    </main>
+      <main class="timeline-column briefing-shell">
+        <header class="timeline-header x-header">
+          <div>
+            <div class="title-line">
+              <h1>Briefing</h1>
+              <span class="view-badge live">Latest</span>
+            </div>
+            <p id="briefingMeta">Loading...</p>
+          </div>
+        </header>
+
+        <section id="briefingSummary" class="briefing-summary"></section>
+        <section id="briefingSections" class="briefing-sections"></section>
+        <section id="briefingEmpty" class="empty" hidden>
+          <h2>No briefing yet</h2>
+          <p>The next scan will generate a briefing automatically.</p>
+        </section>
+      </main>
+    </div>
 
     <script src="briefing.js" type="module"></script>
   </body>
