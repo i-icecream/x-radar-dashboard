@@ -3,39 +3,50 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>X 雷达历史</title>
+    <title>History - Follow-up Builders</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
-    <main class="shell briefing-shell">
-      <header class="timeline-header">
-        <div>
-          <div class="title-line">
-            <h1>历史归档</h1>
-            <span class="view-badge archive">历史</span>
+  <body class="x-shell-page">
+    <div class="app-frame secondary-frame">
+      <aside class="left-rail" aria-label="Primary">
+        <a class="brand-lockup" href="./" aria-label="Follow-up Builders">
+          <span class="brand-mark">F</span>
+          <span><strong>Follow-up Builders</strong><small>Personal Radar</small></span>
+        </a>
+        <nav class="side-nav" aria-label="Views">
+          <a class="side-nav-item" href="briefing.html"><span aria-hidden="true">B</span><strong>Briefing</strong></a>
+          <a class="side-nav-item" href="./"><span aria-hidden="true">T</span><strong>Timeline</strong></a>
+          <a class="side-nav-item active" href="history.html"><span aria-hidden="true">H</span><strong>History</strong></a>
+        </nav>
+        <a class="compose-button" href="briefing.html">Read Briefing</a>
+        <div class="rail-profile"><span class="profile-avatar">FB</span><span><strong>Radar</strong><small>@followup_builders</small></span></div>
+      </aside>
+
+      <main class="timeline-column briefing-shell">
+        <header class="timeline-header x-header">
+          <div>
+            <div class="title-line">
+              <h1>History</h1>
+              <span class="view-badge archive">Archive</span>
+            </div>
+            <p id="historyMeta">Loading...</p>
           </div>
-          <p id="historyMeta">加载中...</p>
-        </div>
-        <div class="header-actions">
-          <a class="nav-link" href="briefing.html">简报</a>
-          <a class="nav-link" href="./">时间线</a>
-          <a class="nav-link active" href="history.html">历史</a>
-        </div>
-      </header>
+        </header>
 
-      <section class="archive-notice">
-        <strong>历史模式</strong>
-        <span>这里查看的是某一次扫描的归档快照，不会随最新扫描自动变化。</span>
-      </section>
+        <section class="archive-notice">
+          <strong>Archive mode</strong>
+          <span>You are viewing a saved scan snapshot, not the live timeline.</span>
+        </section>
 
-      <section id="runList" class="run-list" aria-label="历史扫描"></section>
-      <section id="historySummary" class="briefing-summary"></section>
-      <section id="historySections" class="briefing-sections"></section>
-      <section id="historyEmpty" class="empty" hidden>
-        <h2>还没有历史归档</h2>
-        <p>下一次扫描后会自动出现在这里。</p>
-      </section>
-    </main>
+        <section id="runList" class="run-list" aria-label="Archived scans"></section>
+        <section id="historySummary" class="briefing-summary"></section>
+        <section id="historySections" class="briefing-sections"></section>
+        <section id="historyEmpty" class="empty" hidden>
+          <h2>No archive yet</h2>
+          <p>Future scans will appear here automatically.</p>
+        </section>
+      </main>
+    </div>
 
     <script src="history.js" type="module"></script>
   </body>
