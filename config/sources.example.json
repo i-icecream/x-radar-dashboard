@@ -1,0 +1,18 @@
+{
+  "timezone": "Asia/Shanghai",
+  "lookbackHours": 24,
+  "maxPostsPerAccount": 3,
+  "includeReplies": false,
+  "includeReposts": false,
+  "language": "zh-CN",
+  "accounts": [
+    {
+      "handle": "karpathy",
+      "name": "Andrej Karpathy"
+    },
+    {
+      "handle": "levelsio",
+      "name": "Pieter Levels"
+    }
+  ]
+}

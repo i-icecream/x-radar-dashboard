@@ -1,0 +1,1083 @@
+{
+  "generatedAt": "2026-06-20T02:45:13.901Z",
+  "window": {
+    "lookbackHours": 24,
+    "timezone": "Asia/Shanghai",
+    "includeReplies": false,
+    "includeReposts": false
+  },
+  "stats": {
+    "accountsConfigured": 36,
+    "accountsWithNewPosts": 9,
+    "totalPosts": 19,
+    "errors": 0,
+    "feedAccounts": 19,
+    "xApiAccounts": 17,
+    "feedPosts": 0,
+    "xApiPosts": 19,
+    "skippedXApiAccounts": 0,
+    "xApiPostReadsEstimated": 102,
+    "xApiUserReadsEstimated": 17
+  },
+  "sources": {
+    "feedAccounts": 19,
+    "xApiAccounts": 17,
+    "feedPosts": 0,
+    "xApiPosts": 19,
+    "skippedXApiAccounts": 0,
+    "xApiPostReadsEstimated": 102,
+    "xApiUserReadsEstimated": 17,
+    "feeds": [
+      {
+        "id": "follow-builders",
+        "name": "Follow Builders",
+        "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
+        "generatedAt": "2026-06-19T08:14:32.084Z",
+        "fresh": true,
+        "accountsAvailable": 19,
+        "accountsMatched": 19,
+        "accountsCovered": 19,
+        "accountsWithNewPosts": 0,
+        "postsUsed": 0,
+        "errors": []
+      }
+    ]
+  },
+  "analysisMethod": "local-rules-v1",
+  "accounts": [
+    {
+      "handle": "0xcherry",
+      "name": "车厘子",
+      "bio": "中期目标是研发那啥机器人。/ Building OpenAlice @OpenAliceAI / Thx my dear @NGC_Ventures",
+      "postCount": 1,
+      "sourceType": "x-api",
+      "sourceLabel": "X API"
+    },
+    {
+      "handle": "philo2022",
+      "name": "Philo",
+      "bio": "Creator, Artist, Creator of @dopamindai & https://t.co/CiW3w1GiB2 & Art Gallery https://t.co/FbODek76Fh | Blog: https://t.co/b6PsjnsGoA | My Artwork: @PhiloArt2020 | En: @Philo1024",
+      "postCount": 1,
+      "sourceType": "x-api",
+      "sourceLabel": "X API"
+    },
+    {
+      "handle": "dotey",
+      "name": "宝玉",
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "postCount": 3,
+      "sourceType": "x-api",
+      "sourceLabel": "X API"
+    },
+    {
+      "handle": "zephyr_z9",
+      "name": "Zephyr",
+      "bio": "AI & Chips | Not Investment Advice | DYOD",
+      "postCount": 3,
+      "sourceType": "x-api",
+      "sourceLabel": "X API"
+    },
+    {
+      "handle": "aleabitoreddit",
+      "name": "Serenity",
+      "bio": "I only use X, beware of imposters. \n\nAI/Semi Supply Chain Analyst\n\nNot investment advice, DYODD. Now publishing free research on AI chokepoints.",
+      "postCount": 3,
+      "sourceType": "x-api",
+      "sourceLabel": "X API"
+    },
+    {
+      "handle": "turingou",
+      "name": "郭宇 guoyu.eth",
+      "bio": "Retired. 只活一次等于没活。",
+      "postCount": 1,
+      "sourceType": "x-api",
+      "sourceLabel": "X API"
+    },
+    {
+      "handle": "jukan05",
+      "name": "Jukan",
+      "bio": "Tech otakus save the world | Not Investment Advice | DYODD",
+      "postCount": 3,
+      "sourceType": "x-api",
+      "sourceLabel": "X API"
+    },
+    {
+      "handle": "mmmusol",
+      "name": "Musolsol",
+      "bio": "06 |  21年入web3 |\n长期主义 | 不定时投机\n侠客交易员 | 宏观 | AI | 文学\nFounder of @SWUFEBA\n投名状于@0xUClub @bamboozcrypto 门下\nStart From the Bottom.",
+      "postCount": 3,
+      "sourceType": "x-api",
+      "sourceLabel": "X API"
+    },
+    {
+      "handle": "wolfyxbt",
+      "name": "杀破狼 WolfyXBT",
+      "bio": "目前专注 5 件事：炒币、打飞机、找番号、Vibe Coding、建设 @CHILABS_｜币安返佣：https://t.co/AUJdXS2sTr｜交易 Memecoin 推荐使用币安 Web3 钱包：https://t.co/msPjqdJALu",
+      "postCount": 1,
+      "sourceType": "x-api",
+      "sourceLabel": "X API"
+    }
+  ],
+  "posts": [
+    {
+      "id": "2068163601643556944",
+      "handle": "mmmusol",
+      "name": "Musolsol",
+      "text": "它会在你第一次约会冷场时救你\n——“我跟你说，企鹅走路真的会摔跤。”\n\n它会在婚礼上被你爸拿出来讲，\n在你孩子的作文里变成“我妈妈去过世界尽头”，\n在你四十五岁中年危机怀疑人生的某个深夜，忽然从记忆里递给你一张船票：你曾经是那种人。 https://t.co/IHj6CRAooz",
+      "summary": "它会在你第一次约会冷场时救你 ——“我跟你说，企鹅走路真的会摔跤。” 它会在婚礼上被你爸拿出来讲， 在你孩子的作文里变成“我妈妈去过世界尽头”， 在你四十五岁中年危机怀疑人生的某个深夜，忽然从记忆里递给你一张船票：你曾经是那种人。",
+      "createdAt": "2026-06-20T02:46:41.000Z",
+      "url": "https://x.com/mmmusol/status/2068163601643556944",
+      "metrics": {
+        "likes": 1,
+        "reposts": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 10,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "综合"
+        ],
+        "type": "动态",
+        "signal": "低信号",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "zh",
+      "quotedPostId": null,
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "低信号：Musolsol 用抒情方式描述旅行记忆会在日后人生节点中反复被唤起。",
+        "insight": "这是个人/情绪表达，不是技术或投资线索。",
+        "whyItMatters": "适合闲读，不适合进入主简报。",
+        "action": "跳过。",
+        "risk": "无可操作信息。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "个人表达",
+          "旅行"
+        ],
+        "importance": 1
+      }
+    },
+    {
+      "id": "2068158305101647940",
+      "handle": "jukan05",
+      "name": "Jukan",
+      "text": "https://t.co/15klzVeRGa",
+      "summary": "https://t.co/15klzVeRGa",
+      "createdAt": "2026-06-20T02:25:39.000Z",
+      "url": "https://x.com/jukan05/status/2068158305101647940",
+      "metrics": {
+        "likes": 5,
+        "reposts": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 20,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "综合"
+        ],
+        "type": "链接",
+        "signal": "低信号",
+        "whyItMatters": "只有链接，需要打开原文才能判断价值。",
+        "action": "建议低优先级处理，除非该账号本身很重要。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "zxx",
+      "quotedPostId": null,
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "低信号：Jukan 只发了一个链接，离线状态下无法判断内容。",
+        "insight": "纯链接缺少可分析上下文。",
+        "whyItMatters": "不应占用主阅读路径。",
+        "action": "跳过，除非后续要追 Jukan 的原帖链接。",
+        "risk": "链接内容未知。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "纯链接"
+        ],
+        "importance": 1
+      }
+    },
+    {
+      "id": "2068158302035611724",
+      "handle": "jukan05",
+      "name": "Jukan",
+      "text": "Taiwan Makers Poised to Raise Chip Resistor Prices as China Players Hike and the Price Gap Narrows\n\nAs Taiwanese chip resistor makers shift to selective order taking and cull orders that carry no profit, low price chip resistor orders are flowing to Chinese chip resistor makers. Ralec (厚聲), the world's second largest chip resistor maker, and Guangdong Fenghua (風華高科), China's leading passive components player, have successively notified distributors of chip resistor price increases. Because a certain price gap exists between Taiwanese and Chinese chip resistors, the convergence of that gap leaves room for Taiwanese makers to set up the next round of price hikes.\n\nAccording to the supply chain, ahead of the Dragon Boat Festival holiday Guangdong Fenghua notified distributors of an across the board increase in chip resistor prices, with the magnitude reaching 20% to 30%. Prior to this, Ralec had already notified distributors of price increases for resistors in the 0201 to 1206 size range, with new prices effective from June 21. However, the increase Fenghua announced before the holiday far exceeded the level Ralec had set internally, prompting Ralec to make the dramatic move of withdrawing its quotations before the holiday and demanding that prices be renegotiated, which became a focal point of industry discussion.\n\nChip resistor makers note that as utilization rates at Taiwanese plants gradually climb, major domestic players have already moved to selective order taking, culling low price orders that carry no profit. These low price orders have flowed to Chinese makers, causing order volumes at Chinese makers to surge. However, Chinese makers had not passed through the earlier cost increases driven by the sharp rise in silver prices, creating a predicament in which the more orders they take, the more they lose. Chinese makers are caught in a dilemma over whether to accept orders, and raising prices has become an unavoidable choice.\n\nThe industry's read is that the source of this round of price increases still lies in the sharp rise in silver prices. Compared with the same period a year earlier, the silver price is three times higher, and as this feeds through to silver paste it has dealt a heavy blow to the cost structure of chip resistors.\n\nAccording to supply chain analysis, Yageo (國巨)* and its affiliate Kamet (凱美) are leading the chip resistor price increases. Yageo's new prices already took effect on February 1, and in January Kamet raised thick film resistor prices, while its subsidiary Viking Tech (旺詮) raised metal plate resistor prices by 20% to 30% from April, driven mainly by demand from AI, industrial control, energy storage and new energy. Among these, Yageo is the world's largest chip resistor maker, with a revenue based market share exceeding 30%. On NVIDIA's bill of materials, only three companies globally are listed: Yageo, Rohm and KOA. Reportedly, resistors that enter NVIDIA's BOM start at twice the price of standard specifications.\n\nMeanwhile, chip resistors currently account for roughly 20% of Walsin Tech's (華新科) revenue, and this year the company has more than doubled its capacity for special specification resistors. In the second half, Walsin will progressively negotiate with direct customers on prices for chip resistors and certain MLCC specifications.\n\nIn addition, the supply chain has observed that although resistor makers are currently raising prices only for distributors, prices for direct customers have in fact already risen as well. These direct customers are the largest outlet for passive component makers' capacity, so the price increase effect extends beyond distributors and its contribution to revenue is more pronounced.",
+      "summary": "Taiwan Makers Poised to Raise Chip Resistor Prices as China Players Hike and the Price Gap Narrows As Taiwanese chip resistor makers shift to selective order taking and cull orders that carry no profit, low price chip r...",
+      "createdAt": "2026-06-20T02:25:38.000Z",
+      "url": "https://x.com/jukan05/status/2068158302035611724",
+      "metrics": {
+        "likes": 34,
+        "reposts": 3,
+        "replies": 12,
+        "quotes": 1
+      },
+      "score": 100,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "AI / 模型",
+          "市场 / 投资"
+        ],
+        "type": "长文",
+        "signal": "高信号",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "en",
+      "quotedPostId": null,
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "Jukan 转述称台湾 chip resistor 厂商因中国厂商涨价、价差收窄和低利润订单转移，可能开启下一轮价格上涨。",
+        "insight": "这是被动元件价格周期线索，提到厚声、风华高科以及中国厂商 20%-30% 涨价。",
+        "whyItMatters": "对 MLCC/电阻/被动元件供应链和相关公司价格弹性有研究价值。",
+        "action": "后续可核对厚声、风华高科、台系电阻厂订单和涨价执行情况。",
+        "risk": "离线正文是供应链转述，需验证原始报道与公司实际报价。",
+        "investmentSignal": {
+          "target": "chip resistor / Ralec / Fenghua Advanced Technology",
+          "tilt": "bullish",
+          "thesis": "中国厂商涨价 20%-30% 且台中价差收窄，给台湾 chip resistor 厂商下一轮涨价空间。",
+          "evidence": "Taiwan Makers Poised to Raise Chip Resistor Prices as China Players Hike and the Price Gap Narrows"
+        },
+        "tags": [
+          "Chip resistor",
+          "被动元件",
+          "涨价",
+          "厚声",
+          "风华高科"
+        ],
+        "importance": 5
+      }
+    },
+    {
+      "id": "2068147878976266414",
+      "handle": "jukan05",
+      "name": "Jukan",
+      "text": "I do not send DMs first, I do not run any WhatsApp investment groups, and I do not send messages through Substack DMs.\n\nIt is extremely rare for me to DM anyone first. The only accounts I operate are @jukan05 on X and @jukan on Substack.",
+      "summary": "I do not send DMs first, I do not run any WhatsApp investment groups, and I do not send messages through Substack DMs.",
+      "createdAt": "2026-06-20T01:44:13.000Z",
+      "url": "https://x.com/jukan05/status/2068147878976266414",
+      "metrics": {
+        "likes": 90,
+        "reposts": 1,
+        "replies": 10,
+        "quotes": 0
+      },
+      "score": 34,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "创作者 / 内容"
+        ],
+        "type": "动态",
+        "signal": "低信号",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "en",
+      "quotedPostId": null,
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "Jukan 提醒自己不会主动私信、不会运营 WhatsApp 投资群，也不会通过 Substack DM 发消息。",
+        "insight": "这是账号防诈骗声明。",
+        "whyItMatters": "对跟随投资博主时避免假账号和诈骗群有实用价值。",
+        "action": "以后遇到 Jukan 私信或投资群邀请时按诈骗处理。",
+        "risk": "不是市场观点，只是安全提醒。",
+        "investmentSignal": null,
+        "tags": [
+          "安全提醒",
+          "假账号",
+          "投资诈骗"
+        ],
+        "importance": 3
+      }
+    },
+    {
+      "id": "2068042001895809420",
+      "handle": "dotey",
+      "name": "宝玉",
+      "text": "Skill 和软件一样，需要不断迭代的，而且你用户越多，遇到的各种问题就越多，就需要去解决各种边边角角的问题，才能越来越好用。\n\n比如 @yangyi 昨天在他的牛马AI里面测试了这个Skill，说导出好像有问题，我拿到结果一看，简直惨不忍睹（图2），这里面有两个问题：\n1. 样式表不对，没有铺满整页，只占了一半\n2. 导出的渐变色没有了，把图片都遮没了\n\n写 Skill 比写软件有个优势，就是你可以让 Agent 先跑，跑完之后 Agent 它自己知道有哪些上下文，遇到了什么问题，这样它可以分析问题在哪。\n\n于是我在本地跑一次，能重现，再让它分析原因，解决，那么它就能找出原因，并从 Skill 的层面去解决，添加测试覆盖，避免类似的问题再次出现。图1就是修复后的，看起来就好多了。\n\n这其实也是我日常迭代 Skill 的方法：\n\n自己用 -> 发现问题 -> 让 Agent 分析原因 -> 让 Agent 出解决方案 -> 确认方案♻️ -> 更新 Skill -> 自己用 ♻️",
+      "summary": "Skill 和软件一样，需要不断迭代的，而且你用户越多，遇到的各种问题就越多，就需要去解决各种边边角角的问题，才能越来越好用。",
+      "createdAt": "2026-06-19T18:43:30.000Z",
+      "url": "https://x.com/dotey/status/2068042001895809420",
+      "metrics": {
+        "likes": 64,
+        "reposts": 9,
+        "replies": 11,
+        "quotes": 11
+      },
+      "score": 58,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "AI / 模型"
+        ],
+        "type": "引用评论",
+        "signal": "中信号",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "zh",
+      "quotedPostId": "2067876611873964284",
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "宝玉总结 Skill 迭代方法：自己用、发现问题、让 Agent 复现分析并修复，再把经验沉淀进 Skill 和测试覆盖。",
+        "insight": "这是一套非常具体的 Skill/agent 产品迭代闭环，把使用现场转化为可复用能力。",
+        "whyItMatters": "直接适用于当前 X 雷达 skill 和前端体验的持续改进。",
+        "action": "把“复现问题 -> agent 分析 -> 更新 skill -> 加测试”作为本项目后续迭代流程。",
+        "risk": "案例细节依赖截图，离线文本看不到修复前后具体效果。",
+        "investmentSignal": null,
+        "tags": [
+          "Skill",
+          "Agent",
+          "迭代方法",
+          "测试覆盖",
+          "产品工程"
+        ],
+        "importance": 5
+      }
+    },
+    {
+      "id": "2068034637067342105",
+      "handle": "zephyr_z9",
+      "name": "Zephyr",
+      "text": "It's not impossible to match Mythos\nAll u need is a solid 3T-4T parameter base model and super solid post-training (which Zhipu has the capability for)\nMythos Preview didn't receive proper post-training in Feb\nThis also means that Anthropic will have a super-strong model by Q4 due to better post-training of the Mythos base model",
+      "summary": "It's not impossible to match Mythos All u need is a solid 3T-4T parameter base model and super solid post-training (which Zhipu has the capability for) Mythos Preview didn't receive proper post-training in Feb This also...",
+      "createdAt": "2026-06-19T18:14:14.000Z",
+      "url": "https://x.com/zephyr_z9/status/2068034637067342105",
+      "metrics": {
+        "likes": 345,
+        "reposts": 10,
+        "replies": 6,
+        "quotes": 3
+      },
+      "score": 60,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "AI / 模型"
+        ],
+        "type": "引用评论",
+        "signal": "中信号",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "en",
+      "quotedPostId": "2068023500099538967",
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "Zephyr 认为匹配 Mythos 并非不可能，关键是 3T-4T 参数基础模型和扎实 post-training，并预计 Anthropic Q4 会有很强模型。",
+        "insight": "这条把模型能力差距归因到基础模型规模和后训练质量，并给出 Anthropic Q4 强模型判断。",
+        "whyItMatters": "对判断大模型竞争节奏、智谱能力和 Anthropic 后续模型预期有参考。",
+        "action": "关注 Mythos、智谱 post-training 和 Anthropic Q4 模型发布。",
+        "risk": "这是个人判断，缺少公开 benchmark 支撑。",
+        "investmentSignal": null,
+        "tags": [
+          "大模型",
+          "Post-training",
+          "Mythos",
+          "Anthropic",
+          "智谱"
+        ],
+        "importance": 4
+      }
+    },
+    {
+      "id": "2068016647877640381",
+      "handle": "dotey",
+      "name": "宝玉",
+      "text": "作者回应\nhttps://t.co/U5e1EMpEyX",
+      "summary": "作者回应",
+      "createdAt": "2026-06-19T17:02:45.000Z",
+      "url": "https://x.com/dotey/status/2068016647877640381",
+      "metrics": {
+        "likes": 2,
+        "reposts": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 29,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "综合"
+        ],
+        "type": "引用评论",
+        "signal": "低信号",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "zh",
+      "quotedPostId": "2067970516951150721",
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "低信号：宝玉只写“作者回应”并附链接，离线状态下看不到回应内容。",
+        "insight": "引用上下文缺失。",
+        "whyItMatters": "无法独立判断价值。",
+        "action": "跳过。",
+        "risk": "链接内容未知。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "引用缺上下文"
+        ],
+        "importance": 1
+      }
+    },
+    {
+      "id": "2068016587953643922",
+      "handle": "dotey",
+      "name": "宝玉",
+      "text": "哈哈，绝了，通过提示词注入让那些通过 AI 提交 PR 并且不人工审查的现出原形！ https://t.co/uFlCeetIvc",
+      "summary": "哈哈，绝了，通过提示词注入让那些通过 AI 提交 PR 并且不人工审查的现出原形！",
+      "createdAt": "2026-06-19T17:02:31.000Z",
+      "url": "https://x.com/dotey/status/2068016587953643922",
+      "metrics": {
+        "likes": 41,
+        "reposts": 2,
+        "replies": 22,
+        "quotes": 0
+      },
+      "score": 40,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "AI / 模型"
+        ],
+        "type": "引用评论",
+        "signal": "低信号",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "zh",
+      "quotedPostId": "2067969588046823855",
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "宝玉提到有人用提示词注入识别那些让 AI 提交 PR 却不人工审查的开发者。",
+        "insight": "这是 AI coding 工作流中的实际安全/质量问题：自动 PR 如果没人审查，会被 prompt injection 暴露。",
+        "whyItMatters": "对使用 Codex/Claude Code 自动改代码的团队很重要，说明审查和测试不能省。",
+        "action": "在本地自动化和 skill 生成代码时继续保留人工复核、测试和最小权限原则。",
+        "risk": "离线正文没有展示具体注入方式和案例细节。",
+        "investmentSignal": null,
+        "tags": [
+          "Prompt injection",
+          "AI coding",
+          "PR审查",
+          "安全"
+        ],
+        "importance": 4
+      }
+    },
+    {
+      "id": "2068015347735974261",
+      "handle": "zephyr_z9",
+      "name": "Zephyr",
+      "text": "Thomas Kurian should have allocated compute to GDM rather than selling it to Anthropic and others https://t.co/I9mV6qt7SG",
+      "summary": "Thomas Kurian should have allocated compute to GDM rather than selling it to Anthropic and others",
+      "createdAt": "2026-06-19T16:57:35.000Z",
+      "url": "https://x.com/zephyr_z9/status/2068015347735974261",
+      "metrics": {
+        "likes": 264,
+        "reposts": 10,
+        "replies": 17,
+        "quotes": 1
+      },
+      "score": 53,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "AI / 模型"
+        ],
+        "type": "引用评论",
+        "signal": "低信号",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "en",
+      "quotedPostId": "2068006890349686844",
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "Zephyr 认为 Google Cloud 的 Thomas Kurian 本应把 compute 分给 GDM，而不是卖给 Anthropic 等外部客户。",
+        "insight": "这是对 Google 内部算力分配和 AI 竞争策略的批评。",
+        "whyItMatters": "算力分配会影响 Google DeepMind 与 Anthropic 等公司的模型竞争节奏。",
+        "action": "作为 Google/GDM 算力战略观察点保留。",
+        "risk": "引用上下文不可见，无法确认具体事件和数据。",
+        "investmentSignal": {
+          "target": "Google / GDM / Anthropic compute allocation",
+          "tilt": "unclear",
+          "thesis": "作者认为 Google 应优先支持 GDM 而非向 Anthropic 等外部客户出售算力。",
+          "evidence": "should have allocated compute to GDM rather than selling it to Anthropic"
+        },
+        "tags": [
+          "Google",
+          "GDM",
+          "Anthropic",
+          "算力分配"
+        ],
+        "importance": 3
+      }
+    },
+    {
+      "id": "2068011470613520533",
+      "handle": "zephyr_z9",
+      "name": "Zephyr",
+      "text": "Anthropic is beefing up its Biology/Chemistry AI team https://t.co/UT1wXnqmnL",
+      "summary": "Anthropic is beefing up its Biology/Chemistry AI team",
+      "createdAt": "2026-06-19T16:42:11.000Z",
+      "url": "https://x.com/zephyr_z9/status/2068011470613520533",
+      "metrics": {
+        "likes": 427,
+        "reposts": 18,
+        "replies": 14,
+        "quotes": 0
+      },
+      "score": 42,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "AI / 模型"
+        ],
+        "type": "引用评论",
+        "signal": "低信号",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "en",
+      "quotedPostId": "2068001285173834106",
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "Zephyr 说 Anthropic 正在加强 Biology/Chemistry AI 团队。",
+        "insight": "这是 Anthropic 垂直科学 AI 能力扩张的招聘/组织信号。",
+        "whyItMatters": "可能预示 Anthropic 在生物、化学和科学工作流应用上的投入加大。",
+        "action": "关注 Anthropic 在 Bio/Chem、科学 agent 和企业科研工作流上的后续产品。",
+        "risk": "离线正文只有一句话和链接，没有职位细节。",
+        "investmentSignal": null,
+        "tags": [
+          "Anthropic",
+          "Bio AI",
+          "Chemistry AI",
+          "科学AI"
+        ],
+        "importance": 3
+      }
+    },
+    {
+      "id": "2067970405810557029",
+      "handle": "0xcherry",
+      "name": "车厘子",
+      "text": "前段时间查了一下，OpenAlice 有 38% 的流量都是从 Windows 来的。\n\n我过去还以为一个纯开发者社区出来的工具流量大头至少是 Mac，实际上连开发者工具阶段（没打包）都有 38% 的 Windows，更别提后续产品化了。\n\n怎么说呢，做运营做转化确实是个小马过河的事情，自己做了才有体会啊。",
+      "summary": "前段时间查了一下，OpenAlice 有 38% 的流量都是从 Windows 来的。",
+      "createdAt": "2026-06-19T13:59:00.000Z",
+      "url": "https://x.com/0xcherry/status/2067970405810557029",
+      "metrics": {
+        "likes": 4,
+        "reposts": 0,
+        "replies": 4,
+        "quotes": 0
+      },
+      "score": 37,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "产品 / 公司"
+        ],
+        "type": "动态",
+        "signal": "低信号",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "zh",
+      "quotedPostId": null,
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "车厘子发现 OpenAlice 有 38% 流量来自 Windows，说明开发者工具即使早期也不能只按 Mac 用户假设做产品。",
+        "insight": "这是产品渠道和用户画像的真实反馈：Windows 用户占比可能比开发者社区直觉更高。",
+        "whyItMatters": "对开发者工具产品化、打包和转化路径有直接参考。",
+        "action": "如果做面向开发者的工具，尽早检查 Windows 使用和安装体验。",
+        "risk": "只给了一个产品样本，不能泛化到所有开发者工具。",
+        "investmentSignal": null,
+        "tags": [
+          "OpenAlice",
+          "Windows",
+          "开发者工具",
+          "用户画像",
+          "转化"
+        ],
+        "importance": 4
+      }
+    },
+    {
+      "id": "2067958551813951745",
+      "handle": "philo2022",
+      "name": "Philo",
+      "text": "Dopamind Health 模块，设计中 https://t.co/dUOJUqlq8o",
+      "summary": "Dopamind Health 模块，设计中",
+      "createdAt": "2026-06-19T13:11:54.000Z",
+      "url": "https://x.com/philo2022/status/2067958551813951745",
+      "metrics": {
+        "likes": 12,
+        "reposts": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 31,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "综合"
+        ],
+        "type": "动态",
+        "signal": "低信号",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "zh",
+      "quotedPostId": null,
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "低信号：Philo 只说 Dopamind Health 模块正在设计中，并附图。",
+        "insight": "这是产品设计进度更新。",
+        "whyItMatters": "缺少功能细节，暂时不构成高优先级。",
+        "action": "低优先级保留。",
+        "risk": "离线无法看到图片细节。",
+        "investmentSignal": null,
+        "tags": [
+          "Dopamind",
+          "Health",
+          "产品设计"
+        ],
+        "importance": 2
+      }
+    },
+    {
+      "id": "2067958378488623499",
+      "handle": "aleabitoreddit",
+      "name": "Serenity",
+      "text": "Wow, I completely missed this with $LPK meeting notes. \n\nAnd I think markets did too. My biggest takeaway:\n\n- NASDAQ listing is actively on their radar and are in discussions.\n- 70% market share targeted, unholy target. \n- TAM greatly exceeds former projections.\n- See a 4-5 base case of players this year with orders. \n- Industry is ready for high volume ramps. \n\nI do think LPK is very undervalued based on these discussions (disclosure: own positions).",
+      "summary": "Wow, I completely missed this with $LPK meeting notes.",
+      "createdAt": "2026-06-19T13:11:12.000Z",
+      "url": "https://x.com/aleabitoreddit/status/2067958378488623499",
+      "metrics": {
+        "likes": 1164,
+        "reposts": 82,
+        "replies": 166,
+        "quotes": 15
+      },
+      "score": 72,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "市场 / 投资"
+        ],
+        "type": "引用评论",
+        "signal": "中信号",
+        "whyItMatters": "它可能包含标的、估值、催化剂或持仓倾向线索，适合后续交叉验证。",
+        "action": "建议提取标的、倾向、催化剂和风险，只作为研究线索，不直接当作交易依据。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "en",
+      "quotedPostId": "2067707041741668841",
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "Serenity 认为 $LPK 会议纪要被市场忽视，重点包括 NASDAQ 上市讨论、70% 市占目标、TAM 上修和高量产准备，并称其低估。",
+        "insight": "这是明确的投资线索，作者披露持仓并表达对 LPK 低估的看法。",
+        "whyItMatters": "包含标的、催化剂、市场预期差和作者倾向，适合进入重点研究池。",
+        "action": "核对 LPK 会议纪要、NASDAQ listing 讨论、市占率目标、订单/量产验证和估值。",
+        "risk": "作者有持仓，观点可能有仓位偏见；需验证会议纪要原文。",
+        "investmentSignal": {
+          "target": "$LPK",
+          "tilt": "bullish",
+          "thesis": "NASDAQ 上市讨论、70% 市占目标、TAM 超预期、高量产准备和订单可见性使作者认为 LPK 被低估。",
+          "evidence": "NASDAQ listing is actively on their radar... I do think LPK is very undervalued"
+        },
+        "tags": [
+          "$LPK",
+          "NASDAQ",
+          "Photonics",
+          "TAM",
+          "持仓"
+        ],
+        "importance": 5
+      }
+    },
+    {
+      "id": "2067954339982008731",
+      "handle": "aleabitoreddit",
+      "name": "Serenity",
+      "text": "Remind me whenever I call out a bottleneck, I should go long myself.\n\nJust floated this idea out around MLCC bottlenecks awhile back. \n\nTaiyo Yuden up 211.38%\n$VSH up 146.15%\nMurata up 155.43% \n\nWithin the last 2 months... \n\nFeels bad. https://t.co/rwHNVYCuk0 https://t.co/XlIGnz34rq",
+      "summary": "Remind me whenever I call out a bottleneck, I should go long myself.",
+      "createdAt": "2026-06-19T12:55:10.000Z",
+      "url": "https://x.com/aleabitoreddit/status/2067954339982008731",
+      "metrics": {
+        "likes": 551,
+        "reposts": 14,
+        "replies": 108,
+        "quotes": 2
+      },
+      "score": 78,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "AI / 模型"
+        ],
+        "type": "引用评论",
+        "signal": "高信号",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "en",
+      "quotedPostId": "2045578992452063383",
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "Serenity 回顾自己曾提出 MLCC 瓶颈思路，随后 Taiyo Yuden、$VSH、Murata 在两个月内大幅上涨。",
+        "insight": "这是被动元件瓶颈主题的事后验证，强调 bottleneck call 可能转化为交易线索。",
+        "whyItMatters": "与 Jukan 的 chip resistor 涨价线索互相印证，提示被动元件周期值得跟踪。",
+        "action": "把 MLCC/被动元件作为独立主题追踪，核对 Taiyo Yuden、Vishay、Murata 和台/中电阻厂涨价。",
+        "risk": "这是事后复盘，不代表当前位置仍有风险收益比。",
+        "investmentSignal": {
+          "target": "MLCC / Taiyo Yuden / $VSH / Murata",
+          "tilt": "bullish",
+          "thesis": "作者认为自己此前指出的 MLCC bottleneck 与相关标的大涨相吻合。",
+          "evidence": "Taiyo Yuden up 211.38% $VSH up 146.15% Murata up 155.43%"
+        },
+        "tags": [
+          "MLCC",
+          "被动元件",
+          "$VSH",
+          "Murata",
+          "Taiyo Yuden"
+        ],
+        "importance": 4
+      }
+    },
+    {
+      "id": "2067945397923037693",
+      "handle": "aleabitoreddit",
+      "name": "Serenity",
+      "text": "I think something to highlight also is not all my ideas are green, especially on short term timeframes!\n\nMy core three themes are Neoclouds (Energy), Memory, and Photonics. \n\nAnd I'm glad I chose the literal top performers for each segment from $NBIS to $EWY leaps to $SIVE. \n\nHowever, I still have pretty large losses following the false analyst report on CPO delays that $NVDA refuted:\n\nThat nuked 3 of my TW CPO longs from Foci, Msscorp, Xintec and others. (which are heavily red). Shunsin / Win Semi are holding up much better though. \n\nSome of the other ones in Japan that I've mentioned like Towa, Harmonic Drive, NCI, etc. are performing much better following short-term volatility. \n\nAs for Korea yes I have PTSD for from Auros and now Foosung that are both both red (I didn't own 093370 though, just got PTSD watching price action). \n\nIdk if I'll touch Korea again, just way too volatile. But I still think those will end up green eventually following Sk hynix/samsung qualifications + HVM, and the future japanese supply chain shutdown. \n\nI also did change some of my previous long ideas like $XLU following the Iran War nuking all chances of rate cuts from 3-4 down to 0, and that didn't play out too well. Three software names I mentioned previously like $TTD, $META ended up red. $SNAP, I also changed my thesis after noticing the endless SBC accounting methods. $RDDT idea was finally in the green from $130 -> $170 after a long time. \n\nBut I think the vast majority of my ideas like $MRVL, $NBIS, $ARM, $INTC, $MU, $LITE, SK Hynix, Samsung, for larger cap. \n\nDown to $AXTI, $LITE, $AAOI, $RPI, $IQE, and others for smaller cap positions directionally play out pretty well. \n\nWith random stuff like $SIMO, $HPS.A, $TSEM, $AEHR, $LPK, $SOI, $ALRIB, and so on all ended up turning out aight too. \n\nThe blended average is kinda overwhelmingly green since majority of my long ideas are triple digit YTD.  \n\nBut I've definitely missed a few. \n\nAlso entry point is really important too... I mentioned $AAOI at $30 or $AXTI at ~$13, but not everyone has the same entry point. So if someone bought AOI at $220 and it dropped to $160, I'd feel bad. \n\nBut regardless, I'd prefer to judge how ideas play out on medium term timeframes over a few months rather than a few weeks.",
+      "summary": "I think something to highlight also is not all my ideas are green, especially on short term timeframes!",
+      "createdAt": "2026-06-19T12:19:38.000Z",
+      "url": "https://x.com/aleabitoreddit/status/2067945397923037693",
+      "metrics": {
+        "likes": 1819,
+        "reposts": 89,
+        "replies": 205,
+        "quotes": 7
+      },
+      "score": 100,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "AI / 模型",
+          "Crypto / Web3"
+        ],
+        "type": "长文",
+        "signal": "高信号",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "en",
+      "quotedPostId": "2067911552817344908",
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "Serenity 总结自己的三大主题是 Neoclouds/Energy、Memory 和 Photonics，并披露 $NBIS、$EWY leaps、$SIVE 表现好，但部分台湾 CPO 多头因 CPO 延迟误报受损。",
+        "insight": "这是组合层面的高密度复盘，既给出核心主题和标的，也说明 CPO、韩国半导体等分支的波动和亏损。",
+        "whyItMatters": "对跟踪 AI 基建、内存、光子和 CPO 产业链有直接参考。",
+        "action": "把 NBIS、EWY、SIVE、台湾 CPO、Win Semi/Shunsin、日本设备股分组研究，注意作者明确提示并非所有想法短期盈利。",
+        "risk": "作者披露的是个人组合复盘，标的多且部分信息被截断；不能直接复制仓位。",
+        "investmentSignal": {
+          "target": "$NBIS / $EWY / $SIVE / CPO longs / Memory / Photonics / Neoclouds",
+          "tilt": "holding",
+          "thesis": "作者核心三主题为 Neoclouds/Energy、Memory、Photonics，赢家包括 NBIS、EWY leaps、SIVE，但台湾 CPO 多头受 CPO 延迟误报冲击。",
+          "evidence": "My core three themes are Neoclouds (Energy), Memory, and Photonics"
+        },
+        "tags": [
+          "Neoclouds",
+          "Memory",
+          "Photonics",
+          "$NBIS",
+          "$EWY",
+          "$SIVE"
+        ],
+        "importance": 5
+      }
+    },
+    {
+      "id": "2067942132326007092",
+      "handle": "mmmusol",
+      "name": "Musolsol",
+      "text": "很遗憾，自由意志无法抹杀你对Ta的爱意。 https://t.co/oQPy6CtcHm https://t.co/8KdySLLn3O",
+      "summary": "很遗憾，自由意志无法抹杀你对Ta的爱意。",
+      "createdAt": "2026-06-19T12:06:39.000Z",
+      "url": "https://x.com/mmmusol/status/2067942132326007092",
+      "metrics": {
+        "likes": 6,
+        "reposts": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 31,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "综合"
+        ],
+        "type": "引用评论",
+        "signal": "低信号",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "zh",
+      "quotedPostId": "2067932801316557036",
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "低信号：Musolsol 用一句话表达自由意志无法抹杀爱意。",
+        "insight": "这是情感/哲学表达。",
+        "whyItMatters": "与技术和投资雷达关系弱。",
+        "action": "跳过。",
+        "risk": "无可操作信息。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "情感表达"
+        ],
+        "importance": 1
+      }
+    },
+    {
+      "id": "2067932801316557036",
+      "handle": "mmmusol",
+      "name": "Musolsol",
+      "text": "倘若你拥有一种超能力，能让你倾心之人也对你钟情，你会选择使用吗？\n\n若你心中正深爱着一个人，你能否凭借自由意志，让自己停止爱他？\n\n你的理性或许会告诉你，他并非合适的恋爱对象，你甚至可以选择离开他、与他分手。\n\n但很遗憾，自由意志无法抹杀你对他的爱意。\n\n这是华语辩坛老友赛中，一段颠覆爱情观的结辩，想跟大家分享一下。\n\n当反方坚持认为使用这种超能力是不尊重、不道德、不理性的行为时，正方四辩王景峰直接釜底抽薪，提出：\n如果不爱一个人，你想让自己爱上他，几乎是不可能的。\n你的理性或许会告诉你他很好，是个不错的恋爱对象，但抱歉，你无法因此产生爱的感觉。\n\n四个论点一穿七，这段辩论至今仍被誉为“忆亡妻佳作”。\n\n首先，他重新定义爱：“我有一个标准ABCD，满足的我爱，不满足的我就不爱。比如他很丑，我就不爱。” \n他指出，对方的误解就在于此，标准是留给不爱的人的。当真正爱的人出现，即便他一条标准都不符合，你依然会不可救药地沉沦。\n\n“爱是自由意志的沉沦！”我们总以为爱是选择，是理性，是可以控制的喜欢。\n但真正的爱从来不是“我选择喜欢你”，而是不想心动却照样心动，想放下却思念不受控制。爱不是自由选择，是你明知不该沉沦，却还是心甘情愿地沉下去，这才是爱的本质。\n\n在定义完爱之后，他完成了关键的逻辑切割：“爱上和爱下去是两回事。”\n\n 对方可能认为，他爱上我，我就可以予取予求，甚至虐待、殴打、折磨他，他也会始终爱我、不离开我。但这是错误的，爱上和爱下去是两回事。他有理性，他可以选择离开你，在是否要和你生活这件事上，他拥有自由意志。\n\n“爱上去没什么了不起，爱下去才了不起！”\n\n超能力只是让他瞬间爱上你，但能否一直爱下去，靠的是往后余生的经营和陪伴。\n\n使用超能力剥夺了对方爱上别人的可能性，所以当对方爱上你的瞬间，爱的底色就变成了亏欠。而正是因为这种亏欠，我们才更可能珍惜这份爱、经营这份爱。选择使用这份超能力，不是为了永久控制对方，而是敢于承诺用一辈子去配得上这份突如其来的爱，将自私的控制扭转为负责任的开始。\n\n紧接着，他戳中所有暗恋者的软肋：“我要把超能力还给月老，由月老去决定我爱的人会爱上谁。可他会爱上谁，那个人对他好还是坏，爱他还是不爱他，你都不知道。你这么爱他，怎么放心把他交给一个未知的某某某？”\n\n反方提出“我尊重他的选择”，但在王景峰看来，尊重等于放任。“你口口声声说爱，却连‘我能对他更好’的自信和担当都没有。真正的爱是想要亲自给她幸福，而不是把她交给未知。” \n\n一句话，把克制说成了不够爱。最后，他撕开所有伪装，说：“你说你爱的理性、克制，我说你爱的好懦弱。” 这句话一出，屏幕前的人无不疯狂：“用！我现在就要用！”\n\n当反方认为不使用是因为尊重、有底线时，王景峰反问：“你不敢用，真的是因为高尚吗？还是不敢面对失败，不敢承担责任？” 太多人用理性、体面、边界感包装自己，实则躲在理性克制的壳里自我感动。\n\n回头看这场辩论，最厉害的并非讨论是否使用超能力，而是逼问我们每个人：\n你到底是在尊重爱情，还是不敢去爱？",
+      "summary": "倘若你拥有一种超能力，能让你倾心之人也对你钟情，你会选择使用吗？",
+      "createdAt": "2026-06-19T11:29:34.000Z",
+      "url": "https://x.com/mmmusol/status/2067932801316557036",
+      "metrics": {
+        "likes": 7,
+        "reposts": 0,
+        "replies": 2,
+        "quotes": 1
+      },
+      "score": 10,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "综合"
+        ],
+        "type": "长文",
+        "signal": "低信号",
+        "whyItMatters": "这是一条长内容，只有在包含新信息、方法论或可行动线索时才值得精读。",
+        "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "zh",
+      "quotedPostId": null,
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "低信号：Musolsol 长文分享一段关于爱、自由意志和“爱上/爱下去”区别的辩论。",
+        "insight": "这是一篇情感哲学和辩论内容总结。",
+        "whyItMatters": "文本完整但不影响当前技术/投资雷达目标。",
+        "action": "有兴趣再作为闲读。",
+        "risk": "非业务线索。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "辩论",
+          "情感哲学"
+        ],
+        "importance": 1
+      }
+    },
+    {
+      "id": "2067868927246660088",
+      "handle": "turingou",
+      "name": "郭宇 guoyu.eth",
+      "text": "今日邮轮抵达君临城🏰从船上看 kings landing 的海上城墙，真的和电视剧里一模一样！ https://t.co/x9RzVcma0l",
+      "summary": "今日邮轮抵达君临城🏰从船上看 kings landing 的海上城墙，真的和电视剧里一模一样！",
+      "createdAt": "2026-06-19T07:15:46.000Z",
+      "url": "https://x.com/turingou/status/2067868927246660088",
+      "metrics": {
+        "likes": 194,
+        "reposts": 0,
+        "replies": 8,
+        "quotes": 2
+      },
+      "score": 35,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "综合"
+        ],
+        "type": "动态",
+        "signal": "低信号",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "zh",
+      "quotedPostId": null,
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "低信号：郭宇分享邮轮抵达 Kings Landing 的旅行照片和感受。",
+        "insight": "这是旅行生活内容。",
+        "whyItMatters": "不需要进入工作/投资简报。",
+        "action": "跳过。",
+        "risk": "无可操作信息。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "旅行"
+        ],
+        "importance": 1
+      }
+    },
+    {
+      "id": "2067824218952360100",
+      "handle": "wolfyxbt",
+      "name": "杀破狼 WolfyXBT",
+      "text": "越来越多灰灰男跑到吉隆坡来了，他们说柬埔寨的园区全都被扫荡了，吉隆坡可能要成为下一个柬埔寨。",
+      "summary": "越来越多灰灰男跑到吉隆坡来了，他们说柬埔寨的园区全都被扫荡了，吉隆坡可能要成为下一个柬埔寨。",
+      "createdAt": "2026-06-19T04:18:06.000Z",
+      "url": "https://x.com/wolfyxbt/status/2067824218952360100",
+      "metrics": {
+        "likes": 494,
+        "reposts": 7,
+        "replies": 430,
+        "quotes": 5
+      },
+      "score": 36,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "综合"
+        ],
+        "type": "动态",
+        "signal": "低信号",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": "zh",
+      "quotedPostId": null,
+      "source": {
+        "type": "x-api",
+        "label": "X API"
+      },
+      "codexAnalysis": {
+        "method": "codex-analysis-v1",
+        "llmSummary": "WolfyXBT 说越来越多灰产人员从柬埔寨转到吉隆坡，认为吉隆坡可能成为下一个柬埔寨。",
+        "insight": "这是东南亚灰产迁移和安全风险观察。",
+        "whyItMatters": "对加密/诈骗生态、区域安全和线下风险有背景价值。",
+        "action": "如近期涉及马来西亚/东南亚项目或线下活动，可提高风控意识。",
+        "risk": "这是个人观察，缺少数据和来源验证。",
+        "investmentSignal": null,
+        "tags": [
+          "灰产",
+          "吉隆坡",
+          "柬埔寨",
+          "安全风险"
+        ],
+        "importance": 3
+      }
+    }
+  ],
+  "errors": [],
+  "codexAnalysis": {
+    "method": "codex-analysis-v1",
+    "updatedAt": "2026-06-20T02:49:21.933Z",
+    "merged": 19
+  }
+}

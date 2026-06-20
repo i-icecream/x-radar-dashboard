@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>X 雷达简报</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="shell briefing-shell">
+      <header class="timeline-header">
+        <div>
+          <div class="title-line">
+            <h1>最新简报</h1>
+            <span class="view-badge live">最新</span>
+          </div>
+          <p id="briefingMeta">加载中...</p>
+        </div>
+        <div class="header-actions">
+          <a class="nav-link active" href="/briefing.html">简报</a>
+          <a class="nav-link" href="/">时间线</a>
+          <a class="nav-link" href="/history.html">历史</a>
+        </div>
+      </header>
+
+      <section id="briefingSummary" class="briefing-summary"></section>
+      <section id="briefingSections" class="briefing-sections"></section>
+      <section id="briefingEmpty" class="empty" hidden>
+        <h2>还没有简报</h2>
+        <p>下一次扫描后会自动生成。</p>
+      </section>
+    </main>
+
+    <script src="/briefing.js" type="module"></script>
+  </body>
+</html>

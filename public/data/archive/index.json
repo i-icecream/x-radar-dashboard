@@ -1,0 +1,103 @@
+{
+  "runs": [
+    {
+      "generatedAt": "2026-06-20T02:45:13.901Z",
+      "postsArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\posts\\2026-06-20T02-45-13-901Z.json",
+      "briefingArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\briefings\\2026-06-20T02-45-13-901Z.json",
+      "postsArchiveUrl": "/data/archive/posts/2026-06-20T02-45-13-901Z.json",
+      "briefingArchiveUrl": "/data/archive/briefings/2026-06-20T02-45-13-901Z.json",
+      "reportPath": "C:\\Users\\icecream\\Documents\\X\\reports\\x-radar-2026-06-20T02-47-15-740Z.md",
+      "latestDataPath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\latest.json",
+      "latestBriefingPath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\briefing.json",
+      "newPosts": 19,
+      "accountsWithNewPosts": 9,
+      "highSignals": 8,
+      "midSignals": 4,
+      "lowSignals": 7,
+      "errors": 0,
+      "sourceStats": {
+        "feedAccounts": 19,
+        "xApiAccounts": 17,
+        "feedPosts": 0,
+        "xApiPosts": 19,
+        "skippedXApiAccounts": 0,
+        "xApiPostReadsEstimated": 102,
+        "xApiUserReadsEstimated": 17,
+        "feeds": [
+          {
+            "id": "follow-builders",
+            "name": "Follow Builders",
+            "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
+            "generatedAt": "2026-06-19T08:14:32.084Z",
+            "fresh": true,
+            "accountsAvailable": 19,
+            "accountsMatched": 19,
+            "accountsCovered": 19,
+            "accountsWithNewPosts": 0,
+            "postsUsed": 0,
+            "errors": []
+          }
+        ]
+      },
+      "codexAnalysisUpdatedAt": "2026-06-20T02:49:21.933Z"
+    },
+    {
+      "generatedAt": "2026-06-19T08:59:18.568Z",
+      "postsArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\posts\\2026-06-19T08-59-18-568Z.json",
+      "briefingArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\briefings\\2026-06-19T08-59-18-568Z.json",
+      "postsArchiveUrl": "/data/archive/posts/2026-06-19T08-59-18-568Z.json",
+      "briefingArchiveUrl": "/data/archive/briefings/2026-06-19T08-59-18-568Z.json",
+      "reportPath": "C:\\Users\\icecream\\Documents\\X\\reports\\x-radar-2026-06-19T08-59-19-204Z.md",
+      "latestDataPath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\latest.json",
+      "latestBriefingPath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\briefing.json",
+      "newPosts": 37,
+      "accountsWithNewPosts": 19,
+      "highSignals": 10,
+      "midSignals": 5,
+      "lowSignals": 22,
+      "errors": 0,
+      "sourceStats": {
+        "feedAccounts": 19,
+        "xApiAccounts": 0,
+        "feedPosts": 37,
+        "xApiPosts": 0,
+        "skippedXApiAccounts": 17,
+        "xApiPostReadsEstimated": 0,
+        "xApiUserReadsEstimated": 0,
+        "feeds": [
+          {
+            "id": "follow-builders",
+            "name": "Follow Builders",
+            "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
+            "generatedAt": "2026-06-19T08:14:32.084Z",
+            "fresh": true,
+            "accountsAvailable": 19,
+            "accountsMatched": 19,
+            "accountsCovered": 19,
+            "accountsWithNewPosts": 19,
+            "postsUsed": 37,
+            "errors": []
+          }
+        ]
+      },
+      "codexAnalysisUpdatedAt": "2026-06-19T11:48:14.908Z"
+    },
+    {
+      "generatedAt": "2026-06-19T03:34:17.961Z",
+      "postsArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\posts\\2026-06-19T03-34-17-961Z.json",
+      "briefingArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\briefings\\2026-06-19T03-34-17-961Z.json",
+      "postsArchiveUrl": "/data/archive/posts/2026-06-19T03-34-17-961Z.json",
+      "briefingArchiveUrl": "/data/archive/briefings/2026-06-19T03-34-17-961Z.json",
+      "reportPath": "C:\\Users\\icecream\\Documents\\X\\reports\\x-radar-2026-06-19T03-34-26-470Z.md",
+      "latestDataPath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\latest.json",
+      "latestBriefingPath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\briefing.json",
+      "newPosts": 9,
+      "accountsWithNewPosts": 3,
+      "highSignals": 5,
+      "midSignals": 0,
+      "lowSignals": 4,
+      "errors": 0,
+      "codexAnalysisUpdatedAt": "2026-06-19T08:22:59.582Z"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>X 雷达历史</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="shell briefing-shell">
+      <header class="timeline-header">
+        <div>
+          <div class="title-line">
+            <h1>历史归档</h1>
+            <span class="view-badge archive">历史</span>
+          </div>
+          <p id="historyMeta">加载中...</p>
+        </div>
+        <div class="header-actions">
+          <a class="nav-link" href="/briefing.html">简报</a>
+          <a class="nav-link" href="/">时间线</a>
+          <a class="nav-link active" href="/history.html">历史</a>
+        </div>
+      </header>
+
+      <section class="archive-notice">
+        <strong>历史模式</strong>
+        <span>这里查看的是某一次扫描的归档快照，不会随最新扫描自动变化。</span>
+      </section>
+
+      <section id="runList" class="run-list" aria-label="历史扫描"></section>
+      <section id="historySummary" class="briefing-summary"></section>
+      <section id="historySections" class="briefing-sections"></section>
+      <section id="historyEmpty" class="empty" hidden>
+        <h2>还没有历史归档</h2>
+        <p>下一次扫描后会自动出现在这里。</p>
+      </section>
+    </main>
+
+    <script src="/history.js" type="module"></script>
+  </body>
+</html>

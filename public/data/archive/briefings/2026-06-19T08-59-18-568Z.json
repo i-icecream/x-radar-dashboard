@@ -1,0 +1,2781 @@
+{
+  "generatedAt": "2026-06-19T08:59:18.568Z",
+  "source": {
+    "latestGeneratedAt": "2026-06-19T08:59:18.568Z",
+    "postCount": 37,
+    "accounts": [
+      {
+        "handle": "swyx",
+        "name": "Swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "postCount": 1,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "bcherny",
+        "name": "Boris Cherny",
+        "bio": "Claude Code @anthropicai",
+        "postCount": 1,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "thsottiaux",
+        "name": "Thibault Sottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "postCount": 1,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "bio": "Practical AI tutorials and interviews for busy people | Join 150K+ readers at https://t.co/XYKTmGVH14",
+        "postCount": 2,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "thenanyu",
+        "name": "Nan Yu",
+        "bio": "head of product @linear",
+        "postCount": 2,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "realmadhuguru",
+        "name": "Madhu Guru",
+        "bio": "Prev: Product Leader at Google - Gemini, Veo, Nano Banana.",
+        "postCount": 1,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "amandaaskell",
+        "name": "Amanda Askell",
+        "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI.\nPersonal account. All opinions come from my training data.",
+        "postCount": 1,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "_catwu",
+        "name": "Cat Wu",
+        "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+        "postCount": 1,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "trq212",
+        "name": "Thariq",
+        "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+        "postCount": 3,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "bio": "ceo @replit. civilizationist",
+        "postCount": 3,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "rauchg",
+        "name": "Guillermo Rauch",
+        "bio": "@vercel CEO",
+        "postCount": 1,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "levie",
+        "name": "Aaron Levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "postCount": 2,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "postCount": 3,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "mattturck",
+        "name": "Matt Turck",
+        "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "postCount": 2,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "zarazhangrui",
+        "name": "Zara Zhang",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+        "postCount": 3,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "postCount": 3,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "steipete",
+        "name": "Peter Steinberger",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "postCount": 1,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "danshipper",
+        "name": "Dan Shipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "postCount": 3,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "claudeai",
+        "name": "Claude",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+        "postCount": 3,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      }
+    ],
+    "errors": [],
+    "stats": {
+      "accountsConfigured": 36,
+      "accountsWithNewPosts": 19,
+      "totalPosts": 37,
+      "errors": 0,
+      "feedAccounts": 19,
+      "xApiAccounts": 0,
+      "feedPosts": 37,
+      "xApiPosts": 0,
+      "skippedXApiAccounts": 17,
+      "xApiPostReadsEstimated": 0,
+      "xApiUserReadsEstimated": 0
+    },
+    "sources": {
+      "feedAccounts": 19,
+      "xApiAccounts": 0,
+      "feedPosts": 37,
+      "xApiPosts": 0,
+      "skippedXApiAccounts": 17,
+      "xApiPostReadsEstimated": 0,
+      "xApiUserReadsEstimated": 0,
+      "feeds": [
+        {
+          "id": "follow-builders",
+          "name": "Follow Builders",
+          "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
+          "generatedAt": "2026-06-19T08:14:32.084Z",
+          "fresh": true,
+          "accountsAvailable": 19,
+          "accountsMatched": 19,
+          "accountsCovered": 19,
+          "accountsWithNewPosts": 19,
+          "postsUsed": 37,
+          "errors": []
+        }
+      ]
+    }
+  },
+  "summary": "本次有 10 条高信号内容，聚合为 6 个主题，重点关注：AI 模型成本 / 产品机会；Fable；AI compute / neocloud",
+  "counts": {
+    "high": 10,
+    "mid": 5,
+    "low": 22,
+    "total": 37,
+    "topics": 6
+  },
+  "digest": {
+    "version": "daily-briefing-v1",
+    "generatedAt": "2026-06-19T08:59:18.568Z",
+    "lead": {
+      "title": "今日摘要",
+      "text": "本次扫描 37 条帖子，筛出 10 条高信号。重点集中在：AI 模型成本 / 产品机会、Fable、AI compute / neocloud。"
+    },
+    "counts": {
+      "high": 10,
+      "mid": 5,
+      "low": 22,
+      "total": 37,
+      "topics": 6
+    },
+    "topStories": [
+      {
+        "id": "2067821985342878180",
+        "title": "Aaron Levie 认为开源权重模型接近前沿能力会带来主权 AI、私有后训练、成本优化和更多应用形态。",
+        "handle": "levie",
+        "name": "Aaron Levie",
+        "createdAt": "2026-06-19T04:09:14.000Z",
+        "url": "https://x.com/levie/status/2067821985342878180",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "investmentSignal": null,
+        "tags": [
+          "开源权重",
+          "主权AI",
+          "模型成本",
+          "应用层"
+        ]
+      },
+      {
+        "id": "2067802697324212562",
+        "title": "Aaron Levie 认为 Fable 获取进展预示 AI 模型发布会进入政府能力阈值、测试和多方审查框架。",
+        "handle": "levie",
+        "name": "Aaron Levie",
+        "createdAt": "2026-06-19T02:52:35.000Z",
+        "url": "https://x.com/levie/status/2067802697324212562",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "investmentSignal": null,
+        "tags": [
+          "Fable",
+          "AI监管",
+          "模型发布",
+          "能力阈值"
+        ]
+      },
+      {
+        "id": "2067703108344369306",
+        "title": "Nan Yu 说 agent 写项目更新不能一次性替用户完成，多轮交互让用户补充重点和缺失上下文，反而能减少低质量输出。",
+        "handle": "thenanyu",
+        "name": "Nan Yu",
+        "createdAt": "2026-06-18T20:16:51.000Z",
+        "url": "https://x.com/thenanyu/status/2067703108344369306",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "investmentSignal": null,
+        "tags": [
+          "Agent",
+          "产品设计",
+          "多轮交互",
+          "项目更新"
+        ]
+      },
+      {
+        "id": "2067646198140358854",
+        "title": "Matt Turck 的 AI compute 2026 访谈覆盖 neocloud、H100 价格指数、GPU 是否商品化、数据中心瓶颈、推理/训练成本和 NVIDIA 关系。",
+        "handle": "mattturck",
+        "name": "Matt Turck",
+        "createdAt": "2026-06-18T16:30:43.000Z",
+        "url": "https://x.com/mattturck/status/2067646198140358854",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "investmentSignal": {
+          "target": "AI compute / neocloud / Lambda / NVIDIA",
+          "tilt": "researching",
+          "thesis": "访谈聚焦 neocloud、GPU 价格、数据中心瓶颈、成本结构和 NVIDIA 关系，适合作为产业研究线索。",
+          "evidence": "neocloud boom, data centers, GPUs, H100 price index, NVIDIA relationship"
+        },
+        "tags": [
+          "AI算力",
+          "Neocloud",
+          "GPU",
+          "Lambda",
+          "NVIDIA",
+          "数据中心"
+        ]
+      }
+    ],
+    "topicArchive": [
+      {
+        "id": "tech-ai-model-cost",
+        "title": "AI 模型成本 / 产品机会",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "sourceCount": 3,
+        "handles": [
+          "levie",
+          "thenanyu",
+          "garrytan"
+        ],
+        "tags": [
+          "开源权重",
+          "主权AI",
+          "模型成本",
+          "应用层",
+          "Agent",
+          "产品设计",
+          "多轮交互",
+          "项目更新"
+        ],
+        "items": [
+          {
+            "id": "2067821985342878180",
+            "title": "Aaron Levie 认为开源权重模型接近前沿能力会带来主权 AI、私有后训练、成本优化和更多应用形态。",
+            "handle": "levie",
+            "name": "Aaron Levie",
+            "createdAt": "2026-06-19T04:09:14.000Z",
+            "url": "https://x.com/levie/status/2067821985342878180",
+            "signal": {
+              "level": "high",
+              "label": "高信号",
+              "importance": 5
+            },
+            "investmentSignal": null,
+            "tags": [
+              "开源权重",
+              "主权AI",
+              "模型成本",
+              "应用层"
+            ]
+          },
+          {
+            "id": "2067703108344369306",
+            "title": "Nan Yu 说 agent 写项目更新不能一次性替用户完成，多轮交互让用户补充重点和缺失上下文，反而能减少低质量输出。",
+            "handle": "thenanyu",
+            "name": "Nan Yu",
+            "createdAt": "2026-06-18T20:16:51.000Z",
+            "url": "https://x.com/thenanyu/status/2067703108344369306",
+            "signal": {
+              "level": "high",
+              "label": "高信号",
+              "importance": 5
+            },
+            "investmentSignal": null,
+            "tags": [
+              "Agent",
+              "产品设计",
+              "多轮交互",
+              "项目更新"
+            ]
+          },
+          {
+            "id": "2067636692794875923",
+            "title": "Garry Tan 称 Bernie Sanders 提出法案，要对销售额超过 2 亿美元的 AI startup 征收 50%，并把这视为对美国创业的打击。",
+            "handle": "garrytan",
+            "name": "Garry Tan",
+            "createdAt": "2026-06-18T15:52:57.000Z",
+            "url": "https://x.com/garrytan/status/2067636692794875923",
+            "signal": {
+              "level": "high",
+              "label": "高信号",
+              "importance": 4
+            },
+            "investmentSignal": {
+              "target": "AI startups",
+              "tilt": "bearish",
+              "thesis": "作者称拟议法案会对超过 2 亿美元销售额的 AI startup 征收 50%，并压制创业退出。",
+              "evidence": "seize 50% of any AI startup that crosses $200M in revenue"
+            },
+            "tags": [
+              "AI监管",
+              "创业公司",
+              "政策风险",
+              "退出环境"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tech-fable",
+        "title": "Fable",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "sourceCount": 2,
+        "handles": [
+          "levie",
+          "danshipper"
+        ],
+        "tags": [
+          "Fable",
+          "AI监管",
+          "模型发布",
+          "能力阈值",
+          "生产力",
+          "时间通缩"
+        ],
+        "items": [
+          {
+            "id": "2067802697324212562",
+            "title": "Aaron Levie 认为 Fable 获取进展预示 AI 模型发布会进入政府能力阈值、测试和多方审查框架。",
+            "handle": "levie",
+            "name": "Aaron Levie",
+            "createdAt": "2026-06-19T02:52:35.000Z",
+            "url": "https://x.com/levie/status/2067802697324212562",
+            "signal": {
+              "level": "high",
+              "label": "高信号",
+              "importance": 5
+            },
+            "investmentSignal": null,
+            "tags": [
+              "Fable",
+              "AI监管",
+              "模型发布",
+              "能力阈值"
+            ]
+          },
+          {
+            "id": "2067630124795662471",
+            "title": "Dan Shipper 说 Fable 解锁后会带来生产力跃迁，并称现在正在发生极端时间通缩。",
+            "handle": "danshipper",
+            "name": "Dan Shipper",
+            "createdAt": "2026-06-18T15:26:51.000Z",
+            "url": "https://x.com/danshipper/status/2067630124795662471",
+            "signal": {
+              "level": "mid",
+              "label": "中信号",
+              "importance": 3
+            },
+            "investmentSignal": null,
+            "tags": [
+              "Fable",
+              "生产力",
+              "时间通缩"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "investment-ai-compute-neocloud",
+        "title": "AI compute / neocloud",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "sourceCount": 1,
+        "handles": [
+          "mattturck"
+        ],
+        "tags": [
+          "AI算力",
+          "Neocloud",
+          "GPU",
+          "Lambda",
+          "NVIDIA",
+          "数据中心"
+        ],
+        "items": [
+          {
+            "id": "2067646198140358854",
+            "title": "Matt Turck 的 AI compute 2026 访谈覆盖 neocloud、H100 价格指数、GPU 是否商品化、数据中心瓶颈、推理/训练成本和 NVIDIA 关系。",
+            "handle": "mattturck",
+            "name": "Matt Turck",
+            "createdAt": "2026-06-18T16:30:43.000Z",
+            "url": "https://x.com/mattturck/status/2067646198140358854",
+            "signal": {
+              "level": "high",
+              "label": "高信号",
+              "importance": 5
+            },
+            "investmentSignal": {
+              "target": "AI compute / neocloud / Lambda / NVIDIA",
+              "tilt": "researching",
+              "thesis": "访谈聚焦 neocloud、GPU 价格、数据中心瓶颈、成本结构和 NVIDIA 关系，适合作为产业研究线索。",
+              "evidence": "neocloud boom, data centers, GPUs, H100 price index, NVIDIA relationship"
+            },
+            "tags": [
+              "AI算力",
+              "Neocloud",
+              "GPU",
+              "Lambda",
+              "NVIDIA",
+              "数据中心"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tech-claude-code-artifacts",
+        "title": "Claude Code Artifacts",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "sourceCount": 7,
+        "handles": [
+          "nikunj",
+          "bcherny",
+          "trq212",
+          "_catwu",
+          "claudeai"
+        ],
+        "tags": [
+          "Claude Code",
+          "Codex",
+          "SEO",
+          "GEO",
+          "增长实验",
+          "Artifacts",
+          "Dashboard",
+          "团队协作"
+        ],
+        "items": [
+          {
+            "id": "2067830061009633294",
+            "title": "Nikunj 用 Claude Code/Codex 对一个未公开推广的 side project 做 SEO/GEO 优化，28 天拿到约 1.6 万展示和 94 次点击。",
+            "handle": "nikunj",
+            "name": "Nikunj Kothari",
+            "createdAt": "2026-06-19T04:41:19.000Z",
+            "url": "https://x.com/nikunj/status/2067830061009633294",
+            "signal": {
+              "level": "high",
+              "label": "高信号",
+              "importance": 4
+            },
+            "investmentSignal": null,
+            "tags": [
+              "Claude Code",
+              "Codex",
+              "SEO",
+              "GEO",
+              "增长实验"
+            ]
+          },
+          {
+            "id": "2067700226669060207",
+            "title": "Boris Cherny 说自己已用 Claude Code Artifacts 做代码解释、系统图、动画预览、数据分析和团队 dashboard。",
+            "handle": "bcherny",
+            "name": "Boris Cherny",
+            "createdAt": "2026-06-18T20:05:24.000Z",
+            "url": "https://x.com/bcherny/status/2067700226669060207",
+            "signal": {
+              "level": "high",
+              "label": "高信号",
+              "importance": 4
+            },
+            "investmentSignal": null,
+            "tags": [
+              "Claude Code",
+              "Artifacts",
+              "Dashboard",
+              "团队协作"
+            ]
+          },
+          {
+            "id": "2067682475611242546",
+            "title": "Thariq 说 Claude Code 现在可以上传和编辑 HTML artifacts，并可在团队内分享，Pro 和 Max 后续开放。",
+            "handle": "trq212",
+            "name": "Thariq",
+            "createdAt": "2026-06-18T18:54:52.000Z",
+            "url": "https://x.com/trq212/status/2067682475611242546",
+            "signal": {
+              "level": "high",
+              "label": "高信号",
+              "importance": 4
+            },
+            "investmentSignal": null,
+            "tags": [
+              "Claude Code",
+              "Artifacts",
+              "HTML",
+              "团队分享"
+            ]
+          },
+          {
+            "id": "2067674836726694200",
+            "title": "Cat Wu 说 Claude Team/Enterprise 可用 Claude Code 部署 HTML sites 并分享给队友，适合沟通架构变化、数据分析和原型。",
+            "handle": "_catwu",
+            "name": "Cat Wu",
+            "createdAt": "2026-06-18T18:24:31.000Z",
+            "url": "https://x.com/_catwu/status/2067674836726694200",
+            "signal": {
+              "level": "high",
+              "label": "高信号",
+              "importance": 4
+            },
+            "investmentSignal": null,
+            "tags": [
+              "Claude Team",
+              "Claude Enterprise",
+              "Artifacts",
+              "内部工具"
+            ]
+          },
+          {
+            "id": "2067671914533863585",
+            "title": "Claude 官方说 Artifacts 会利用 session 的完整上下文，包括代码库、插件、skills 和连接工具；默认私有，分享限制在组织内。",
+            "handle": "claudeai",
+            "name": "Claude",
+            "createdAt": "2026-06-18T18:12:54.000Z",
+            "url": "https://x.com/claudeai/status/2067671914533863585",
+            "signal": {
+              "level": "mid",
+              "label": "中信号",
+              "importance": 3
+            },
+            "investmentSignal": null,
+            "tags": [
+              "Claude",
+              "Artifacts",
+              "上下文",
+              "隐私"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "other-frontend-slides",
+        "title": "Frontend Slides",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": 3
+        },
+        "sourceCount": 1,
+        "handles": [
+          "zarazhangrui"
+        ],
+        "tags": [
+          "Frontend Slides",
+          "HTML",
+          "交互内容",
+          "技能"
+        ],
+        "items": [
+          {
+            "id": "2067850383758901669",
+            "title": "Zara Zhang 展示用 Frontend Slides skill 做出的 HTML 演示文稿，包含图片放大、嵌套内容、超链接和交互元素。",
+            "handle": "zarazhangrui",
+            "name": "Zara Zhang",
+            "createdAt": "2026-06-19T06:02:04.000Z",
+            "url": "https://x.com/zarazhangrui/status/2067850383758901669",
+            "signal": {
+              "level": "mid",
+              "label": "中信号",
+              "importance": 3
+            },
+            "investmentSignal": null,
+            "tags": [
+              "Frontend Slides",
+              "HTML",
+              "交互内容",
+              "技能"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "investment-artie-labs",
+        "title": "Artie Labs",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": 3
+        },
+        "sourceCount": 1,
+        "handles": [
+          "nikunj"
+        ],
+        "tags": [
+          "Artie Labs",
+          "Self-serve",
+          "产品发布",
+          "投资组合"
+        ],
+        "items": [
+          {
+            "id": "2067748864967503942",
+            "title": "Nikunj 祝贺 Artie Labs self-serve launch，并说明自己是 angel investor。",
+            "handle": "nikunj",
+            "name": "Nikunj Kothari",
+            "createdAt": "2026-06-18T23:18:40.000Z",
+            "url": "https://x.com/nikunj/status/2067748864967503942",
+            "signal": {
+              "level": "mid",
+              "label": "中信号",
+              "importance": 3
+            },
+            "investmentSignal": {
+              "target": "Artie Labs",
+              "tilt": "bullish",
+              "thesis": "作者称自己是 angel investor，并祝贺其 self-serve launch。",
+              "evidence": "Proud angel investor and congrats on the self-serve launch"
+            },
+            "tags": [
+              "Artie Labs",
+              "Self-serve",
+              "产品发布",
+              "投资组合"
+            ]
+          }
+        ]
+      }
+    ],
+    "midStories": [
+      {
+        "id": "2067850383758901669",
+        "title": "Zara Zhang 展示用 Frontend Slides skill 做出的 HTML 演示文稿，包含图片放大、嵌套内容、超链接和交互元素。",
+        "handle": "zarazhangrui",
+        "name": "Zara Zhang",
+        "createdAt": "2026-06-19T06:02:04.000Z",
+        "url": "https://x.com/zarazhangrui/status/2067850383758901669",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": 3
+        },
+        "investmentSignal": null,
+        "tags": [
+          "Frontend Slides",
+          "HTML",
+          "交互内容",
+          "技能"
+        ]
+      },
+      {
+        "id": "2067748864967503942",
+        "title": "Nikunj 祝贺 Artie Labs self-serve launch，并说明自己是 angel investor。",
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "createdAt": "2026-06-18T23:18:40.000Z",
+        "url": "https://x.com/nikunj/status/2067748864967503942",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": 3
+        },
+        "investmentSignal": {
+          "target": "Artie Labs",
+          "tilt": "bullish",
+          "thesis": "作者称自己是 angel investor，并祝贺其 self-serve launch。",
+          "evidence": "Proud angel investor and congrats on the self-serve launch"
+        },
+        "tags": [
+          "Artie Labs",
+          "Self-serve",
+          "产品发布",
+          "投资组合"
+        ]
+      },
+      {
+        "id": "2067671914533863585",
+        "title": "Claude 官方说 Artifacts 会利用 session 的完整上下文，包括代码库、插件、skills 和连接工具；默认私有，分享限制在组织内。",
+        "handle": "claudeai",
+        "name": "Claude",
+        "createdAt": "2026-06-18T18:12:54.000Z",
+        "url": "https://x.com/claudeai/status/2067671914533863585",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": 3
+        },
+        "investmentSignal": null,
+        "tags": [
+          "Claude",
+          "Artifacts",
+          "上下文",
+          "隐私"
+        ]
+      },
+      {
+        "id": "2067671913418063892",
+        "title": "Claude 官方说 session 持续工作时 artifact 会刷新，已分享的人看到的是最新版本。",
+        "handle": "claudeai",
+        "name": "Claude",
+        "createdAt": "2026-06-18T18:12:54.000Z",
+        "url": "https://x.com/claudeai/status/2067671913418063892",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": 3
+        },
+        "investmentSignal": null,
+        "tags": [
+          "Claude",
+          "Artifacts",
+          "实时刷新",
+          "协作"
+        ]
+      },
+      {
+        "id": "2067630124795662471",
+        "title": "Dan Shipper 说 Fable 解锁后会带来生产力跃迁，并称现在正在发生极端时间通缩。",
+        "handle": "danshipper",
+        "name": "Dan Shipper",
+        "createdAt": "2026-06-18T15:26:51.000Z",
+        "url": "https://x.com/danshipper/status/2067630124795662471",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": 3
+        },
+        "investmentSignal": null,
+        "tags": [
+          "Fable",
+          "生产力",
+          "时间通缩"
+        ]
+      }
+    ],
+    "lowSignal": {
+      "count": 22,
+      "items": [
+        {
+          "id": "2067851144664342725",
+          "title": "Zara Zhang 分享 Frontend Slides skill 和演讲录像链接，但离线正文没有更多内容。",
+          "handle": "zarazhangrui",
+          "name": "Zara Zhang",
+          "createdAt": "2026-06-19T06:05:06.000Z",
+          "url": "https://x.com/zarazhangrui/status/2067851144664342725",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 2
+          },
+          "investmentSignal": null,
+          "tags": [
+            "Frontend Slides",
+            "技能",
+            "资源"
+          ]
+        },
+        {
+          "id": "2067821739556413651",
+          "title": "Peter Steinberger 说现在一切 API 都可被分成快 API 或慢 API。",
+          "handle": "steipete",
+          "name": "Peter Steinberger",
+          "createdAt": "2026-06-19T04:08:15.000Z",
+          "url": "https://x.com/steipete/status/2067821739556413651",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 2
+          },
+          "investmentSignal": null,
+          "tags": [
+            "API",
+            "开发体验"
+          ]
+        },
+        {
+          "id": "2067764968808915392",
+          "title": "Swyx 提到某个对象单日上涨 55%，并半开玩笑说应该开基金，但离线数据看不到具体标的。",
+          "handle": "swyx",
+          "name": "Swyx",
+          "createdAt": "2026-06-19T00:22:40.000Z",
+          "url": "https://x.com/swyx/status/2067764968808915392",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 2
+          },
+          "investmentSignal": null,
+          "tags": [
+            "市场线索",
+            "标的不明",
+            "低上下文"
+          ]
+        },
+        {
+          "id": "2067760098265706566",
+          "title": "Peter Yang 询问 Claude Code 在 desktop app 工作时如何用新 prompt steer 它。",
+          "handle": "petergyang",
+          "name": "Peter Yang",
+          "createdAt": "2026-06-19T00:03:19.000Z",
+          "url": "https://x.com/petergyang/status/2067760098265706566",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 2
+          },
+          "investmentSignal": null,
+          "tags": [
+            "Claude Code",
+            "Agent工作流",
+            "交互问题"
+          ]
+        },
+        {
+          "id": "2067737883545596368",
+          "title": "Thariq 将在 AI Engineer World's Fair 第二天做开场 keynote，并附一个预热视频。",
+          "handle": "trq212",
+          "name": "Thariq",
+          "createdAt": "2026-06-18T22:35:02.000Z",
+          "url": "https://x.com/trq212/status/2067737883545596368",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 2
+          },
+          "investmentSignal": null,
+          "tags": [
+            "AI Engineer",
+            "Keynote",
+            "活动预告"
+          ]
+        },
+        {
+          "id": "2067701849491206399",
+          "title": "Nan Yu 将 taste 描述为在信息有限时从多个合理选项中做出正确选择的能力。",
+          "handle": "thenanyu",
+          "name": "Nan Yu",
+          "createdAt": "2026-06-18T20:11:51.000Z",
+          "url": "https://x.com/thenanyu/status/2067701849491206399",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 2
+          },
+          "investmentSignal": null,
+          "tags": [
+            "Taste",
+            "判断力",
+            "个人思考"
+          ]
+        },
+        {
+          "id": "2067637324763316499",
+          "title": "Garry Tan 借 AP 对 2 亿美元销售额资产征收提案的报道，表达对资产征收和反建设政策的反对。",
+          "handle": "garrytan",
+          "name": "Garry Tan",
+          "createdAt": "2026-06-18T15:55:27.000Z",
+          "url": "https://x.com/garrytan/status/2067637324763316499",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 2
+          },
+          "investmentSignal": null,
+          "tags": [
+            "AI监管",
+            "创业政策",
+            "政治风险"
+          ]
+        },
+        {
+          "id": "2067606805459714229",
+          "title": "Garry Tan 认为 AI 对没有明确未来感的人可能是控制机制，但对有 agency 的人是释放能力的工具。",
+          "handle": "garrytan",
+          "name": "Garry Tan",
+          "createdAt": "2026-06-18T13:54:11.000Z",
+          "url": "https://x.com/garrytan/status/2067606805459714229",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 2
+          },
+          "investmentSignal": null,
+          "tags": [
+            "AI",
+            "Agency",
+            "个人思考"
+          ]
+        },
+        {
+          "id": "2067832394913104309",
+          "title": "低信号：只有表情和链接，离线状态下无法判断具体内容。",
+          "handle": "amasad",
+          "name": "Amjad Masad",
+          "createdAt": "2026-06-19T04:50:36.000Z",
+          "url": "https://x.com/amasad/status/2067832394913104309",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 1
+          },
+          "investmentSignal": null,
+          "tags": [
+            "低信号",
+            "引用缺上下文"
+          ]
+        },
+        {
+          "id": "2067831841357193237",
+          "title": "低信号：只有表情和链接，离线状态下无法判断具体内容。",
+          "handle": "amasad",
+          "name": "Amjad Masad",
+          "createdAt": "2026-06-19T04:48:24.000Z",
+          "url": "https://x.com/amasad/status/2067831841357193237",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 1
+          },
+          "investmentSignal": null,
+          "tags": [
+            "低信号",
+            "引用缺上下文"
+          ]
+        },
+        {
+          "id": "2067831496388358176",
+          "title": "低信号：Amjad 只写了 Awesome 并附链接，离线状态下看不到他认可的具体内容。",
+          "handle": "amasad",
+          "name": "Amjad Masad",
+          "createdAt": "2026-06-19T04:47:01.000Z",
+          "url": "https://x.com/amasad/status/2067831496388358176",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 1
+          },
+          "investmentSignal": null,
+          "tags": [
+            "低信号",
+            "泛泛反应"
+          ]
+        },
+        {
+          "id": "2067830990089884022",
+          "title": "低信号：Amanda Askell 表达对 Iris van Herpen 服装艺术的欣赏。",
+          "handle": "amandaaskell",
+          "name": "Amanda Askell",
+          "createdAt": "2026-06-19T04:45:01.000Z",
+          "url": "https://x.com/AmandaAskell/status/2067830990089884022",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 1
+          },
+          "investmentSignal": null,
+          "tags": [
+            "低信号",
+            "个人兴趣"
+          ]
+        },
+        {
+          "id": "2067783964077547520",
+          "title": "低信号：Thibault 只问 What do you use，缺少具体对象和上下文。",
+          "handle": "thsottiaux",
+          "name": "Thibault Sottiaux",
+          "createdAt": "2026-06-19T01:38:09.000Z",
+          "url": "https://x.com/thsottiaux/status/2067783964077547520",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 1
+          },
+          "investmentSignal": null,
+          "tags": [
+            "低信号",
+            "泛问题"
+          ]
+        },
+        {
+          "id": "2067749268928995737",
+          "title": "低信号：Dan Shipper 只写 Extremely sick 并附链接，离线状态下看不到具体内容。",
+          "handle": "danshipper",
+          "name": "Dan Shipper",
+          "createdAt": "2026-06-18T23:20:17.000Z",
+          "url": "https://x.com/danshipper/status/2067749268928995737",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 1
+          },
+          "investmentSignal": null,
+          "tags": [
+            "低信号",
+            "引用缺上下文"
+          ]
+        },
+        {
+          "id": "2067737885378568653",
+          "title": "低信号：只有一个链接，离线状态下无法判断内容。",
+          "handle": "trq212",
+          "name": "Thariq",
+          "createdAt": "2026-06-18T22:35:03.000Z",
+          "url": "https://x.com/trq212/status/2067737885378568653",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 1
+          },
+          "investmentSignal": null,
+          "tags": [
+            "低信号",
+            "纯链接"
+          ]
+        },
+        {
+          "id": "2067729596343259319",
+          "title": "低信号：Peter Yang 主要是在推广自己的 AI/product newsletter。",
+          "handle": "petergyang",
+          "name": "Peter Yang",
+          "createdAt": "2026-06-18T22:02:06.000Z",
+          "url": "https://x.com/petergyang/status/2067729596343259319",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 1
+          },
+          "investmentSignal": null,
+          "tags": [
+            "低信号",
+            "Newsletter",
+            "推广"
+          ]
+        },
+        {
+          "id": "2067724821283438980",
+          "title": "低信号：Nikunj 只写 Mind fudging blown 并附链接，离线状态下看不到让他惊讶的内容。",
+          "handle": "nikunj",
+          "name": "Nikunj Kothari",
+          "createdAt": "2026-06-18T21:43:08.000Z",
+          "url": "https://x.com/nikunj/status/2067724821283438980",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 1
+          },
+          "investmentSignal": null,
+          "tags": [
+            "低信号",
+            "引用缺上下文"
+          ]
+        },
+        {
+          "id": "2067661289367998602",
+          "title": "低信号：Zara 只写 Even more true today 并附链接，离线状态下无法知道她认同的具体观点。",
+          "handle": "zarazhangrui",
+          "name": "Zara Zhang",
+          "createdAt": "2026-06-18T17:30:41.000Z",
+          "url": "https://x.com/zarazhangrui/status/2067661289367998602",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 1
+          },
+          "investmentSignal": null,
+          "tags": [
+            "低信号",
+            "引用缺上下文"
+          ]
+        },
+        {
+          "id": "2067646203517448255",
+          "title": "低信号：Matt Turck 只是补充 AI compute 访谈也可在 Spotify、Apple Podcasts 和 YouTube 收听。",
+          "handle": "mattturck",
+          "name": "Matt Turck",
+          "createdAt": "2026-06-18T16:30:44.000Z",
+          "url": "https://x.com/mattturck/status/2067646203517448255",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 1
+          },
+          "investmentSignal": null,
+          "tags": [
+            "低信号",
+            "播客分发"
+          ]
+        },
+        {
+          "id": "2067644951874404650",
+          "title": "低信号：Madhu Guru 开玩笑说 LLM 会把人类 prompt 称为 human slop。",
+          "handle": "realmadhuguru",
+          "name": "Madhu Guru",
+          "createdAt": "2026-06-18T16:25:46.000Z",
+          "url": "https://x.com/realmadhuguru/status/2067644951874404650",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": 1
+          },
+          "investmentSignal": null,
+          "tags": [
+            "低信号",
+            "AI玩笑"
+          ]
+        }
+      ]
+    }
+  },
+  "topics": [
+    {
+      "id": "tech-ai-model-cost",
+      "title": "AI 模型成本 / 产品机会",
+      "category": "technology",
+      "signal": {
+        "level": "high",
+        "label": "高信号",
+        "importance": 5
+      },
+      "sourceCount": 3,
+      "handles": [
+        "levie",
+        "thenanyu",
+        "garrytan"
+      ],
+      "tags": [
+        "开源权重",
+        "主权AI",
+        "模型成本",
+        "应用层",
+        "Agent",
+        "产品设计",
+        "多轮交互",
+        "项目更新"
+      ],
+      "updatedAt": "2026-06-19T04:09:14.000Z",
+      "whyItMatters": "这会影响企业 AI 架构、成本结构和应用层机会判断。；对自动摘要、简报和本项目后续交互设计都有直接参考价值。",
+      "action": "跟踪开放权重模型在前沿能力、后训练和企业部署上的进展。",
+      "risk": "帖子没有指明具体模型或 benchmark，仍是趋势判断。",
+      "posts": [
+        {
+          "id": "2067821985342878180",
+          "handle": "levie",
+          "name": "Aaron Levie",
+          "createdAt": "2026-06-19T04:09:14.000Z",
+          "url": "https://x.com/levie/status/2067821985342878180",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": 5
+          },
+          "title": "Aaron Levie 认为开源权重模型接近前沿能力会带来主权 AI、私有后训练、成本优化和更多应用形态。",
+          "whyItMatters": "这会影响企业 AI 架构、成本结构和应用层机会判断。",
+          "action": "跟踪开放权重模型在前沿能力、后训练和企业部署上的进展。",
+          "risk": "帖子没有指明具体模型或 benchmark，仍是趋势判断。",
+          "investmentSignal": null,
+          "tags": [
+            "开源权重",
+            "主权AI",
+            "模型成本",
+            "应用层"
+          ],
+          "textPreview": "The fact that open weights models are being discussed credibly at this level of capability should be a huge update for many. The implications of open models getting to frontier pe..."
+        },
+        {
+          "id": "2067703108344369306",
+          "handle": "thenanyu",
+          "name": "Nan Yu",
+          "createdAt": "2026-06-18T20:16:51.000Z",
+          "url": "https://x.com/thenanyu/status/2067703108344369306",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": 5
+          },
+          "title": "Nan Yu 说 agent 写项目更新不能一次性替用户完成，多轮交互让用户补充重点和缺失上下文，反而能减少低质量输出。",
+          "whyItMatters": "对自动摘要、简报和本项目后续交互设计都有直接参考价值。",
+          "action": "把“多轮澄清优于一次性生成”作为 agent 工作流设计原则。",
+          "risk": "这是产品经验总结，不是量化实验数据。",
+          "investmentSignal": null,
+          "tags": [
+            "Agent",
+            "产品设计",
+            "多轮交互",
+            "项目更新"
+          ],
+          "textPreview": "It took us a lot of iterations to find the right pattern for this. Early on we were very naive and we thought that the agent could one shot project updates without much input from..."
+        },
+        {
+          "id": "2067636692794875923",
+          "handle": "garrytan",
+          "name": "Garry Tan",
+          "createdAt": "2026-06-18T15:52:57.000Z",
+          "url": "https://x.com/garrytan/status/2067636692794875923",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": 4
+          },
+          "title": "Garry Tan 称 Bernie Sanders 提出法案，要对销售额超过 2 亿美元的 AI startup 征收 50%，并把这视为对美国创业的打击。",
+          "whyItMatters": "如果法案真实推进，会影响 AI 创业公司融资、退出预期和美国创新叙事。",
+          "action": "后续核对法案原文、适用口径和推进概率。",
+          "risk": "帖子是强立场解读，需验证法案细节和政治可行性。",
+          "investmentSignal": {
+            "target": "AI startups",
+            "tilt": "bearish",
+            "thesis": "作者称拟议法案会对超过 2 亿美元销售额的 AI startup 征收 50%，并压制创业退出。",
+            "evidence": "seize 50% of any AI startup that crosses $200M in revenue"
+          },
+          "tags": [
+            "AI监管",
+            "创业公司",
+            "政策风险",
+            "退出环境"
+          ],
+          "textPreview": "Bernie Sanders introduced a bill to seize 50% of any AI startup that crosses $200M in revenue. The same anti-prosperity bloc spent the year trying to ban startup acquisitions, blo..."
+        }
+      ]
+    },
+    {
+      "id": "tech-fable",
+      "title": "Fable",
+      "category": "technology",
+      "signal": {
+        "level": "high",
+        "label": "高信号",
+        "importance": 5
+      },
+      "sourceCount": 2,
+      "handles": [
+        "levie",
+        "danshipper"
+      ],
+      "tags": [
+        "Fable",
+        "AI监管",
+        "模型发布",
+        "能力阈值",
+        "生产力",
+        "时间通缩"
+      ],
+      "updatedAt": "2026-06-19T02:52:35.000Z",
+      "whyItMatters": "会影响模型发布节奏、实验室竞争和应用层获取新能力的时间线。；可作为 Fable 主题的补充情绪信号。",
+      "action": "把 Fable 和模型发布审查机制作为 AI 监管观察点。",
+      "risk": "Fable 的具体背景和政府安排在离线数据中不完整。",
+      "posts": [
+        {
+          "id": "2067802697324212562",
+          "handle": "levie",
+          "name": "Aaron Levie",
+          "createdAt": "2026-06-19T02:52:35.000Z",
+          "url": "https://x.com/levie/status/2067802697324212562",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": 5
+          },
+          "title": "Aaron Levie 认为 Fable 获取进展预示 AI 模型发布会进入政府能力阈值、测试和多方审查框架。",
+          "whyItMatters": "会影响模型发布节奏、实验室竞争和应用层获取新能力的时间线。",
+          "action": "把 Fable 和模型发布审查机制作为 AI 监管观察点。",
+          "risk": "Fable 的具体背景和政府安排在离线数据中不完整。",
+          "investmentSignal": null,
+          "tags": [
+            "Fable",
+            "AI监管",
+            "模型发布",
+            "能力阈值"
+          ],
+          "textPreview": "This is a good update for getting access to Fable. It also gives us a view into what the future is likely going to look like with AI regulation. The government will have framework..."
+        },
+        {
+          "id": "2067630124795662471",
+          "handle": "danshipper",
+          "name": "Dan Shipper",
+          "createdAt": "2026-06-18T15:26:51.000Z",
+          "url": "https://x.com/danshipper/status/2067630124795662471",
+          "signal": {
+            "level": "mid",
+            "label": "中信号",
+            "importance": 3
+          },
+          "title": "Dan Shipper 说 Fable 解锁后会带来生产力跃迁，并称现在正在发生极端时间通缩。",
+          "whyItMatters": "可作为 Fable 主题的补充情绪信号。",
+          "action": "与 Aaron Levie 的 Fable/监管帖合并看，不单独提升优先级。",
+          "risk": "引用上下文不可见，缺少具体产品能力说明。",
+          "investmentSignal": null,
+          "tags": [
+            "Fable",
+            "生产力",
+            "时间通缩"
+          ],
+          "textPreview": "Extreme time deflation happening right now We expect a step change in productivity whenever Fable is unlocked, might as well go on vacation until then"
+        }
+      ]
+    },
+    {
+      "id": "investment-ai-compute-neocloud",
+      "title": "AI compute / neocloud",
+      "category": "investment",
+      "signal": {
+        "level": "high",
+        "label": "高信号",
+        "importance": 5
+      },
+      "sourceCount": 1,
+      "handles": [
+        "mattturck"
+      ],
+      "tags": [
+        "AI算力",
+        "Neocloud",
+        "GPU",
+        "Lambda",
+        "NVIDIA",
+        "数据中心"
+      ],
+      "updatedAt": "2026-06-18T16:30:43.000Z",
+      "whyItMatters": "对 AI 基建、neocloud 和 GPU 产业链判断有较高信息密度。",
+      "action": "作为 AI compute 主题的精读候选，优先看时间戳中成本、供给和 NVIDIA 关系部分。",
+      "risk": "离线只有目录，具体论点需要听/看原内容。",
+      "posts": [
+        {
+          "id": "2067646198140358854",
+          "handle": "mattturck",
+          "name": "Matt Turck",
+          "createdAt": "2026-06-18T16:30:43.000Z",
+          "url": "https://x.com/mattturck/status/2067646198140358854",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": 5
+          },
+          "title": "Matt Turck 的 AI compute 2026 访谈覆盖 neocloud、H100 价格指数、GPU 是否商品化、数据中心瓶颈、推理/训练成本和 NVIDIA 关系。",
+          "whyItMatters": "对 AI 基建、neocloud 和 GPU 产业链判断有较高信息密度。",
+          "action": "作为 AI compute 主题的精读候选，优先看时间戳中成本、供给和 NVIDIA 关系部分。",
+          "risk": "离线只有目录，具体论点需要听/看原内容。",
+          "investmentSignal": {
+            "target": "AI compute / neocloud / Lambda / NVIDIA",
+            "tilt": "researching",
+            "thesis": "访谈聚焦 neocloud、GPU 价格、数据中心瓶颈、成本结构和 NVIDIA 关系，适合作为产业研究线索。",
+            "evidence": "neocloud boom, data centers, GPUs, H100 price index, NVIDIA relationship"
+          },
+          "tags": [
+            "AI算力",
+            "Neocloud",
+            "GPU",
+            "Lambda",
+            "NVIDIA",
+            "数据中心"
+          ],
+          "textPreview": "State of AI compute 2026: my conversation with @stephenbalaban of @LambdaAPI on the neocloud boom, data centers, GPUs and what's ahead 00:00 — Cold open 01:21 — Why GPU compute wa..."
+        }
+      ]
+    },
+    {
+      "id": "tech-claude-code-artifacts",
+      "title": "Claude Code Artifacts",
+      "category": "technology",
+      "signal": {
+        "level": "high",
+        "label": "高信号",
+        "importance": 4
+      },
+      "sourceCount": 7,
+      "handles": [
+        "nikunj",
+        "bcherny",
+        "trq212",
+        "_catwu",
+        "claudeai"
+      ],
+      "tags": [
+        "Claude Code",
+        "Codex",
+        "SEO",
+        "GEO",
+        "增长实验",
+        "Artifacts",
+        "Dashboard",
+        "团队协作"
+      ],
+      "updatedAt": "2026-06-19T04:41:19.000Z",
+      "whyItMatters": "对小项目冷启动和自动化增长有可复用启发。；对本地简报/分析页面的交互形态很有参考价值。",
+      "action": "可记录为 SEO/GEO 自动化实验案例，后续看正式发布和方法细节。",
+      "risk": "只有结果数字，没有展示具体操作流程和转化质量。",
+      "posts": [
+        {
+          "id": "2067830061009633294",
+          "handle": "nikunj",
+          "name": "Nikunj Kothari",
+          "createdAt": "2026-06-19T04:41:19.000Z",
+          "url": "https://x.com/nikunj/status/2067830061009633294",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": 4
+          },
+          "title": "Nikunj 用 Claude Code/Codex 对一个未公开推广的 side project 做 SEO/GEO 优化，28 天拿到约 1.6 万展示和 94 次点击。",
+          "whyItMatters": "对小项目冷启动和自动化增长有可复用启发。",
+          "action": "可记录为 SEO/GEO 自动化实验案例，后续看正式发布和方法细节。",
+          "risk": "只有结果数字，没有展示具体操作流程和转化质量。",
+          "investmentSignal": null,
+          "tags": [
+            "Claude Code",
+            "Codex",
+            "SEO",
+            "GEO",
+            "增长实验"
+          ],
+          "textPreview": "Launched a side project quietly a few weeks ago.. Wanted to test how many impressions/clicks I could get by simply having Claude Code / Codex optimize the hell out of the website...."
+        },
+        {
+          "id": "2067700226669060207",
+          "handle": "bcherny",
+          "name": "Boris Cherny",
+          "createdAt": "2026-06-18T20:05:24.000Z",
+          "url": "https://x.com/bcherny/status/2067700226669060207",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": 4
+          },
+          "title": "Boris Cherny 说自己已用 Claude Code Artifacts 做代码解释、系统图、动画预览、数据分析和团队 dashboard。",
+          "whyItMatters": "对本地简报/分析页面的交互形态很有参考价值。",
+          "action": "可把 Artifacts 视为“agent 输出界面化”的案例继续观察。",
+          "risk": "没有展示具体 artifact 样例。",
+          "investmentSignal": null,
+          "tags": [
+            "Claude Code",
+            "Artifacts",
+            "Dashboard",
+            "团队协作"
+          ],
+          "textPreview": "I've been using Artifacts in Claude Code for everything: visual explanations of tricky code, system diagrams, quick previews of a few animation options, data analyses and dashboar..."
+        },
+        {
+          "id": "2067682475611242546",
+          "handle": "trq212",
+          "name": "Thariq",
+          "createdAt": "2026-06-18T18:54:52.000Z",
+          "url": "https://x.com/trq212/status/2067682475611242546",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": 4
+          },
+          "title": "Thariq 说 Claude Code 现在可以上传和编辑 HTML artifacts，并可在团队内分享，Pro 和 Max 后续开放。",
+          "whyItMatters": "会影响团队使用 Claude Code 做内部页面、文档和原型的方式。",
+          "action": "关注 Pro/Max 开放时间和 artifact 编辑能力边界。",
+          "risk": "帖子没有说明具体限制、权限和可运行环境。",
+          "investmentSignal": null,
+          "tags": [
+            "Claude Code",
+            "Artifacts",
+            "HTML",
+            "团队分享"
+          ],
+          "textPreview": "Claude Code can now upload and edit HTML artifacts that you can share with your team or other Claudes! Starting with teams so you can share internally with your team, coming to Pr..."
+        },
+        {
+          "id": "2067674836726694200",
+          "handle": "_catwu",
+          "name": "Cat Wu",
+          "createdAt": "2026-06-18T18:24:31.000Z",
+          "url": "https://x.com/_catwu/status/2067674836726694200",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": 4
+          },
+          "title": "Cat Wu 说 Claude Team/Enterprise 可用 Claude Code 部署 HTML sites 并分享给队友，适合沟通架构变化、数据分析和原型。",
+          "whyItMatters": "对企业协作、内部工具和可视化沟通有具体启发。",
+          "action": "关注 Team/Enterprise 下 artifact 分享、权限和部署体验。",
+          "risk": "只描述用途，没有技术实现细节。",
+          "investmentSignal": null,
+          "tags": [
+            "Claude Team",
+            "Claude Enterprise",
+            "Artifacts",
+            "内部工具"
+          ],
+          "textPreview": "On Claude Team and Claude Enterprise, you can now use Claude Code to deploy HTML sites and share these with your teammates! This has changed how we work internally. Artifacts is g..."
+        },
+        {
+          "id": "2067671914533863585",
+          "handle": "claudeai",
+          "name": "Claude",
+          "createdAt": "2026-06-18T18:12:54.000Z",
+          "url": "https://x.com/claudeai/status/2067671914533863585",
+          "signal": {
+            "level": "mid",
+            "label": "中信号",
+            "importance": 3
+          },
+          "title": "Claude 官方说 Artifacts 会利用 session 的完整上下文，包括代码库、插件、skills 和连接工具；默认私有，分享限制在组织内。",
+          "whyItMatters": "对企业是否敢用 artifact 分享项目上下文很关键。",
+          "action": "关注组织内分享权限和上下文隔离。",
+          "risk": "没有细化数据边界和管理员控制。",
+          "investmentSignal": null,
+          "tags": [
+            "Claude",
+            "Artifacts",
+            "上下文",
+            "隐私"
+          ],
+          "textPreview": "Artifacts draw on the full context of your session: codebase, plugins, skills, connected tools. They're private until you share them, and sharing stays inside your organization. R..."
+        },
+        {
+          "id": "2067671913418063892",
+          "handle": "claudeai",
+          "name": "Claude",
+          "createdAt": "2026-06-18T18:12:54.000Z",
+          "url": "https://x.com/claudeai/status/2067671913418063892",
+          "signal": {
+            "level": "mid",
+            "label": "中信号",
+            "importance": 3
+          },
+          "title": "Claude 官方说 session 持续工作时 artifact 会刷新，已分享的人看到的是最新版本。",
+          "whyItMatters": "对协作工作流有用，但这是同一发布线程的补充细节。",
+          "action": "作为 Artifacts 主题的补充记录即可。",
+          "risk": "没有说明版本历史和变更控制。",
+          "investmentSignal": null,
+          "tags": [
+            "Claude",
+            "Artifacts",
+            "实时刷新",
+            "协作"
+          ],
+          "textPreview": "As your session keeps working, the artifact refreshes, so everyone you've shared it with is always looking at the latest version."
+        },
+        {
+          "id": "2067671912038240487",
+          "handle": "claudeai",
+          "name": "Claude",
+          "createdAt": "2026-06-18T18:12:53.000Z",
+          "url": "https://x.com/claudeai/status/2067671912038240487",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": 4
+          },
+          "title": "Claude 官方发布 Claude Code Artifacts beta：可从 session 生成交互页面，如 PR walkthrough 或项目 dashboard，并通过私有链接分享给团队。",
+          "whyItMatters": "它可能改变代码审查、项目汇报、内部 dashboard 和原型分享方式。",
+          "action": "重点关注 Team/Enterprise beta 的能力边界和是否下放到个人计划。",
+          "risk": "当前只明确 Team/Enterprise beta，个人可用性有限。",
+          "investmentSignal": null,
+          "tags": [
+            "Claude Code",
+            "Artifacts",
+            "Beta",
+            "交互页面",
+            "团队协作"
+          ],
+          "textPreview": "New in Claude Code: Artifacts. Interactive pages built from your session, like a PR walkthrough or a living project dashboard, shared with your team at a private link. Available i..."
+        }
+      ]
+    },
+    {
+      "id": "other-frontend-slides",
+      "title": "Frontend Slides",
+      "category": "other",
+      "signal": {
+        "level": "mid",
+        "label": "中信号",
+        "importance": 3
+      },
+      "sourceCount": 1,
+      "handles": [
+        "zarazhangrui"
+      ],
+      "tags": [
+        "Frontend Slides",
+        "HTML",
+        "交互内容",
+        "技能"
+      ],
+      "updatedAt": "2026-06-19T06:02:04.000Z",
+      "whyItMatters": "对本地工具和简报页面的呈现方式有参考价值。",
+      "action": "可在需要改进 dashboard/briefing 交互表达时回看原例。",
+      "risk": "离线数据无法看到实际 deck 效果。",
+      "posts": [
+        {
+          "id": "2067850383758901669",
+          "handle": "zarazhangrui",
+          "name": "Zara Zhang",
+          "createdAt": "2026-06-19T06:02:04.000Z",
+          "url": "https://x.com/zarazhangrui/status/2067850383758901669",
+          "signal": {
+            "level": "mid",
+            "label": "中信号",
+            "importance": 3
+          },
+          "title": "Zara Zhang 展示用 Frontend Slides skill 做出的 HTML 演示文稿，包含图片放大、嵌套内容、超链接和交互元素。",
+          "whyItMatters": "对本地工具和简报页面的呈现方式有参考价值。",
+          "action": "可在需要改进 dashboard/briefing 交互表达时回看原例。",
+          "risk": "离线数据无法看到实际 deck 效果。",
+          "investmentSignal": null,
+          "tags": [
+            "Frontend Slides",
+            "HTML",
+            "交互内容",
+            "技能"
+          ],
+          "textPreview": "Made a beautiful HTML deck using my Frontend Slides skill; very happy with how it turned out! Lots of easter eggs (e.g. you can click any image to enlarge them, lots of nested con..."
+        }
+      ]
+    },
+    {
+      "id": "investment-artie-labs",
+      "title": "Artie Labs",
+      "category": "investment",
+      "signal": {
+        "level": "mid",
+        "label": "中信号",
+        "importance": 3
+      },
+      "sourceCount": 1,
+      "handles": [
+        "nikunj"
+      ],
+      "tags": [
+        "Artie Labs",
+        "Self-serve",
+        "产品发布",
+        "投资组合"
+      ],
+      "updatedAt": "2026-06-18T23:18:40.000Z",
+      "whyItMatters": "Artie Labs 进入 self-serve 可能是产品商业化进展。",
+      "action": "如果关注数据基础设施或 Nikunj 投资组合，可后续打开原帖看发布内容。",
+      "risk": "离线正文没有说明 Artie Labs 的产品能力和发布范围。",
+      "posts": [
+        {
+          "id": "2067748864967503942",
+          "handle": "nikunj",
+          "name": "Nikunj Kothari",
+          "createdAt": "2026-06-18T23:18:40.000Z",
+          "url": "https://x.com/nikunj/status/2067748864967503942",
+          "signal": {
+            "level": "mid",
+            "label": "中信号",
+            "importance": 3
+          },
+          "title": "Nikunj 祝贺 Artie Labs self-serve launch，并说明自己是 angel investor。",
+          "whyItMatters": "Artie Labs 进入 self-serve 可能是产品商业化进展。",
+          "action": "如果关注数据基础设施或 Nikunj 投资组合，可后续打开原帖看发布内容。",
+          "risk": "离线正文没有说明 Artie Labs 的产品能力和发布范围。",
+          "investmentSignal": {
+            "target": "Artie Labs",
+            "tilt": "bullish",
+            "thesis": "作者称自己是 angel investor，并祝贺其 self-serve launch。",
+            "evidence": "Proud angel investor and congrats on the self-serve launch"
+          },
+          "tags": [
+            "Artie Labs",
+            "Self-serve",
+            "产品发布",
+            "投资组合"
+          ],
+          "textPreview": "Ok @artie_labs clearly takes the cake for fire swag.. like literally 🔥 Proud angel investor and congrats on the self-serve launch!"
+        }
+      ]
+    }
+  ],
+  "sections": {
+    "top": [
+      {
+        "id": "2067821985342878180",
+        "handle": "levie",
+        "name": "Aaron Levie",
+        "createdAt": "2026-06-19T04:09:14.000Z",
+        "url": "https://x.com/levie/status/2067821985342878180",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "title": "Aaron Levie 认为开源权重模型接近前沿能力会带来主权 AI、私有后训练、成本优化和更多应用形态。",
+        "whyItMatters": "这会影响企业 AI 架构、成本结构和应用层机会判断。",
+        "action": "跟踪开放权重模型在前沿能力、后训练和企业部署上的进展。",
+        "risk": "帖子没有指明具体模型或 benchmark，仍是趋势判断。",
+        "investmentSignal": null,
+        "tags": [
+          "开源权重",
+          "主权AI",
+          "模型成本",
+          "应用层"
+        ],
+        "textPreview": "The fact that open weights models are being discussed credibly at this level of capability should be a huge update for many. The implications of open models getting to frontier pe..."
+      },
+      {
+        "id": "2067802697324212562",
+        "handle": "levie",
+        "name": "Aaron Levie",
+        "createdAt": "2026-06-19T02:52:35.000Z",
+        "url": "https://x.com/levie/status/2067802697324212562",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "title": "Aaron Levie 认为 Fable 获取进展预示 AI 模型发布会进入政府能力阈值、测试和多方审查框架。",
+        "whyItMatters": "会影响模型发布节奏、实验室竞争和应用层获取新能力的时间线。",
+        "action": "把 Fable 和模型发布审查机制作为 AI 监管观察点。",
+        "risk": "Fable 的具体背景和政府安排在离线数据中不完整。",
+        "investmentSignal": null,
+        "tags": [
+          "Fable",
+          "AI监管",
+          "模型发布",
+          "能力阈值"
+        ],
+        "textPreview": "This is a good update for getting access to Fable. It also gives us a view into what the future is likely going to look like with AI regulation. The government will have framework..."
+      },
+      {
+        "id": "2067703108344369306",
+        "handle": "thenanyu",
+        "name": "Nan Yu",
+        "createdAt": "2026-06-18T20:16:51.000Z",
+        "url": "https://x.com/thenanyu/status/2067703108344369306",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "title": "Nan Yu 说 agent 写项目更新不能一次性替用户完成，多轮交互让用户补充重点和缺失上下文，反而能减少低质量输出。",
+        "whyItMatters": "对自动摘要、简报和本项目后续交互设计都有直接参考价值。",
+        "action": "把“多轮澄清优于一次性生成”作为 agent 工作流设计原则。",
+        "risk": "这是产品经验总结，不是量化实验数据。",
+        "investmentSignal": null,
+        "tags": [
+          "Agent",
+          "产品设计",
+          "多轮交互",
+          "项目更新"
+        ],
+        "textPreview": "It took us a lot of iterations to find the right pattern for this. Early on we were very naive and we thought that the agent could one shot project updates without much input from..."
+      },
+      {
+        "id": "2067646198140358854",
+        "handle": "mattturck",
+        "name": "Matt Turck",
+        "createdAt": "2026-06-18T16:30:43.000Z",
+        "url": "https://x.com/mattturck/status/2067646198140358854",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "title": "Matt Turck 的 AI compute 2026 访谈覆盖 neocloud、H100 价格指数、GPU 是否商品化、数据中心瓶颈、推理/训练成本和 NVIDIA 关系。",
+        "whyItMatters": "对 AI 基建、neocloud 和 GPU 产业链判断有较高信息密度。",
+        "action": "作为 AI compute 主题的精读候选，优先看时间戳中成本、供给和 NVIDIA 关系部分。",
+        "risk": "离线只有目录，具体论点需要听/看原内容。",
+        "investmentSignal": {
+          "target": "AI compute / neocloud / Lambda / NVIDIA",
+          "tilt": "researching",
+          "thesis": "访谈聚焦 neocloud、GPU 价格、数据中心瓶颈、成本结构和 NVIDIA 关系，适合作为产业研究线索。",
+          "evidence": "neocloud boom, data centers, GPUs, H100 price index, NVIDIA relationship"
+        },
+        "tags": [
+          "AI算力",
+          "Neocloud",
+          "GPU",
+          "Lambda",
+          "NVIDIA",
+          "数据中心"
+        ],
+        "textPreview": "State of AI compute 2026: my conversation with @stephenbalaban of @LambdaAPI on the neocloud boom, data centers, GPUs and what's ahead 00:00 — Cold open 01:21 — Why GPU compute wa..."
+      },
+      {
+        "id": "2067830061009633294",
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "createdAt": "2026-06-19T04:41:19.000Z",
+        "url": "https://x.com/nikunj/status/2067830061009633294",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "title": "Nikunj 用 Claude Code/Codex 对一个未公开推广的 side project 做 SEO/GEO 优化，28 天拿到约 1.6 万展示和 94 次点击。",
+        "whyItMatters": "对小项目冷启动和自动化增长有可复用启发。",
+        "action": "可记录为 SEO/GEO 自动化实验案例，后续看正式发布和方法细节。",
+        "risk": "只有结果数字，没有展示具体操作流程和转化质量。",
+        "investmentSignal": null,
+        "tags": [
+          "Claude Code",
+          "Codex",
+          "SEO",
+          "GEO",
+          "增长实验"
+        ],
+        "textPreview": "Launched a side project quietly a few weeks ago.. Wanted to test how many impressions/clicks I could get by simply having Claude Code / Codex optimize the hell out of the website...."
+      }
+    ],
+    "investment": [
+      {
+        "id": "2067646198140358854",
+        "handle": "mattturck",
+        "name": "Matt Turck",
+        "createdAt": "2026-06-18T16:30:43.000Z",
+        "url": "https://x.com/mattturck/status/2067646198140358854",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "title": "Matt Turck 的 AI compute 2026 访谈覆盖 neocloud、H100 价格指数、GPU 是否商品化、数据中心瓶颈、推理/训练成本和 NVIDIA 关系。",
+        "whyItMatters": "对 AI 基建、neocloud 和 GPU 产业链判断有较高信息密度。",
+        "action": "作为 AI compute 主题的精读候选，优先看时间戳中成本、供给和 NVIDIA 关系部分。",
+        "risk": "离线只有目录，具体论点需要听/看原内容。",
+        "investmentSignal": {
+          "target": "AI compute / neocloud / Lambda / NVIDIA",
+          "tilt": "researching",
+          "thesis": "访谈聚焦 neocloud、GPU 价格、数据中心瓶颈、成本结构和 NVIDIA 关系，适合作为产业研究线索。",
+          "evidence": "neocloud boom, data centers, GPUs, H100 price index, NVIDIA relationship"
+        },
+        "tags": [
+          "AI算力",
+          "Neocloud",
+          "GPU",
+          "Lambda",
+          "NVIDIA",
+          "数据中心"
+        ],
+        "textPreview": "State of AI compute 2026: my conversation with @stephenbalaban of @LambdaAPI on the neocloud boom, data centers, GPUs and what's ahead 00:00 — Cold open 01:21 — Why GPU compute wa..."
+      },
+      {
+        "id": "2067636692794875923",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "createdAt": "2026-06-18T15:52:57.000Z",
+        "url": "https://x.com/garrytan/status/2067636692794875923",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "title": "Garry Tan 称 Bernie Sanders 提出法案，要对销售额超过 2 亿美元的 AI startup 征收 50%，并把这视为对美国创业的打击。",
+        "whyItMatters": "如果法案真实推进，会影响 AI 创业公司融资、退出预期和美国创新叙事。",
+        "action": "后续核对法案原文、适用口径和推进概率。",
+        "risk": "帖子是强立场解读，需验证法案细节和政治可行性。",
+        "investmentSignal": {
+          "target": "AI startups",
+          "tilt": "bearish",
+          "thesis": "作者称拟议法案会对超过 2 亿美元销售额的 AI startup 征收 50%，并压制创业退出。",
+          "evidence": "seize 50% of any AI startup that crosses $200M in revenue"
+        },
+        "tags": [
+          "AI监管",
+          "创业公司",
+          "政策风险",
+          "退出环境"
+        ],
+        "textPreview": "Bernie Sanders introduced a bill to seize 50% of any AI startup that crosses $200M in revenue. The same anti-prosperity bloc spent the year trying to ban startup acquisitions, blo..."
+      },
+      {
+        "id": "2067748864967503942",
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "createdAt": "2026-06-18T23:18:40.000Z",
+        "url": "https://x.com/nikunj/status/2067748864967503942",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": 3
+        },
+        "title": "Nikunj 祝贺 Artie Labs self-serve launch，并说明自己是 angel investor。",
+        "whyItMatters": "Artie Labs 进入 self-serve 可能是产品商业化进展。",
+        "action": "如果关注数据基础设施或 Nikunj 投资组合，可后续打开原帖看发布内容。",
+        "risk": "离线正文没有说明 Artie Labs 的产品能力和发布范围。",
+        "investmentSignal": {
+          "target": "Artie Labs",
+          "tilt": "bullish",
+          "thesis": "作者称自己是 angel investor，并祝贺其 self-serve launch。",
+          "evidence": "Proud angel investor and congrats on the self-serve launch"
+        },
+        "tags": [
+          "Artie Labs",
+          "Self-serve",
+          "产品发布",
+          "投资组合"
+        ],
+        "textPreview": "Ok @artie_labs clearly takes the cake for fire swag.. like literally 🔥 Proud angel investor and congrats on the self-serve launch!"
+      }
+    ],
+    "technology": [
+      {
+        "id": "2067821985342878180",
+        "handle": "levie",
+        "name": "Aaron Levie",
+        "createdAt": "2026-06-19T04:09:14.000Z",
+        "url": "https://x.com/levie/status/2067821985342878180",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "title": "Aaron Levie 认为开源权重模型接近前沿能力会带来主权 AI、私有后训练、成本优化和更多应用形态。",
+        "whyItMatters": "这会影响企业 AI 架构、成本结构和应用层机会判断。",
+        "action": "跟踪开放权重模型在前沿能力、后训练和企业部署上的进展。",
+        "risk": "帖子没有指明具体模型或 benchmark，仍是趋势判断。",
+        "investmentSignal": null,
+        "tags": [
+          "开源权重",
+          "主权AI",
+          "模型成本",
+          "应用层"
+        ],
+        "textPreview": "The fact that open weights models are being discussed credibly at this level of capability should be a huge update for many. The implications of open models getting to frontier pe..."
+      },
+      {
+        "id": "2067802697324212562",
+        "handle": "levie",
+        "name": "Aaron Levie",
+        "createdAt": "2026-06-19T02:52:35.000Z",
+        "url": "https://x.com/levie/status/2067802697324212562",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "title": "Aaron Levie 认为 Fable 获取进展预示 AI 模型发布会进入政府能力阈值、测试和多方审查框架。",
+        "whyItMatters": "会影响模型发布节奏、实验室竞争和应用层获取新能力的时间线。",
+        "action": "把 Fable 和模型发布审查机制作为 AI 监管观察点。",
+        "risk": "Fable 的具体背景和政府安排在离线数据中不完整。",
+        "investmentSignal": null,
+        "tags": [
+          "Fable",
+          "AI监管",
+          "模型发布",
+          "能力阈值"
+        ],
+        "textPreview": "This is a good update for getting access to Fable. It also gives us a view into what the future is likely going to look like with AI regulation. The government will have framework..."
+      },
+      {
+        "id": "2067703108344369306",
+        "handle": "thenanyu",
+        "name": "Nan Yu",
+        "createdAt": "2026-06-18T20:16:51.000Z",
+        "url": "https://x.com/thenanyu/status/2067703108344369306",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "title": "Nan Yu 说 agent 写项目更新不能一次性替用户完成，多轮交互让用户补充重点和缺失上下文，反而能减少低质量输出。",
+        "whyItMatters": "对自动摘要、简报和本项目后续交互设计都有直接参考价值。",
+        "action": "把“多轮澄清优于一次性生成”作为 agent 工作流设计原则。",
+        "risk": "这是产品经验总结，不是量化实验数据。",
+        "investmentSignal": null,
+        "tags": [
+          "Agent",
+          "产品设计",
+          "多轮交互",
+          "项目更新"
+        ],
+        "textPreview": "It took us a lot of iterations to find the right pattern for this. Early on we were very naive and we thought that the agent could one shot project updates without much input from..."
+      },
+      {
+        "id": "2067830061009633294",
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "createdAt": "2026-06-19T04:41:19.000Z",
+        "url": "https://x.com/nikunj/status/2067830061009633294",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "title": "Nikunj 用 Claude Code/Codex 对一个未公开推广的 side project 做 SEO/GEO 优化，28 天拿到约 1.6 万展示和 94 次点击。",
+        "whyItMatters": "对小项目冷启动和自动化增长有可复用启发。",
+        "action": "可记录为 SEO/GEO 自动化实验案例，后续看正式发布和方法细节。",
+        "risk": "只有结果数字，没有展示具体操作流程和转化质量。",
+        "investmentSignal": null,
+        "tags": [
+          "Claude Code",
+          "Codex",
+          "SEO",
+          "GEO",
+          "增长实验"
+        ],
+        "textPreview": "Launched a side project quietly a few weeks ago.. Wanted to test how many impressions/clicks I could get by simply having Claude Code / Codex optimize the hell out of the website...."
+      },
+      {
+        "id": "2067700226669060207",
+        "handle": "bcherny",
+        "name": "Boris Cherny",
+        "createdAt": "2026-06-18T20:05:24.000Z",
+        "url": "https://x.com/bcherny/status/2067700226669060207",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "title": "Boris Cherny 说自己已用 Claude Code Artifacts 做代码解释、系统图、动画预览、数据分析和团队 dashboard。",
+        "whyItMatters": "对本地简报/分析页面的交互形态很有参考价值。",
+        "action": "可把 Artifacts 视为“agent 输出界面化”的案例继续观察。",
+        "risk": "没有展示具体 artifact 样例。",
+        "investmentSignal": null,
+        "tags": [
+          "Claude Code",
+          "Artifacts",
+          "Dashboard",
+          "团队协作"
+        ],
+        "textPreview": "I've been using Artifacts in Claude Code for everything: visual explanations of tricky code, system diagrams, quick previews of a few animation options, data analyses and dashboar..."
+      },
+      {
+        "id": "2067671912038240487",
+        "handle": "claudeai",
+        "name": "Claude",
+        "createdAt": "2026-06-18T18:12:53.000Z",
+        "url": "https://x.com/claudeai/status/2067671912038240487",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "title": "Claude 官方发布 Claude Code Artifacts beta：可从 session 生成交互页面，如 PR walkthrough 或项目 dashboard，并通过私有链接分享给团队。",
+        "whyItMatters": "它可能改变代码审查、项目汇报、内部 dashboard 和原型分享方式。",
+        "action": "重点关注 Team/Enterprise beta 的能力边界和是否下放到个人计划。",
+        "risk": "当前只明确 Team/Enterprise beta，个人可用性有限。",
+        "investmentSignal": null,
+        "tags": [
+          "Claude Code",
+          "Artifacts",
+          "Beta",
+          "交互页面",
+          "团队协作"
+        ],
+        "textPreview": "New in Claude Code: Artifacts. Interactive pages built from your session, like a PR walkthrough or a living project dashboard, shared with your team at a private link. Available i..."
+      },
+      {
+        "id": "2067630124795662471",
+        "handle": "danshipper",
+        "name": "Dan Shipper",
+        "createdAt": "2026-06-18T15:26:51.000Z",
+        "url": "https://x.com/danshipper/status/2067630124795662471",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": 3
+        },
+        "title": "Dan Shipper 说 Fable 解锁后会带来生产力跃迁，并称现在正在发生极端时间通缩。",
+        "whyItMatters": "可作为 Fable 主题的补充情绪信号。",
+        "action": "与 Aaron Levie 的 Fable/监管帖合并看，不单独提升优先级。",
+        "risk": "引用上下文不可见，缺少具体产品能力说明。",
+        "investmentSignal": null,
+        "tags": [
+          "Fable",
+          "生产力",
+          "时间通缩"
+        ],
+        "textPreview": "Extreme time deflation happening right now We expect a step change in productivity whenever Fable is unlocked, might as well go on vacation until then"
+      }
+    ],
+    "risk": [],
+    "reading": [],
+    "other": [
+      {
+        "id": "2067682475611242546",
+        "handle": "trq212",
+        "name": "Thariq",
+        "createdAt": "2026-06-18T18:54:52.000Z",
+        "url": "https://x.com/trq212/status/2067682475611242546",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "title": "Thariq 说 Claude Code 现在可以上传和编辑 HTML artifacts，并可在团队内分享，Pro 和 Max 后续开放。",
+        "whyItMatters": "会影响团队使用 Claude Code 做内部页面、文档和原型的方式。",
+        "action": "关注 Pro/Max 开放时间和 artifact 编辑能力边界。",
+        "risk": "帖子没有说明具体限制、权限和可运行环境。",
+        "investmentSignal": null,
+        "tags": [
+          "Claude Code",
+          "Artifacts",
+          "HTML",
+          "团队分享"
+        ],
+        "textPreview": "Claude Code can now upload and edit HTML artifacts that you can share with your team or other Claudes! Starting with teams so you can share internally with your team, coming to Pr..."
+      },
+      {
+        "id": "2067674836726694200",
+        "handle": "_catwu",
+        "name": "Cat Wu",
+        "createdAt": "2026-06-18T18:24:31.000Z",
+        "url": "https://x.com/_catwu/status/2067674836726694200",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "title": "Cat Wu 说 Claude Team/Enterprise 可用 Claude Code 部署 HTML sites 并分享给队友，适合沟通架构变化、数据分析和原型。",
+        "whyItMatters": "对企业协作、内部工具和可视化沟通有具体启发。",
+        "action": "关注 Team/Enterprise 下 artifact 分享、权限和部署体验。",
+        "risk": "只描述用途，没有技术实现细节。",
+        "investmentSignal": null,
+        "tags": [
+          "Claude Team",
+          "Claude Enterprise",
+          "Artifacts",
+          "内部工具"
+        ],
+        "textPreview": "On Claude Team and Claude Enterprise, you can now use Claude Code to deploy HTML sites and share these with your teammates! This has changed how we work internally. Artifacts is g..."
+      },
+      {
+        "id": "2067850383758901669",
+        "handle": "zarazhangrui",
+        "name": "Zara Zhang",
+        "createdAt": "2026-06-19T06:02:04.000Z",
+        "url": "https://x.com/zarazhangrui/status/2067850383758901669",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": 3
+        },
+        "title": "Zara Zhang 展示用 Frontend Slides skill 做出的 HTML 演示文稿，包含图片放大、嵌套内容、超链接和交互元素。",
+        "whyItMatters": "对本地工具和简报页面的呈现方式有参考价值。",
+        "action": "可在需要改进 dashboard/briefing 交互表达时回看原例。",
+        "risk": "离线数据无法看到实际 deck 效果。",
+        "investmentSignal": null,
+        "tags": [
+          "Frontend Slides",
+          "HTML",
+          "交互内容",
+          "技能"
+        ],
+        "textPreview": "Made a beautiful HTML deck using my Frontend Slides skill; very happy with how it turned out! Lots of easter eggs (e.g. you can click any image to enlarge them, lots of nested con..."
+      },
+      {
+        "id": "2067671914533863585",
+        "handle": "claudeai",
+        "name": "Claude",
+        "createdAt": "2026-06-18T18:12:54.000Z",
+        "url": "https://x.com/claudeai/status/2067671914533863585",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": 3
+        },
+        "title": "Claude 官方说 Artifacts 会利用 session 的完整上下文，包括代码库、插件、skills 和连接工具；默认私有，分享限制在组织内。",
+        "whyItMatters": "对企业是否敢用 artifact 分享项目上下文很关键。",
+        "action": "关注组织内分享权限和上下文隔离。",
+        "risk": "没有细化数据边界和管理员控制。",
+        "investmentSignal": null,
+        "tags": [
+          "Claude",
+          "Artifacts",
+          "上下文",
+          "隐私"
+        ],
+        "textPreview": "Artifacts draw on the full context of your session: codebase, plugins, skills, connected tools. They're private until you share them, and sharing stays inside your organization. R..."
+      },
+      {
+        "id": "2067671913418063892",
+        "handle": "claudeai",
+        "name": "Claude",
+        "createdAt": "2026-06-18T18:12:54.000Z",
+        "url": "https://x.com/claudeai/status/2067671913418063892",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": 3
+        },
+        "title": "Claude 官方说 session 持续工作时 artifact 会刷新，已分享的人看到的是最新版本。",
+        "whyItMatters": "对协作工作流有用，但这是同一发布线程的补充细节。",
+        "action": "作为 Artifacts 主题的补充记录即可。",
+        "risk": "没有说明版本历史和变更控制。",
+        "investmentSignal": null,
+        "tags": [
+          "Claude",
+          "Artifacts",
+          "实时刷新",
+          "协作"
+        ],
+        "textPreview": "As your session keeps working, the artifact refreshes, so everyone you've shared it with is always looking at the latest version."
+      }
+    ],
+    "lowSignal": [
+      {
+        "id": "2067851144664342725",
+        "handle": "zarazhangrui",
+        "name": "Zara Zhang",
+        "createdAt": "2026-06-19T06:05:06.000Z",
+        "url": "https://x.com/zarazhangrui/status/2067851144664342725",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 2
+        },
+        "title": "Zara Zhang 分享 Frontend Slides skill 和演讲录像链接，但离线正文没有更多内容。",
+        "whyItMatters": "可能与技能化生成前端幻灯片有关，但当前离线信息不足。",
+        "action": "如后续要研究 slide skill，再打开原帖链接。",
+        "risk": "只有链接和标题，不能判断演讲内容。",
+        "investmentSignal": null,
+        "tags": [
+          "Frontend Slides",
+          "技能",
+          "资源"
+        ],
+        "textPreview": "Frontend Slides skill: Recording of my talk:"
+      },
+      {
+        "id": "2067821739556413651",
+        "handle": "steipete",
+        "name": "Peter Steinberger",
+        "createdAt": "2026-06-19T04:08:15.000Z",
+        "url": "https://x.com/steipete/status/2067821739556413651",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 2
+        },
+        "title": "Peter Steinberger 说现在一切 API 都可被分成快 API 或慢 API。",
+        "whyItMatters": "可作为产品体验观察，但没有具体技术细节。",
+        "action": "低优先级保留。",
+        "risk": "引用上下文不可见，含义不完整。",
+        "investmentSignal": null,
+        "tags": [
+          "API",
+          "开发体验"
+        ],
+        "textPreview": "Everything’s either a fast or slow API now."
+      },
+      {
+        "id": "2067764968808915392",
+        "handle": "swyx",
+        "name": "Swyx",
+        "createdAt": "2026-06-19T00:22:40.000Z",
+        "url": "https://x.com/swyx/status/2067764968808915392",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 2
+        },
+        "title": "Swyx 提到某个对象单日上涨 55%，并半开玩笑说应该开基金，但离线数据看不到具体标的。",
+        "whyItMatters": "如果原图或链接里有标的，可能值得补看；当前不能直接用于判断。",
+        "action": "只有在追踪 Swyx 投资/产品线索时再打开原帖。",
+        "risk": "具体上涨对象不可见，不能提取投资结论。",
+        "investmentSignal": null,
+        "tags": [
+          "市场线索",
+          "标的不明",
+          "低上下文"
+        ],
+        "textPreview": "+55% in one day. i should start a fund (dm if you would actually help me run one, i have no idea how to run one)"
+      },
+      {
+        "id": "2067760098265706566",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "createdAt": "2026-06-19T00:03:19.000Z",
+        "url": "https://x.com/petergyang/status/2067760098265706566",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 2
+        },
+        "title": "Peter Yang 询问 Claude Code 在 desktop app 工作时如何用新 prompt steer 它。",
+        "whyItMatters": "对设计本地自动化/agent 工作流有参考，但帖子本身没有答案。",
+        "action": "可作为后续产品体验问题记录。",
+        "risk": "没有解决方案或具体做法。",
+        "investmentSignal": null,
+        "tags": [
+          "Claude Code",
+          "Agent工作流",
+          "交互问题"
+        ],
+        "textPreview": "How do you steer Claude Code with new prompts in the desktop app while it's working?"
+      },
+      {
+        "id": "2067737883545596368",
+        "handle": "trq212",
+        "name": "Thariq",
+        "createdAt": "2026-06-18T22:35:02.000Z",
+        "url": "https://x.com/trq212/status/2067737883545596368",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 2
+        },
+        "title": "Thariq 将在 AI Engineer World's Fair 第二天做开场 keynote，并附一个预热视频。",
+        "whyItMatters": "如果关注 AI Engineer 活动，可留意 keynote 内容发布。",
+        "action": "低优先级关注活动后续材料。",
+        "risk": "当前离线正文只有预告，没有 keynote 内容。",
+        "investmentSignal": null,
+        "tags": [
+          "AI Engineer",
+          "Keynote",
+          "活动预告"
+        ],
+        "textPreview": "I'll be giving the the Day 2 opening keynote at AI Engineer World's Fair on July 1st at 9am. Hope to see you there, here's a quick preview"
+      },
+      {
+        "id": "2067701849491206399",
+        "handle": "thenanyu",
+        "name": "Nan Yu",
+        "createdAt": "2026-06-18T20:11:51.000Z",
+        "url": "https://x.com/thenanyu/status/2067701849491206399",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 2
+        },
+        "title": "Nan Yu 将 taste 描述为在信息有限时从多个合理选项中做出正确选择的能力。",
+        "whyItMatters": "有启发但不直接形成技术或投资行动。",
+        "action": "低优先级阅读。",
+        "risk": "引用上下文不可见。",
+        "investmentSignal": null,
+        "tags": [
+          "Taste",
+          "判断力",
+          "个人思考"
+        ],
+        "textPreview": "it is making the right choice from a range of plausible options along many dimensions with limited information... when a chess or go player intuits a move without calculating, the..."
+      },
+      {
+        "id": "2067637324763316499",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "createdAt": "2026-06-18T15:55:27.000Z",
+        "url": "https://x.com/garrytan/status/2067637324763316499",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 2
+        },
+        "title": "Garry Tan 借 AP 对 2 亿美元销售额资产征收提案的报道，表达对资产征收和反建设政策的反对。",
+        "whyItMatters": "可作为监管情绪背景，但不如具体法案信息重要。",
+        "action": "和下一条具体法案帖合并阅读即可。",
+        "risk": "帖子带有强烈立场，缺少法案细节。",
+        "investmentSignal": null,
+        "tags": [
+          "AI监管",
+          "创业政策",
+          "政治风险"
+        ],
+        "textPreview": "AP reports on the $200M sales level Asset seizure is evil. My grandparents and parents generations came to America to flee asset seizure and this ideology. We came here to build p..."
+      },
+      {
+        "id": "2067606805459714229",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "createdAt": "2026-06-18T13:54:11.000Z",
+        "url": "https://x.com/garrytan/status/2067606805459714229",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 2
+        },
+        "title": "Garry Tan 认为 AI 对没有明确未来感的人可能是控制机制，但对有 agency 的人是释放能力的工具。",
+        "whyItMatters": "有思考价值，但不提供具体产品、技术或投资线索。",
+        "action": "低优先级阅读。",
+        "risk": "偏哲学表达，缺少实证内容。",
+        "investmentSignal": null,
+        "tags": [
+          "AI",
+          "Agency",
+          "个人思考"
+        ],
+        "textPreview": "For people who don’t have a clear sense of the future they want, AI is just another mechanism of control But in the hands of someone with agency, AI is the breaker of chains, some..."
+      },
+      {
+        "id": "2067832394913104309",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "createdAt": "2026-06-19T04:50:36.000Z",
+        "url": "https://x.com/amasad/status/2067832394913104309",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 1
+        },
+        "title": "低信号：只有表情和链接，离线状态下无法判断具体内容。",
+        "whyItMatters": "不值得占用主阅读路径。",
+        "action": "跳过，除非后续需要追 Amjad 的引用上下文。",
+        "risk": "引用内容不可见。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "引用缺上下文"
+        ],
+        "textPreview": "✨"
+      },
+      {
+        "id": "2067831841357193237",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "createdAt": "2026-06-19T04:48:24.000Z",
+        "url": "https://x.com/amasad/status/2067831841357193237",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 1
+        },
+        "title": "低信号：只有表情和链接，离线状态下无法判断具体内容。",
+        "whyItMatters": "不值得占用主阅读路径。",
+        "action": "跳过。",
+        "risk": "引用内容不可见。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "引用缺上下文"
+        ],
+        "textPreview": "😎"
+      },
+      {
+        "id": "2067831496388358176",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "createdAt": "2026-06-19T04:47:01.000Z",
+        "url": "https://x.com/amasad/status/2067831496388358176",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 1
+        },
+        "title": "低信号：Amjad 只写了 Awesome 并附链接，离线状态下看不到他认可的具体内容。",
+        "whyItMatters": "缺少可学习或可跟进线索。",
+        "action": "跳过。",
+        "risk": "引用内容不可见。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "泛泛反应"
+        ],
+        "textPreview": "Awesome!"
+      },
+      {
+        "id": "2067830990089884022",
+        "handle": "amandaaskell",
+        "name": "Amanda Askell",
+        "createdAt": "2026-06-19T04:45:01.000Z",
+        "url": "https://x.com/AmandaAskell/status/2067830990089884022",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 1
+        },
+        "title": "低信号：Amanda Askell 表达对 Iris van Herpen 服装艺术的欣赏。",
+        "whyItMatters": "与当前技术和投资雷达关系弱。",
+        "action": "跳过。",
+        "risk": "无业务或技术线索。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "个人兴趣"
+        ],
+        "textPreview": "I'm going to add \"wear an Iris van Herpen dress\" to my retirement wishlist. What good art."
+      },
+      {
+        "id": "2067783964077547520",
+        "handle": "thsottiaux",
+        "name": "Thibault Sottiaux",
+        "createdAt": "2026-06-19T01:38:09.000Z",
+        "url": "https://x.com/thsottiaux/status/2067783964077547520",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 1
+        },
+        "title": "低信号：Thibault 只问 What do you use，缺少具体对象和上下文。",
+        "whyItMatters": "无法提取明确学习或行动线索。",
+        "action": "跳过。",
+        "risk": "上下文缺失。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "泛问题"
+        ],
+        "textPreview": "What do you use"
+      },
+      {
+        "id": "2067749268928995737",
+        "handle": "danshipper",
+        "name": "Dan Shipper",
+        "createdAt": "2026-06-18T23:20:17.000Z",
+        "url": "https://x.com/danshipper/status/2067749268928995737",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 1
+        },
+        "title": "低信号：Dan Shipper 只写 Extremely sick 并附链接，离线状态下看不到具体内容。",
+        "whyItMatters": "缺少可学习或可跟进线索。",
+        "action": "跳过。",
+        "risk": "引用内容不可见。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "引用缺上下文"
+        ],
+        "textPreview": "Extremely sick"
+      },
+      {
+        "id": "2067737885378568653",
+        "handle": "trq212",
+        "name": "Thariq",
+        "createdAt": "2026-06-18T22:35:03.000Z",
+        "url": "https://x.com/trq212/status/2067737885378568653",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 1
+        },
+        "title": "低信号：只有一个链接，离线状态下无法判断内容。",
+        "whyItMatters": "不应进入主简报。",
+        "action": "跳过。",
+        "risk": "链接内容未知。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "纯链接"
+        ],
+        "textPreview": "https://t.co/Sl36HC0Cli"
+      },
+      {
+        "id": "2067729596343259319",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "createdAt": "2026-06-18T22:02:06.000Z",
+        "url": "https://x.com/petergyang/status/2067729596343259319",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 1
+        },
+        "title": "低信号：Peter Yang 主要是在推广自己的 AI/product newsletter。",
+        "whyItMatters": "不适合放入主阅读路径。",
+        "action": "跳过。",
+        "risk": "无具体新信息。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "Newsletter",
+          "推广"
+        ],
+        "textPreview": "If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides. Join 110,000+ subscribers here:"
+      },
+      {
+        "id": "2067724821283438980",
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "createdAt": "2026-06-18T21:43:08.000Z",
+        "url": "https://x.com/nikunj/status/2067724821283438980",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 1
+        },
+        "title": "低信号：Nikunj 只写 Mind fudging blown 并附链接，离线状态下看不到让他惊讶的内容。",
+        "whyItMatters": "缺少可判断信息。",
+        "action": "跳过。",
+        "risk": "引用内容不可见。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "引用缺上下文"
+        ],
+        "textPreview": "Mind fudging blown"
+      },
+      {
+        "id": "2067661289367998602",
+        "handle": "zarazhangrui",
+        "name": "Zara Zhang",
+        "createdAt": "2026-06-18T17:30:41.000Z",
+        "url": "https://x.com/zarazhangrui/status/2067661289367998602",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 1
+        },
+        "title": "低信号：Zara 只写 Even more true today 并附链接，离线状态下无法知道她认同的具体观点。",
+        "whyItMatters": "无法独立判断价值。",
+        "action": "跳过。",
+        "risk": "引用内容不可见。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "引用缺上下文"
+        ],
+        "textPreview": "Even more true today"
+      },
+      {
+        "id": "2067646203517448255",
+        "handle": "mattturck",
+        "name": "Matt Turck",
+        "createdAt": "2026-06-18T16:30:44.000Z",
+        "url": "https://x.com/mattturck/status/2067646203517448255",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 1
+        },
+        "title": "低信号：Matt Turck 只是补充 AI compute 访谈也可在 Spotify、Apple Podcasts 和 YouTube 收听。",
+        "whyItMatters": "不包含新的内容要点。",
+        "action": "跳过，重点看同账号的完整访谈目录帖。",
+        "risk": "无新增观点。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "播客分发"
+        ],
+        "textPreview": "This awesome conversation with @stephenbalaban of @LambdaAPI is also available on Spotify, Apple Podcasts and here on YouTube:"
+      },
+      {
+        "id": "2067644951874404650",
+        "handle": "realmadhuguru",
+        "name": "Madhu Guru",
+        "createdAt": "2026-06-18T16:25:46.000Z",
+        "url": "https://x.com/realmadhuguru/status/2067644951874404650",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 1
+        },
+        "title": "低信号：Madhu Guru 开玩笑说 LLM 会把人类 prompt 称为 human slop。",
+        "whyItMatters": "没有实质技术或产品信息。",
+        "action": "跳过。",
+        "risk": "无可操作内容。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "AI玩笑"
+        ],
+        "textPreview": "did you know LLMs secretly refer to our prompts as human slop?"
+      },
+      {
+        "id": "2067614889141469570",
+        "handle": "danshipper",
+        "name": "Dan Shipper",
+        "createdAt": "2026-06-18T14:26:18.000Z",
+        "url": "https://x.com/danshipper/status/2067614889141469570",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 1
+        },
+        "title": "低信号：Dan Shipper 发布 Every 招聘 managing editor 的信息。",
+        "whyItMatters": "除非关注 Every 招聘，否则与当前雷达目标关系弱。",
+        "action": "跳过。",
+        "risk": "无技术或投资线索。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "招聘"
+        ],
+        "textPreview": "we are hiring a managing editor @every! if you are extremely meticulous, can keep the trains running on time, hate split infinitives, love oxford commas, want to take back the em ..."
+      },
+      {
+        "id": "2067586339021734029",
+        "handle": "rauchg",
+        "name": "Guillermo Rauch",
+        "createdAt": "2026-06-18T12:32:51.000Z",
+        "url": "https://x.com/rauchg/status/2067586339021734029",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 1
+        },
+        "title": "低信号：只有一个链接，离线状态下无法判断内容。",
+        "whyItMatters": "不应进入主简报。",
+        "action": "跳过。",
+        "risk": "链接内容未知。",
+        "investmentSignal": null,
+        "tags": [
+          "低信号",
+          "纯链接"
+        ],
+        "textPreview": "https://t.co/XdZBViUJdA"
+      }
+    ]
+  }
+}

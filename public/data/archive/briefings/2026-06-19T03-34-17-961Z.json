@@ -1,0 +1,579 @@
+{
+  "generatedAt": "2026-06-19T03:34:17.961Z",
+  "source": {
+    "latestGeneratedAt": "2026-06-19T03:34:17.961Z",
+    "postCount": 9,
+    "accounts": [
+      {
+        "handle": "jukan05",
+        "name": "Jukan",
+        "bio": "Tech otakus save the world | Not Investment Advice | DYODD",
+        "postCount": 3
+      },
+      {
+        "handle": "aleabitoreddit",
+        "name": "Serenity",
+        "bio": "I only use X, beware of imposters. \n\nAI/Semi Supply Chain Analyst\n\nNot investment advice, DYODD. Now publishing free research on AI chokepoints.",
+        "postCount": 3
+      },
+      {
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "bio": "Retired. 只活一次等于没活。",
+        "postCount": 3
+      }
+    ],
+    "errors": []
+  },
+  "summary": "本次有 5 条高信号内容，聚合为 4 个主题，重点关注：ASML / EUV / 出口管制；NAV 折价 + AI 增长敞口；AI 模型成本 / 产品机会",
+  "counts": {
+    "high": 5,
+    "mid": 0,
+    "low": 4,
+    "total": 9,
+    "topics": 4
+  },
+  "topics": [
+    {
+      "id": "tech-asml-euv-export",
+      "title": "ASML / EUV / 出口管制",
+      "category": "technology",
+      "signal": {
+        "level": "high",
+        "label": "高信号",
+        "importance": 5
+      },
+      "sourceCount": 2,
+      "handles": [
+        "aleabitoreddit",
+        "jukan05"
+      ],
+      "tags": [
+        "半导体",
+        "ASML",
+        "出口管制",
+        "EUV",
+        "政策"
+      ],
+      "updatedAt": "2026-06-19T02:22:27.000Z",
+      "whyItMatters": "如果后续被可靠来源确认，会影响 ASML、出口管制、中国先进制程能力和半导体设备链判断。；若属实，会影响 ASML、半导体设备监管、国产替代叙事和相关投资判断。",
+      "action": "跟进原始报道或监管文件，确认涉及整机、部件还是间接供应链。",
+      "risk": "原帖是疑问式表达且依赖外链，不能当成事实结论。",
+      "posts": [
+        {
+          "id": "2067795114211340290",
+          "handle": "aleabitoreddit",
+          "name": "Serenity",
+          "createdAt": "2026-06-19T02:22:27.000Z",
+          "url": "https://x.com/aleabitoreddit/status/2067795114211340290",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": 4
+          },
+          "title": "ASML/中国半导体线索：Serenity 质疑如果中国获得大型先进光刻设备或部件，真正要追的是供应链和出口管制漏洞。",
+          "whyItMatters": "如果后续被可靠来源确认，会影响 ASML、出口管制、中国先进制程能力和半导体设备链判断。",
+          "action": "跟进原始报道或监管文件，确认涉及整机、部件还是间接供应链。",
+          "risk": "原帖是疑问式表达且依赖外链，不能当成事实结论。",
+          "tags": [
+            "半导体",
+            "ASML",
+            "出口管制"
+          ],
+          "textPreview": "How does China manage to smuggle in something the size of a school bus from $ASML? Is the real question."
+        },
+        {
+          "id": "2067777637192434052",
+          "handle": "jukan05",
+          "name": "Jukan",
+          "createdAt": "2026-06-19T01:13:00.000Z",
+          "url": "https://x.com/jukan05/status/2067777637192434052",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": 5
+          },
+          "title": "ASML/EUV 线索：Jukan 转述美国政府怀疑 ASML 向中国出口 EUV 工具或部件，值得优先核验来源。",
+          "whyItMatters": "若属实，会影响 ASML、半导体设备监管、国产替代叙事和相关投资判断。",
+          "action": "优先打开原文，核对消息来源、涉及对象、时间线，以及是整机还是零部件。",
+          "risk": "原帖措辞强烈且依赖外链，应把它视为研究线索而非事实。",
+          "tags": [
+            "半导体",
+            "ASML",
+            "EUV",
+            "政策"
+          ],
+          "textPreview": "Holy shit, the U.S. government suspects that ASML exported EUV tools to China, or exported EUV components to China."
+        }
+      ]
+    },
+    {
+      "id": "investment-nav-ai-discount",
+      "title": "NAV 折价 + AI 增长敞口",
+      "category": "investment",
+      "signal": {
+        "level": "high",
+        "label": "高信号",
+        "importance": 5
+      },
+      "sourceCount": 1,
+      "handles": [
+        "aleabitoreddit"
+      ],
+      "tags": [
+        "投资线索",
+        "AI",
+        "NAV折价",
+        "ACMR"
+      ],
+      "updatedAt": "2026-06-18T17:18:34.000Z",
+      "whyItMatters": "它提供了可执行的后续研究方向，而不是泛泛市场评论。",
+      "action": "建立候选清单，核对 NAV 折价、AI 业务敞口、治理/流动性、催化剂和估值风险。",
+      "risk": "折价可能长期存在，也可能反映基本面或治理问题；不构成投资建议。",
+      "posts": [
+        {
+          "id": "2067658240612262198",
+          "handle": "aleabitoreddit",
+          "name": "Serenity",
+          "createdAt": "2026-06-18T17:18:34.000Z",
+          "url": "https://x.com/aleabitoreddit/status/2067658240612262198",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": 5
+          },
+          "title": "投资研究线索：Serenity 在找“较大 NAV 折价 + AI 增长敞口”的标的，并点名 ACMR、WUS、SK Square。",
+          "whyItMatters": "它提供了可执行的后续研究方向，而不是泛泛市场评论。",
+          "action": "建立候选清单，核对 NAV 折价、AI 业务敞口、治理/流动性、催化剂和估值风险。",
+          "risk": "折价可能长期存在，也可能反映基本面或治理问题；不构成投资建议。",
+          "tags": [
+            "投资线索",
+            "AI",
+            "NAV折价",
+            "ACMR"
+          ],
+          "textPreview": "Anyone got a list or ideas of the biggest NAV discounts. But independently has AI growth? Stuff more extreme end like $ACMR and WUS (2316) compared to SK Square. Have exposure to ..."
+        }
+      ]
+    },
+    {
+      "id": "tech-ai-model-cost",
+      "title": "AI 模型成本 / 产品机会",
+      "category": "technology",
+      "signal": {
+        "level": "high",
+        "label": "高信号",
+        "importance": 4
+      },
+      "sourceCount": 1,
+      "handles": [
+        "turingou"
+      ],
+      "tags": [
+        "AI",
+        "模型成本",
+        "产品机会"
+      ],
+      "updatedAt": "2026-06-18T22:31:36.000Z",
+      "whyItMatters": "它可能影响你判断 AI 产品机会、企业采购、模型选择和创业方向。",
+      "action": "跟踪模型价格、推理成本、开源模型能力和真实替代案例。",
+      "risk": "这是趋势判断，需要用价格数据和落地案例验证。",
+      "posts": [
+        {
+          "id": "2067737016897302581",
+          "handle": "turingou",
+          "name": "郭宇 guoyu.eth",
+          "createdAt": "2026-06-18T22:31:36.000Z",
+          "url": "https://x.com/turingou/status/2067737016897302581",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": 4
+          },
+          "title": "AI 成本线索：郭宇判断非顶级模型成本可能快速下降，应用竞争会从模型细微能力差异转向“足够好且便宜”。",
+          "whyItMatters": "它可能影响你判断 AI 产品机会、企业采购、模型选择和创业方向。",
+          "action": "跟踪模型价格、推理成本、开源模型能力和真实替代案例。",
+          "risk": "这是趋势判断，需要用价格数据和落地案例验证。",
+          "tags": [
+            "AI",
+            "模型成本",
+            "产品机会"
+          ],
+          "textPreview": "我觉得我们正在接近足够好的智能 / 智能成本的观察临界点，在这个模糊的阶段里，大部分人类与人类组织已经很难以明显区分可用的智能之间的细微差别。我相信非顶级模型的成本会在未来较短一段时间内极速下降。"
+        }
+      ]
+    },
+    {
+      "id": "investment-intc-policy",
+      "title": "INTC / Apple / 政策催化",
+      "category": "investment",
+      "signal": {
+        "level": "high",
+        "label": "高信号",
+        "importance": 4
+      },
+      "sourceCount": 1,
+      "handles": [
+        "aleabitoreddit"
+      ],
+      "tags": [
+        "投资线索",
+        "INTC",
+        "Apple",
+        "政策催化"
+      ],
+      "updatedAt": "2026-06-18T15:06:08.000Z",
+      "whyItMatters": "如果你关注半导体/美股，它提示要区分政策催化、市场情绪和公司基本面改善。",
+      "action": "核实合作细节、公告来源、实际商业影响，以及 INTC 上涨是否只是事件驱动。",
+      "risk": "事件催化不等于长期基本面改善；总统表态可能带来噪音。",
+      "posts": [
+        {
+          "id": "2067624913834549685",
+          "handle": "aleabitoreddit",
+          "name": "Serenity",
+          "createdAt": "2026-06-18T15:06:08.000Z",
+          "url": "https://x.com/aleabitoreddit/status/2067624913834549685",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": 4
+          },
+          "title": "投资事件线索：Serenity 提到 Trump 宣布 Intel + Apple 合作带动 INTC 上涨，核心是政策叙事对股价的短期催化。",
+          "whyItMatters": "如果你关注半导体/美股，它提示要区分政策催化、市场情绪和公司基本面改善。",
+          "action": "核实合作细节、公告来源、实际商业影响，以及 INTC 上涨是否只是事件驱动。",
+          "risk": "事件催化不等于长期基本面改善；总统表态可能带来噪音。",
+          "tags": [
+            "投资线索",
+            "INTC",
+            "Apple",
+            "政策催化"
+          ],
+          "textPreview": "Trump announced Intel + Apple partnership, sending $INTC up 8% today. Intel execs were reportedly surprised by the $AAPL announcement by Donald Trump. TBH, the President should le..."
+        }
+      ]
+    }
+  ],
+  "sections": {
+    "top": [
+      {
+        "id": "2067777637192434052",
+        "handle": "jukan05",
+        "name": "Jukan",
+        "createdAt": "2026-06-19T01:13:00.000Z",
+        "url": "https://x.com/jukan05/status/2067777637192434052",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "title": "ASML/EUV 线索：Jukan 转述美国政府怀疑 ASML 向中国出口 EUV 工具或部件，值得优先核验来源。",
+        "whyItMatters": "若属实，会影响 ASML、半导体设备监管、国产替代叙事和相关投资判断。",
+        "action": "优先打开原文，核对消息来源、涉及对象、时间线，以及是整机还是零部件。",
+        "risk": "原帖措辞强烈且依赖外链，应把它视为研究线索而非事实。",
+        "tags": [
+          "半导体",
+          "ASML",
+          "EUV",
+          "政策"
+        ],
+        "textPreview": "Holy shit, the U.S. government suspects that ASML exported EUV tools to China, or exported EUV components to China."
+      },
+      {
+        "id": "2067658240612262198",
+        "handle": "aleabitoreddit",
+        "name": "Serenity",
+        "createdAt": "2026-06-18T17:18:34.000Z",
+        "url": "https://x.com/aleabitoreddit/status/2067658240612262198",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "title": "投资研究线索：Serenity 在找“较大 NAV 折价 + AI 增长敞口”的标的，并点名 ACMR、WUS、SK Square。",
+        "whyItMatters": "它提供了可执行的后续研究方向，而不是泛泛市场评论。",
+        "action": "建立候选清单，核对 NAV 折价、AI 业务敞口、治理/流动性、催化剂和估值风险。",
+        "risk": "折价可能长期存在，也可能反映基本面或治理问题；不构成投资建议。",
+        "tags": [
+          "投资线索",
+          "AI",
+          "NAV折价",
+          "ACMR"
+        ],
+        "textPreview": "Anyone got a list or ideas of the biggest NAV discounts. But independently has AI growth? Stuff more extreme end like $ACMR and WUS (2316) compared to SK Square. Have exposure to ..."
+      },
+      {
+        "id": "2067795114211340290",
+        "handle": "aleabitoreddit",
+        "name": "Serenity",
+        "createdAt": "2026-06-19T02:22:27.000Z",
+        "url": "https://x.com/aleabitoreddit/status/2067795114211340290",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "title": "ASML/中国半导体线索：Serenity 质疑如果中国获得大型先进光刻设备或部件，真正要追的是供应链和出口管制漏洞。",
+        "whyItMatters": "如果后续被可靠来源确认，会影响 ASML、出口管制、中国先进制程能力和半导体设备链判断。",
+        "action": "跟进原始报道或监管文件，确认涉及整机、部件还是间接供应链。",
+        "risk": "原帖是疑问式表达且依赖外链，不能当成事实结论。",
+        "tags": [
+          "半导体",
+          "ASML",
+          "出口管制"
+        ],
+        "textPreview": "How does China manage to smuggle in something the size of a school bus from $ASML? Is the real question."
+      },
+      {
+        "id": "2067737016897302581",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "createdAt": "2026-06-18T22:31:36.000Z",
+        "url": "https://x.com/turingou/status/2067737016897302581",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "title": "AI 成本线索：郭宇判断非顶级模型成本可能快速下降，应用竞争会从模型细微能力差异转向“足够好且便宜”。",
+        "whyItMatters": "它可能影响你判断 AI 产品机会、企业采购、模型选择和创业方向。",
+        "action": "跟踪模型价格、推理成本、开源模型能力和真实替代案例。",
+        "risk": "这是趋势判断，需要用价格数据和落地案例验证。",
+        "tags": [
+          "AI",
+          "模型成本",
+          "产品机会"
+        ],
+        "textPreview": "我觉得我们正在接近足够好的智能 / 智能成本的观察临界点，在这个模糊的阶段里，大部分人类与人类组织已经很难以明显区分可用的智能之间的细微差别。我相信非顶级模型的成本会在未来较短一段时间内极速下降。"
+      },
+      {
+        "id": "2067624913834549685",
+        "handle": "aleabitoreddit",
+        "name": "Serenity",
+        "createdAt": "2026-06-18T15:06:08.000Z",
+        "url": "https://x.com/aleabitoreddit/status/2067624913834549685",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "title": "投资事件线索：Serenity 提到 Trump 宣布 Intel + Apple 合作带动 INTC 上涨，核心是政策叙事对股价的短期催化。",
+        "whyItMatters": "如果你关注半导体/美股，它提示要区分政策催化、市场情绪和公司基本面改善。",
+        "action": "核实合作细节、公告来源、实际商业影响，以及 INTC 上涨是否只是事件驱动。",
+        "risk": "事件催化不等于长期基本面改善；总统表态可能带来噪音。",
+        "tags": [
+          "投资线索",
+          "INTC",
+          "Apple",
+          "政策催化"
+        ],
+        "textPreview": "Trump announced Intel + Apple partnership, sending $INTC up 8% today. Intel execs were reportedly surprised by the $AAPL announcement by Donald Trump. TBH, the President should le..."
+      }
+    ],
+    "investment": [
+      {
+        "id": "2067658240612262198",
+        "handle": "aleabitoreddit",
+        "name": "Serenity",
+        "createdAt": "2026-06-18T17:18:34.000Z",
+        "url": "https://x.com/aleabitoreddit/status/2067658240612262198",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "title": "投资研究线索：Serenity 在找“较大 NAV 折价 + AI 增长敞口”的标的，并点名 ACMR、WUS、SK Square。",
+        "whyItMatters": "它提供了可执行的后续研究方向，而不是泛泛市场评论。",
+        "action": "建立候选清单，核对 NAV 折价、AI 业务敞口、治理/流动性、催化剂和估值风险。",
+        "risk": "折价可能长期存在，也可能反映基本面或治理问题；不构成投资建议。",
+        "tags": [
+          "投资线索",
+          "AI",
+          "NAV折价",
+          "ACMR"
+        ],
+        "textPreview": "Anyone got a list or ideas of the biggest NAV discounts. But independently has AI growth? Stuff more extreme end like $ACMR and WUS (2316) compared to SK Square. Have exposure to ..."
+      },
+      {
+        "id": "2067795114211340290",
+        "handle": "aleabitoreddit",
+        "name": "Serenity",
+        "createdAt": "2026-06-19T02:22:27.000Z",
+        "url": "https://x.com/aleabitoreddit/status/2067795114211340290",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "title": "ASML/中国半导体线索：Serenity 质疑如果中国获得大型先进光刻设备或部件，真正要追的是供应链和出口管制漏洞。",
+        "whyItMatters": "如果后续被可靠来源确认，会影响 ASML、出口管制、中国先进制程能力和半导体设备链判断。",
+        "action": "跟进原始报道或监管文件，确认涉及整机、部件还是间接供应链。",
+        "risk": "原帖是疑问式表达且依赖外链，不能当成事实结论。",
+        "tags": [
+          "半导体",
+          "ASML",
+          "出口管制"
+        ],
+        "textPreview": "How does China manage to smuggle in something the size of a school bus from $ASML? Is the real question."
+      },
+      {
+        "id": "2067624913834549685",
+        "handle": "aleabitoreddit",
+        "name": "Serenity",
+        "createdAt": "2026-06-18T15:06:08.000Z",
+        "url": "https://x.com/aleabitoreddit/status/2067624913834549685",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "title": "投资事件线索：Serenity 提到 Trump 宣布 Intel + Apple 合作带动 INTC 上涨，核心是政策叙事对股价的短期催化。",
+        "whyItMatters": "如果你关注半导体/美股，它提示要区分政策催化、市场情绪和公司基本面改善。",
+        "action": "核实合作细节、公告来源、实际商业影响，以及 INTC 上涨是否只是事件驱动。",
+        "risk": "事件催化不等于长期基本面改善；总统表态可能带来噪音。",
+        "tags": [
+          "投资线索",
+          "INTC",
+          "Apple",
+          "政策催化"
+        ],
+        "textPreview": "Trump announced Intel + Apple partnership, sending $INTC up 8% today. Intel execs were reportedly surprised by the $AAPL announcement by Donald Trump. TBH, the President should le..."
+      }
+    ],
+    "technology": [
+      {
+        "id": "2067777637192434052",
+        "handle": "jukan05",
+        "name": "Jukan",
+        "createdAt": "2026-06-19T01:13:00.000Z",
+        "url": "https://x.com/jukan05/status/2067777637192434052",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 5
+        },
+        "title": "ASML/EUV 线索：Jukan 转述美国政府怀疑 ASML 向中国出口 EUV 工具或部件，值得优先核验来源。",
+        "whyItMatters": "若属实，会影响 ASML、半导体设备监管、国产替代叙事和相关投资判断。",
+        "action": "优先打开原文，核对消息来源、涉及对象、时间线，以及是整机还是零部件。",
+        "risk": "原帖措辞强烈且依赖外链，应把它视为研究线索而非事实。",
+        "tags": [
+          "半导体",
+          "ASML",
+          "EUV",
+          "政策"
+        ],
+        "textPreview": "Holy shit, the U.S. government suspects that ASML exported EUV tools to China, or exported EUV components to China."
+      },
+      {
+        "id": "2067737016897302581",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "createdAt": "2026-06-18T22:31:36.000Z",
+        "url": "https://x.com/turingou/status/2067737016897302581",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "title": "AI 成本线索：郭宇判断非顶级模型成本可能快速下降，应用竞争会从模型细微能力差异转向“足够好且便宜”。",
+        "whyItMatters": "它可能影响你判断 AI 产品机会、企业采购、模型选择和创业方向。",
+        "action": "跟踪模型价格、推理成本、开源模型能力和真实替代案例。",
+        "risk": "这是趋势判断，需要用价格数据和落地案例验证。",
+        "tags": [
+          "AI",
+          "模型成本",
+          "产品机会"
+        ],
+        "textPreview": "我觉得我们正在接近足够好的智能 / 智能成本的观察临界点，在这个模糊的阶段里，大部分人类与人类组织已经很难以明显区分可用的智能之间的细微差别。我相信非顶级模型的成本会在未来较短一段时间内极速下降。"
+      }
+    ],
+    "risk": [],
+    "reading": [],
+    "other": [],
+    "lowSignal": [
+      {
+        "id": "2067753272836768022",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "createdAt": "2026-06-18T23:36:11.000Z",
+        "url": "https://x.com/turingou/status/2067753272836768022",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 2
+        },
+        "title": "低优先级：个人创造力/心态思考，不影响当前投资或技术雷达目标。",
+        "whyItMatters": "可以作为普通阅读内容，但不应占用雷达摘要区。",
+        "action": "默认浏览原帖即可，不做专项跟进。",
+        "risk": "这是个人观察，不适合作为决策依据。",
+        "tags": [
+          "个人思考",
+          "低优先级"
+        ],
+        "textPreview": "我花了很多时间意识到享受创造对许多人来说是一件挺难的事儿，很多人享受的是创造带来的后果（通常是好的后果）也就是成就感，一旦创造无法带来好的后果，这种反馈很快会变为负面的，从而愈发让他们无法产生看起来像「坚韧」的表现，这样来说，与我们的直觉相反，上瘾本身是一种值得重视的品质。"
+      },
+      {
+        "id": "2067740175875121658",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "createdAt": "2026-06-18T22:44:09.000Z",
+        "url": "https://x.com/turingou/status/2067740175875121658",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 2
+        },
+        "title": "低优先级：人生选择框架，偏个人思考，不是当前雷达需要提炼的投资/技术信号。",
+        "whyItMatters": "适合普通阅读，不适合作为每日雷达重点。",
+        "action": "默认浏览原帖即可。",
+        "risk": "表述抽象，落地价值取决于个人语境。",
+        "tags": [
+          "个人思考",
+          "低优先级"
+        ],
+        "textPreview": "在人生众多选择背后的逻辑中，我认为归根结底只有两种，是在不确定性中寻求确定性机会，还是在确定性中享受不确定的挑战？"
+      },
+      {
+        "id": "2067778221236727809",
+        "handle": "jukan05",
+        "name": "Jukan",
+        "createdAt": "2026-06-19T01:15:20.000Z",
+        "url": "https://x.com/jukan05/status/2067778221236727809",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 1
+        },
+        "title": "低信息量：只有链接，离线状态下无法判断价值。",
+        "whyItMatters": "除非链接本身来自强信源，否则不值得占用摘要区。",
+        "action": "默认跳过；必要时只打开原帖看链接内容。",
+        "risk": "链接内容可能重要，但当前离线文本不足。",
+        "tags": [
+          "低信息量",
+          "链接"
+        ],
+        "textPreview": "https://t.co/m6nVj1jrZn"
+      },
+      {
+        "id": "2067765436289327207",
+        "handle": "jukan05",
+        "name": "Jukan",
+        "createdAt": "2026-06-19T00:24:31.000Z",
+        "url": "https://x.com/jukan05/status/2067765436289327207",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": 1
+        },
+        "title": "低信息量：只有表情和链接，离线状态下无法判断价值。",
+        "whyItMatters": "这类内容容易被互动数误判为高信号，需要压低优先级。",
+        "action": "默认跳过，除非后续同主题内容反复出现。",
+        "risk": "链接内容可能重要，但当前离线文本不足。",
+        "tags": [
+          "低信息量",
+          "链接"
+        ],
+        "textPreview": "👀"
+      }
+    ]
+  }
+}

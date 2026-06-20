@@ -1,0 +1,183 @@
+{
+  "timezone": "Asia/Shanghai",
+  "lookbackHours": 24,
+  "maxPostsPerAccount": 3,
+  "includeReplies": false,
+  "includeReposts": false,
+  "language": "zh-CN",
+  "feedSources": [
+    {
+      "id": "follow-builders",
+      "name": "Follow Builders",
+      "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
+      "maxAgeHours": 36,
+      "handles": [
+        "swyx",
+        "bcherny",
+        "thsottiaux",
+        "petergyang",
+        "thenanyu",
+        "realmadhuguru",
+        "amandaaskell",
+        "_catwu",
+        "trq212",
+        "amasad",
+        "rauchg",
+        "levie",
+        "garrytan",
+        "mattturck",
+        "zarazhangrui",
+        "nikunj",
+        "steipete",
+        "danshipper",
+        "claudeai"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "handle": "butaidongjiaoyi",
+      "name": "如果我不懂"
+    },
+    {
+      "handle": "JamesAI",
+      "name": "在悉尼和稀泥"
+    },
+    {
+      "handle": "0xcherry",
+      "name": "车厘子"
+    },
+    {
+      "handle": "hexiecs",
+      "name": "冷静冷静再冷静"
+    },
+    {
+      "handle": "0xSunNFT",
+      "name": "OxSun"
+    },
+    {
+      "handle": "Philo2022",
+      "name": "Philo"
+    },
+    {
+      "handle": "cishanjia",
+      "name": "慈善家"
+    },
+    {
+      "handle": "OdysseysEth",
+      "name": "Odyssey"
+    },
+    {
+      "handle": "turingou",
+      "name": "郭宇 guoyu.eth"
+    },
+    {
+      "handle": "dotey",
+      "name": "宝玉"
+    },
+    {
+      "handle": "zephyr_z9",
+      "name": "Zephyr"
+    },
+    {
+      "handle": "jukan05",
+      "name": "Jukan"
+    },
+    {
+      "handle": "MMMusol",
+      "name": "Musolsol"
+    },
+    {
+      "handle": "aleabitoreddit",
+      "name": "Serenity"
+    },
+    {
+      "handle": "trq212",
+      "name": "Thariq"
+    },
+    {
+      "handle": "lanaaielsa",
+      "name": "lana"
+    },
+    {
+      "handle": "0xPickleCati",
+      "name": "Pickle Cat"
+    },
+    {
+      "handle": "wolfyxbt",
+      "name": "杀破狼 WolfyXBT"
+    },
+    {
+      "handle": "swyx",
+      "name": "Swyx"
+    },
+    {
+      "handle": "bcherny",
+      "name": "Boris Cherny"
+    },
+    {
+      "handle": "thsottiaux",
+      "name": "Thibault Sottiaux"
+    },
+    {
+      "handle": "petergyang",
+      "name": "Peter Yang"
+    },
+    {
+      "handle": "thenanyu",
+      "name": "Nan Yu"
+    },
+    {
+      "handle": "realmadhuguru",
+      "name": "Madhu Guru"
+    },
+    {
+      "handle": "AmandaAskell",
+      "name": "Amanda Askell"
+    },
+    {
+      "handle": "_catwu",
+      "name": "Cat Wu"
+    },
+    {
+      "handle": "amasad",
+      "name": "Amjad Masad"
+    },
+    {
+      "handle": "rauchg",
+      "name": "Guillermo Rauch"
+    },
+    {
+      "handle": "levie",
+      "name": "Aaron Levie"
+    },
+    {
+      "handle": "garrytan",
+      "name": "Garry Tan"
+    },
+    {
+      "handle": "mattturck",
+      "name": "Matt Turck"
+    },
+    {
+      "handle": "zarazhangrui",
+      "name": "Zara Zhang"
+    },
+    {
+      "handle": "nikunj",
+      "name": "Nikunj Kothari"
+    },
+    {
+      "handle": "steipete",
+      "name": "Peter Steinberger"
+    },
+    {
+      "handle": "danshipper",
+      "name": "Dan Shipper"
+    },
+    {
+      "handle": "claudeai",
+      "name": "Claude"
+    }
+  ]
+}

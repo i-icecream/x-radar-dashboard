@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>X 关注雷达</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="timeline-header">
+        <div>
+          <div class="title-line">
+            <h1>最新时间线</h1>
+            <span class="view-badge live">最新</span>
+          </div>
+          <p>
+            <span id="generatedAt">-</span>
+            <span>·</span>
+            <span id="lookback">-</span>
+            <span>·</span>
+            <span id="accountCount">0</span> 个账号
+            <span>·</span>
+            <span id="errorCount">0</span> 个提示
+            <span id="sourceSummary"></span>
+          </p>
+        </div>
+        <div class="header-actions">
+          <a class="nav-link" href="/briefing.html">简报</a>
+          <a class="nav-link active" href="/">时间线</a>
+          <a class="nav-link" href="/history.html">历史</a>
+        </div>
+      </header>
+
+      <section class="toolbar" aria-label="筛选帖子">
+        <label class="field">
+          <span>账号</span>
+          <select id="accountFilter">
+            <option value="all">全部账号</option>
+          </select>
+        </label>
+        <label class="field search-field">
+          <span>搜索</span>
+          <input id="searchInput" type="search" placeholder="关键词、作者、handle">
+        </label>
+      </section>
+
+      <section class="signal-strip" aria-label="信号筛选">
+        <button class="signal-filter" type="button" data-signal-filter="high" aria-pressed="false">
+          <strong id="highCount">0</strong><span>高信号</span>
+        </button>
+        <button class="signal-filter" type="button" data-signal-filter="mid" aria-pressed="false">
+          <strong id="midCount">0</strong><span>中信号</span>
+        </button>
+        <button class="signal-filter" type="button" data-signal-filter="low" aria-pressed="false">
+          <strong id="lowCount">0</strong><span>低信号</span>
+        </button>
+      </section>
+
+      <section id="alerts" class="alerts" hidden></section>
+      <section id="digest" class="digest" aria-live="polite"></section>
+      <section id="feed" class="feed" aria-live="polite"></section>
+      <section id="emptyState" class="empty" hidden>
+        <h2>本次没有新帖子</h2>
+        <p>下一次扫描发现未汇报的新内容后，会自动显示在这里。</p>
+      </section>
+    </main>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
