@@ -3,68 +3,138 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>X 关注雷达</title>
+    <title>Follow-up Builders</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
-    <main class="shell">
-      <header class="timeline-header">
-        <div>
-          <div class="title-line">
-            <h1>最新时间线</h1>
-            <span class="view-badge live">最新</span>
+  <body class="x-shell-page">
+    <div class="app-frame">
+      <aside class="left-rail" aria-label="Primary">
+        <a class="brand-lockup" href="./" aria-label="Follow-up Builders">
+          <span class="brand-mark">F</span>
+          <span>
+            <strong>Follow-up Builders</strong>
+            <small>Personal Radar</small>
+          </span>
+        </a>
+        <nav class="side-nav" aria-label="Views">
+          <a class="side-nav-item" href="briefing.html"><span aria-hidden="true">B</span><strong>Briefing</strong></a>
+          <a class="side-nav-item active" href="./"><span aria-hidden="true">T</span><strong>Timeline</strong></a>
+          <a class="side-nav-item" href="history.html"><span aria-hidden="true">H</span><strong>History</strong></a>
+        </nav>
+        <a class="compose-button" href="briefing.html">Read Briefing</a>
+        <div class="rail-profile">
+          <span class="profile-avatar">FB</span>
+          <span>
+            <strong>Radar</strong>
+            <small>@followup_builders</small>
+          </span>
+        </div>
+      </aside>
+
+      <main class="timeline-column">
+        <header class="timeline-header x-header">
+          <div>
+            <div class="title-line">
+              <h1>Timeline</h1>
+              <span class="view-badge live">Live</span>
+            </div>
+            <p>
+              <span id="generatedAt">-</span>
+              <span>·</span>
+              <span id="lookback">-</span>
+              <span>·</span>
+              <span id="accountCount">0</span> accounts
+              <span>·</span>
+              <span id="errorCount">0</span> alerts
+              <span id="sourceSummary"></span>
+            </p>
           </div>
-          <p>
-            <span id="generatedAt">-</span>
-            <span>·</span>
-            <span id="lookback">-</span>
-            <span>·</span>
-            <span id="accountCount">0</span> 个账号
-            <span>·</span>
-            <span id="errorCount">0</span> 个提示
-            <span id="sourceSummary"></span>
-          </p>
-        </div>
-        <div class="header-actions">
-          <a class="nav-link" href="briefing.html">简报</a>
-          <a class="nav-link active" href="./">时间线</a>
-          <a class="nav-link" href="history.html">历史</a>
-        </div>
-      </header>
+        </header>
 
-      <section class="toolbar" aria-label="筛选帖子">
-        <label class="field">
-          <span>账号</span>
-          <select id="accountFilter">
-            <option value="all">全部账号</option>
-          </select>
+        <section class="profile-hero" aria-label="Follow-up Builders profile">
+          <div class="profile-banner"></div>
+          <div class="profile-body">
+            <div class="profile-row">
+              <span class="profile-big-avatar">FB</span>
+              <a class="profile-action" href="briefing.html">Briefing</a>
+            </div>
+            <h2>Follow-up Builders</h2>
+            <p class="profile-handle">@followup_builders</p>
+            <p class="profile-bio">A personal builder and market signal radar, refreshed from followed accounts and offline analysis.</p>
+            <div class="profile-meta">
+              <span><strong id="profilePostCount">0</strong> posts</span>
+              <span><strong id="profileHighCount">0</strong> high signal</span>
+              <span><strong id="profileAccountCount">0</strong> active accounts</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="toolbar x-toolbar" aria-label="Filter posts">
+          <label class="field compact-field">
+            <span>Account</span>
+            <select id="accountFilter">
+              <option value="all">All accounts</option>
+            </select>
+          </label>
+          <label class="field search-field">
+            <span>Search</span>
+            <input id="searchInput" type="search" placeholder="Keyword, author, handle">
+          </label>
+        </section>
+
+        <section class="signal-strip x-tabs" aria-label="Signal filters">
+          <button class="signal-filter" type="button" data-signal-filter="high" aria-pressed="false">
+            <strong id="highCount">0</strong><span>High</span>
+          </button>
+          <button class="signal-filter" type="button" data-signal-filter="mid" aria-pressed="false">
+            <strong id="midCount">0</strong><span>Mid</span>
+          </button>
+          <button class="signal-filter" type="button" data-signal-filter="low" aria-pressed="false">
+            <strong id="lowCount">0</strong><span>Low</span>
+          </button>
+        </section>
+
+        <section id="alerts" class="alerts" hidden></section>
+        <section id="digest" class="digest" aria-live="polite"></section>
+        <section id="feed" class="feed" aria-live="polite"></section>
+        <section id="emptyState" class="empty" hidden>
+          <h2>No new posts</h2>
+          <p>New unseen posts will appear here after the next scan.</p>
+        </section>
+      </main>
+
+      <aside class="right-rail" aria-label="Radar summary">
+        <label class="right-search">
+          <span aria-hidden="true">/</span>
+          <input id="sideSearchInput" type="search" placeholder="Search radar">
         </label>
-        <label class="field search-field">
-          <span>搜索</span>
-          <input id="searchInput" type="search" placeholder="关键词、作者、handle">
-        </label>
-      </section>
 
-      <section class="signal-strip" aria-label="信号筛选">
-        <button class="signal-filter" type="button" data-signal-filter="high" aria-pressed="false">
-          <strong id="highCount">0</strong><span>高信号</span>
-        </button>
-        <button class="signal-filter" type="button" data-signal-filter="mid" aria-pressed="false">
-          <strong id="midCount">0</strong><span>中信号</span>
-        </button>
-        <button class="signal-filter" type="button" data-signal-filter="low" aria-pressed="false">
-          <strong id="lowCount">0</strong><span>低信号</span>
-        </button>
-      </section>
+        <section class="side-card" aria-label="Today summary">
+          <h2>Today</h2>
+          <p id="sideLead">Loading radar data...</p>
+          <div class="side-stats">
+            <span><strong id="sideTotalPosts">0</strong><small>posts</small></span>
+            <span><strong id="sideHighSignals">0</strong><small>high</small></span>
+            <span><strong id="sideMidSignals">0</strong><small>mid</small></span>
+          </div>
+        </section>
 
-      <section id="alerts" class="alerts" hidden></section>
-      <section id="digest" class="digest" aria-live="polite"></section>
-      <section id="feed" class="feed" aria-live="polite"></section>
-      <section id="emptyState" class="empty" hidden>
-        <h2>本次没有新帖子</h2>
-        <p>下一次扫描发现未汇报的新内容后，会自动显示在这里。</p>
-      </section>
-    </main>
+        <section class="side-card" aria-label="Sources">
+          <h2>Sources</h2>
+          <div class="source-list">
+            <div><strong id="sideFeedAccounts">0</strong><span>Feed accounts</span></div>
+            <div><strong id="sideApiAccounts">0</strong><span>X API accounts</span></div>
+            <div><strong id="sideFeedPosts">0</strong><span>Feed posts</span></div>
+            <div><strong id="sideApiPosts">0</strong><span>X API posts</span></div>
+          </div>
+        </section>
+
+        <section class="side-card" aria-label="Active accounts">
+          <h2>Active accounts</h2>
+          <div id="sideAccounts" class="account-list"></div>
+        </section>
+      </aside>
+    </div>
 
     <script src="app.js" type="module"></script>
   </body>
