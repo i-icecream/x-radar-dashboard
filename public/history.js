@@ -25,6 +25,11 @@ function formatDate(value) {
   }).format(new Date(value));
 }
 
+function toRelativeDataUrl(value = '') {
+  const url = String(value || '');
+  return url.startsWith('/data/') ? url.slice(1) : url;
+}
+
 function sourceMeta(data) {
   const stats = data.source?.stats || {};
   const skipped = Number(stats.skippedXApiAccounts || 0);
@@ -214,7 +219,7 @@ function renderRuns() {
 async function selectRun(run) {
   selectedRun = run;
   renderRuns();
-  const url = run.briefingArchiveUrl || run.briefingArchivePath;
+  const url = toRelativeDataUrl(run.briefingArchiveUrl || run.briefingArchivePath);
   if (!url || /^[A-Z]:\\/i.test(url)) throw new Error('这条历史缺少可访问的 briefingArchiveUrl。');
   const response = await fetch(url, { cache: 'no-store' });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -225,7 +230,7 @@ async function selectRun(run) {
 
 async function loadHistory() {
   try {
-    const response = await fetch('/data/archive/index.json', { cache: 'no-store' });
+    const response = await fetch('data/archive/index.json', { cache: 'no-store' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const index = await response.json();
     runs = index.runs || [];
