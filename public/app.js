@@ -14,9 +14,22 @@ const elements = {
   sourceSummary: document.querySelector('#sourceSummary'),
   accountFilter: document.querySelector('#accountFilter'),
   searchInput: document.querySelector('#searchInput'),
+  sideSearchInput: document.querySelector('#sideSearchInput'),
   highCount: document.querySelector('#highCount'),
   midCount: document.querySelector('#midCount'),
   lowCount: document.querySelector('#lowCount'),
+  profilePostCount: document.querySelector('#profilePostCount'),
+  profileHighCount: document.querySelector('#profileHighCount'),
+  profileAccountCount: document.querySelector('#profileAccountCount'),
+  sideLead: document.querySelector('#sideLead'),
+  sideTotalPosts: document.querySelector('#sideTotalPosts'),
+  sideHighSignals: document.querySelector('#sideHighSignals'),
+  sideMidSignals: document.querySelector('#sideMidSignals'),
+  sideFeedAccounts: document.querySelector('#sideFeedAccounts'),
+  sideApiAccounts: document.querySelector('#sideApiAccounts'),
+  sideFeedPosts: document.querySelector('#sideFeedPosts'),
+  sideApiPosts: document.querySelector('#sideApiPosts'),
+  sideAccounts: document.querySelector('#sideAccounts'),
   signalFilters: document.querySelectorAll('[data-signal-filter]'),
   alerts: document.querySelector('#alerts'),
   digest: document.querySelector('#digest'),
@@ -40,11 +53,11 @@ function formatRelativeTime(value) {
   if (!value) return '';
   const diffMs = Date.now() - new Date(value).getTime();
   const minutes = Math.max(1, Math.floor(diffMs / 60000));
-  if (minutes < 60) return `${minutes}分钟`;
+  if (minutes < 60) return `${minutes}m`;
   const hours = Math.floor(minutes / 60);
-  if (hours < 24) return `${hours}小时`;
+  if (hours < 24) return `${hours}h`;
   const days = Math.floor(hours / 24);
-  if (days < 7) return `${days}天`;
+  if (days < 7) return `${days}d`;
   return new Intl.DateTimeFormat('zh-CN', { month: 'numeric', day: 'numeric' }).format(new Date(value));
 }
 
@@ -57,84 +70,88 @@ function escapeHtml(value = '') {
     .replaceAll("'", '&#39;');
 }
 
-function includesAny(text, words) {
-  return words.some(word => text.includes(word.toLowerCase()));
+function avatarText(name = '', handle = '') {
+  const source = String(name || handle || 'FB').trim();
+  const ascii = source.match(/[A-Za-z0-9]/g);
+  if (ascii?.length) return ascii.slice(0, 2).join('').toUpperCase();
+  return source.slice(0, 1) || 'F';
 }
 
-function fallbackTopics(text = '') {
-  const lower = text.toLowerCase();
-  const rules = [
-    ['AI / 模型', ['ai', 'agent', 'llm', 'openai', 'anthropic', 'model', '智能体', '模型']],
-    ['Crypto / Web3', ['crypto', 'bitcoin', 'ethereum', 'web3', 'defi', 'binance', 'okx', '加密', '币安']],
-    ['市场 / 投资', ['stock', 'market', 'gpu', 'cpu', 'revenue', '美股', '股价', '投资']],
-    ['安全 / 风险', ['hack', 'attack', 'breach', 'risk', 'stolen', '被盗', '攻击', '风险']],
-    ['监管 / 合规', ['regulation', 'compliance', 'license', '监管', '合规', '牌照']],
-    ['创作者 / 内容', ['youtube', 'substack', 'creator', 'newsletter', '内容', '油管']]
-  ];
-  const matched = rules.filter(([, words]) => includesAny(lower, words)).map(([label]) => label);
-  return matched.length ? matched.slice(0, 3) : ['综合'];
+function signalLevel(post) {
+  const importance = Number(post.codexAnalysis?.importance || 0);
+  if (importance >= 4) return 'high';
+  if (importance === 3) return 'mid';
+  if (importance >= 1) return 'low';
+  if ((post.score || 0) >= 75) return 'high';
+  if ((post.score || 0) >= 55) return 'mid';
+  return 'low';
 }
 
-function fallbackAnalysis(post) {
-  const text = String(post.text || '').trim();
-  const topics = fallbackTopics(text);
-  const linkOnly = /^(https?:\/\/\S+\s*)+$/.test(text);
-  const lowSocial = /^(gm|good morning|thanks|thank you|congrats)[\s!！。,.，🫶]*$/i.test(text.toLowerCase()) || /(恭喜|节日快乐|假期快乐|端午安康|家人们)/.test(text);
-  const type = linkOnly ? '链接' : text.length > 800 ? '长文' : post.quotedPostId ? '引用评论' : '动态';
-  const signal = linkOnly || lowSocial ? '低信号' : (post.score || 0) >= 75 ? '高信号' : (post.score || 0) >= 55 ? '中信号' : '低信号';
-  return {
-    method: 'local-rules-v1',
-    topics,
-    type,
-    signal,
-    whyItMatters: linkOnly ? '只有链接，需要打开原文才能判断价值。' : lowSocial ? '偏社交互动，信息密度较低。' : '这条内容有一定参考价值，但需要结合原文上下文判断。',
-    action: linkOnly || lowSocial ? '建议低优先级处理，除非该账号本身很重要。' : '建议快速浏览，保留原文链接即可。',
-    caveat: '本分析由本地规则生成，不是 LLM 深度总结。'
-  };
-}
-
-function tiltLabel(value = '') {
-  return {
-    bullish: '??',
-    bearish: '??',
-    holding: '??',
-    neutral: '??',
-    watching: '??',
-    reducing: '??',
-    researching: '研究中',
-    unclear: '未明确'
-  }[String(value).toLowerCase()] || '未明确';
-}
-
-function investmentSignalLine(signal) {
-  if (!signal || (!signal.target && !signal.thesis && !signal.evidence)) return '';
-  const target = signal.target ? `<span>标的：${escapeHtml(signal.target)}</span>` : '';
-  const tilt = `<span>倾向：${escapeHtml(tiltLabel(signal.tilt))}</span>`;
-  const thesis = signal.thesis ? `<p>${escapeHtml(signal.thesis)}</p>` : signal.evidence ? `<p>${escapeHtml(signal.evidence)}</p>` : '';
-  return `<div class="investment-signal">${target}${tilt}${thesis}</div>`;
-}
-
-function renderTags(items = []) {
-  return items.map(item => `<span>${escapeHtml(item)}</span>`).join('');
-}
-
-function renderSignalBadge(level, post) {
-  const importance = post.codexAnalysis?.importance;
-  const value = importance ? `${importance}/5` : Number(post.score || 0);
-  return `<span class="signal-badge ${level}">${levelLabel(level)} · ${value}</span>`;
+function levelLabel(level) {
+  return { high: 'High signal', mid: 'Mid signal', low: 'Low signal' }[level] || 'Unrated';
 }
 
 function sourceLabel(post) {
   const source = post.source || {};
   if (source.type === 'feed') return source.label || 'Feed';
   if (source.type === 'x-api') return 'X API';
-  return '离线数据';
+  return 'Offline';
 }
 
 function sourceType(post) {
   if (post.source?.type === 'feed') return 'feed';
   if (post.source?.type === 'x-api') return 'x-api';
   return 'unknown';
+}
+
+function bestAnalysis(post) {
+  if (post.codexAnalysis) {
+    return {
+      summary: post.codexAnalysis.llmSummary || post.summary || '',
+      insight: post.codexAnalysis.insight || '',
+      tags: post.codexAnalysis.tags || [],
+      importance: Number(post.codexAnalysis.importance || 0),
+      investmentSignal: post.codexAnalysis.investmentSignal || null
+    };
+  }
+  return {
+    summary: post.summary || '',
+    insight: '',
+    tags: post.analysis?.topics || [],
+    importance: 0,
+    investmentSignal: null
+  };
+}
+
+function renderSignalBadge(level, post) {
+  const importance = Number(post.codexAnalysis?.importance || 0);
+  const value = importance ? `${importance}/5` : Number(post.score || 0);
+  return `<span class="signal-badge ${level}">${levelLabel(level)} · ${value}</span>`;
+}
+
+function renderTags(items = []) {
+  return items.slice(0, 6).map(item => `<span>${escapeHtml(item)}</span>`).join('');
+}
+
+function tiltLabel(value = '') {
+  return {
+    bullish: 'Bullish',
+    bearish: 'Bearish',
+    holding: 'Holding',
+    neutral: 'Neutral',
+    watching: 'Watching',
+    reducing: 'Reducing',
+    researching: 'Researching',
+    unclear: 'Unclear'
+  }[String(value).toLowerCase()] || 'Unclear';
+}
+
+function investmentSignalLine(signal) {
+  if (!signal || (!signal.target && !signal.thesis && !signal.evidence)) return '';
+  const target = signal.target ? `<span>Target: ${escapeHtml(signal.target)}</span>` : '';
+  const tilt = `<span>Tilt: ${escapeHtml(tiltLabel(signal.tilt))}</span>`;
+  const thesis = signal.thesis ? `<p>${escapeHtml(signal.thesis)}</p>` : signal.evidence ? `<p>${escapeHtml(signal.evidence)}</p>` : '';
+  return `<div class="investment-signal">${target}${tilt}${thesis}</div>`;
 }
 
 function loadXWidgets() {
@@ -166,7 +183,7 @@ function renderOriginalEmbed(post, titleTime) {
   return `
     <div class="tweet-embed" data-embed-url="${escapeHtml(post.url)}">
       <blockquote class="twitter-tweet" data-dnt="true" data-conversation="none" data-align="center">
-        <p lang="${escapeHtml(post.lang || '')}">${escapeHtml(post.text || '无可读取正文')}</p>
+        <p lang="${escapeHtml(post.lang || '')}">${escapeHtml(post.text || 'No readable text captured.')}</p>
         <a href="${escapeHtml(post.url)}">${escapeHtml(titleTime)}</a>
       </blockquote>
     </div>
@@ -186,111 +203,9 @@ function hydrateOriginalEmbeds() {
     .catch(() => {
       for (const embed of embeds) {
         embed.dataset.hydrated = 'failed';
-        embed.insertAdjacentHTML('beforeend', '<p class="embed-error">原帖嵌入加载失败，已显示离线正文。</p>');
+        embed.insertAdjacentHTML('beforeend', '<p class="embed-error">Original embed failed to load. Offline text is shown instead.</p>');
       }
     });
-}
-
-function bestAnalysis(post) {
-  if (post.codexAnalysis) {
-    return {
-      method: post.codexAnalysis.method || 'codex-analysis-v1',
-      topics: post.codexAnalysis.tags || [],
-      type: `重要度 ${post.codexAnalysis.importance || 3}/5`,
-      signal: 'Codex 分析',
-      summary: post.codexAnalysis.llmSummary || post.summary || '',
-      insight: post.codexAnalysis.insight || '',
-      whyItMatters: post.codexAnalysis.whyItMatters || post.codexAnalysis.insight || '',
-      action: post.codexAnalysis.action || '',
-      risk: post.codexAnalysis.risk || '',
-      investmentSignal: post.codexAnalysis.investmentSignal || null
-    };
-  }
-  const analysis = post.analysis || fallbackAnalysis(post);
-  return {
-    method: analysis.method || 'local-rules-v1',
-    topics: analysis.topics || [],
-    type: analysis.type || '动态',
-    signal: analysis.signal || '未评级',
-    summary: post.summary || '',
-    insight: '',
-    whyItMatters: analysis.whyItMatters || '',
-    action: analysis.action || '',
-    risk: '',
-    investmentSignal: null
-  };
-}
-
-function signalLevel(post) {
-  const importance = post.codexAnalysis?.importance;
-  if (importance >= 4) return 'high';
-  if (importance === 3) return 'mid';
-  if (importance >= 1) return 'low';
-
-  const analysis = post.analysis || fallbackAnalysis(post);
-  if (analysis.signal === '高信号' || (post.score || 0) >= 75) return 'high';
-  if (analysis.signal === '中信号' || (post.score || 0) >= 55) return 'mid';
-  return 'low';
-}
-
-function levelLabel(level) {
-  return { high: '高信号', mid: '中信号', low: '低信号' }[level] || '未评级';
-}
-
-function levelRank(level) {
-  return { high: 0, mid: 1, low: 2 }[level] ?? 3;
-}
-
-function postDigestLine(post) {
-  const analysis = bestAnalysis(post);
-  return analysis.summary || post.summary || String(post.text || '').replace(/\s+/g, ' ').slice(0, 120);
-}
-
-function groupByAccount(posts) {
-  const map = new Map();
-  for (const post of posts) {
-    const key = post.handle || 'unknown';
-    if (!map.has(key)) {
-      map.set(key, {
-        handle: key,
-        name: post.name || key,
-        posts: [],
-        high: 0,
-        mid: 0,
-        low: 0
-      });
-    }
-    const group = map.get(key);
-    const level = signalLevel(post);
-    group.posts.push({ ...post, level });
-    group[level] += 1;
-  }
-  return [...map.values()]
-    .map(group => ({
-      ...group,
-      posts: group.posts.sort((a, b) => levelRank(a.level) - levelRank(b.level) || (b.score || 0) - (a.score || 0))
-    }))
-    .sort((a, b) => b.high - a.high || b.mid - a.mid || b.posts.length - a.posts.length);
-}
-
-function renderSummary() {
-  const data = state.data;
-  const timezone = data.window?.timezone || 'Asia/Shanghai';
-  const stats = data.stats || {};
-  elements.generatedAt.textContent = formatDate(data.generatedAt, timezone);
-  elements.lookback.textContent = `${data.window?.lookbackHours || 24} 小时`;
-  if (elements.postCount) elements.postCount.textContent = stats.totalPosts ?? data.posts.length;
-  elements.accountCount.textContent = stats.accountsWithNewPosts ?? data.accounts.length;
-  elements.errorCount.textContent = stats.errors ?? data.errors.length;
-  if (elements.sourceSummary) {
-    const skipped = Number(stats.skippedXApiAccounts || 0);
-    const hasSources = Number(stats.feedAccounts || 0) || Number(stats.xApiAccounts || 0) || skipped;
-    const newBySource = `本次新帖：Feed ${Number(stats.feedPosts || 0)} / X API ${Number(stats.xApiPosts || 0)}`;
-    const coverage = `来源覆盖：Feed ${Number(stats.feedAccounts || 0)} 账号 / X API ${Number(stats.xApiAccounts || 0)} 账号${skipped ? ` / 跳过 ${skipped} API账号` : ''}`;
-    elements.sourceSummary.textContent = hasSources
-      ? `· ${newBySource} · ${coverage}`
-      : '';
-  }
 }
 
 function countLevels(posts) {
@@ -299,9 +214,50 @@ function countLevels(posts) {
   return counts;
 }
 
+function matchesReaderFilters(post) {
+  const query = state.query.trim().toLowerCase();
+  if (state.account !== 'all' && post.handle !== state.account) return false;
+  if (!query) return true;
+  const analysis = bestAnalysis(post);
+  const haystack = `${post.name || ''} ${post.handle || ''} ${post.text || ''} ${post.summary || ''} ${analysis.summary || ''} ${(analysis.tags || []).join(' ')}`.toLowerCase();
+  return haystack.includes(query);
+}
+
+function getFilterablePosts() {
+  return [...(state.data.posts || [])].filter(matchesReaderFilters);
+}
+
+function getVisiblePosts() {
+  return getFilterablePosts()
+    .filter(post => state.signal === 'all' || signalLevel(post) === state.signal)
+    .sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
+}
+
+function renderSummary() {
+  const data = state.data;
+  const timezone = data.window?.timezone || 'Asia/Shanghai';
+  const stats = data.stats || {};
+  const posts = data.posts || [];
+  const counts = countLevels(posts);
+
+  elements.generatedAt.textContent = formatDate(data.generatedAt, timezone);
+  elements.lookback.textContent = `${data.window?.lookbackHours || 24}h`;
+  elements.accountCount.textContent = stats.accountsWithNewPosts ?? data.accounts.length;
+  elements.errorCount.textContent = stats.errors ?? data.errors.length;
+  elements.profilePostCount.textContent = stats.totalPosts ?? posts.length;
+  elements.profileHighCount.textContent = counts.high;
+  elements.profileAccountCount.textContent = stats.accountsWithNewPosts ?? data.accounts.length;
+
+  const skipped = Number(stats.skippedXApiAccounts || 0);
+  const hasSources = Number(stats.feedAccounts || 0) || Number(stats.xApiAccounts || 0) || skipped;
+  elements.sourceSummary.textContent = hasSources
+    ? ` · New: Feed ${Number(stats.feedPosts || 0)} / X API ${Number(stats.xApiPosts || 0)} · Sources: Feed ${Number(stats.feedAccounts || 0)} / X API ${Number(stats.xApiAccounts || 0)}`
+    : '';
+}
+
 function renderAccountOptions() {
   const selected = state.account;
-  const options = ['<option value="all">全部账号</option>'];
+  const options = ['<option value="all">All accounts</option>'];
   for (const account of state.data.accounts || []) {
     const label = `${account.name || account.handle} (@${account.handle})`;
     options.push(`<option value="${escapeHtml(account.handle)}">${escapeHtml(label)}</option>`);
@@ -319,22 +275,9 @@ function renderAlerts() {
   }
   elements.alerts.hidden = false;
   elements.alerts.innerHTML = `
-    <strong>抓取提示</strong>
+    <strong>Scan alerts</strong>
     <ul>${errors.map(error => `<li>${escapeHtml(error)}</li>`).join('')}</ul>
   `;
-}
-
-function matchesReaderFilters(post) {
-  const query = state.query.trim().toLowerCase();
-  if (state.account !== 'all' && post.handle !== state.account) return false;
-  if (!query) return true;
-  const analysis = bestAnalysis(post);
-  const haystack = `${post.name || ''} ${post.handle || ''} ${post.text || ''} ${post.summary || ''} ${analysis.summary || ''} ${analysis.whyItMatters || ''} ${(analysis.topics || []).join(' ')} ${analysis.type || ''} ${analysis.signal || ''}`.toLowerCase();
-  return haystack.includes(query);
-}
-
-function getFilterablePosts() {
-  return [...(state.data.posts || [])].filter(matchesReaderFilters);
 }
 
 function updateSignalFilters(counts) {
@@ -348,10 +291,37 @@ function updateSignalFilters(counts) {
   }
 }
 
-function getVisiblePosts() {
-  return getFilterablePosts()
-    .filter(post => state.signal === 'all' || signalLevel(post) === state.signal)
-    .sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
+function renderSidePanel() {
+  const data = state.data;
+  const posts = data.posts || [];
+  const stats = data.stats || {};
+  const counts = countLevels(posts);
+  const highPosts = posts.filter(post => signalLevel(post) === 'high');
+  const leadTags = highPosts.flatMap(post => bestAnalysis(post).tags || []).slice(0, 3);
+
+  elements.sideLead.textContent = highPosts.length
+    ? `Latest scan found ${highPosts.length} high-signal posts${leadTags.length ? ` around ${leadTags.join(' / ')}` : ''}.`
+    : `Latest scan found ${posts.length} posts. Nothing is marked high-signal yet.`;
+  elements.sideTotalPosts.textContent = stats.totalPosts ?? posts.length;
+  elements.sideHighSignals.textContent = counts.high;
+  elements.sideMidSignals.textContent = counts.mid;
+  elements.sideFeedAccounts.textContent = Number(stats.feedAccounts || 0);
+  elements.sideApiAccounts.textContent = Number(stats.xApiAccounts || 0);
+  elements.sideFeedPosts.textContent = Number(stats.feedPosts || 0);
+  elements.sideApiPosts.textContent = Number(stats.xApiPosts || 0);
+
+  const active = [...(data.accounts || [])]
+    .sort((a, b) => Number(b.postCount || 0) - Number(a.postCount || 0))
+    .slice(0, 8);
+  elements.sideAccounts.innerHTML = active.map(account => `
+    <div class="account-row">
+      <span class="mini-avatar">${escapeHtml(avatarText(account.name, account.handle))}</span>
+      <span>
+        <strong>${escapeHtml(account.name || account.handle)}</strong>
+        <small>@${escapeHtml(account.handle)} · ${Number(account.postCount || 0)} posts</small>
+      </span>
+    </div>
+  `).join('');
 }
 
 function renderFeed() {
@@ -379,18 +349,16 @@ function renderFeed() {
           ${renderSignalBadge(level, post)}
         </header>
         ${summary && level !== 'low' ? `
-          <section class="tweet-summary ${level}" aria-label="帖子摘要">
-            <div>
-              <strong>Summary</strong>
-            </div>
+          <section class="tweet-summary ${level}" aria-label="Post summary">
+            <strong>Summary</strong>
             <p>${escapeHtml(summary)}</p>
             ${investmentSignalLine(analysis.investmentSignal)}
           </section>
         ` : ''}
         ${renderOriginalEmbed(post, titleTime)}
-        <div class="tweet-tags">${renderTags(analysis.topics || [])}</div>
+        <div class="tweet-tags">${renderTags(analysis.tags || [])}</div>
         <footer class="tweet-footer">
-          <a class="post-link" href="${escapeHtml(post.url)}" target="_blank" rel="noreferrer">打开原文</a>
+          <a class="post-link" href="${escapeHtml(post.url)}" target="_blank" rel="noreferrer">Open original</a>
         </footer>
       </div>
     </article>
@@ -399,78 +367,18 @@ function renderFeed() {
   hydrateOriginalEmbeds();
 }
 
-function renderDigest(posts, timezone) {
-  const groups = groupByAccount(posts);
-  elements.digest.innerHTML = groups.map(group => {
-    const worthwhile = group.posts.filter(post => post.level !== 'low');
-    const low = group.posts.filter(post => post.level === 'low');
-
-    return `
-      <article class="digest-card">
-        <header class="digest-head">
-          <div>
-            <strong>${escapeHtml(group.name)}</strong>
-            <span>@${escapeHtml(group.handle)}</span>
-          </div>
-          <div class="digest-counts">
-            <span class="pill high">${group.high} 高</span>
-            <span class="pill mid">${group.mid} 中</span>
-            <span class="pill low">${group.low} 低</span>
-          </div>
-        </header>
-        <div class="digest-list">
-          ${worthwhile.map(post => renderDigestItem(post, timezone)).join('')}
-        </div>
-        ${low.length ? `
-          <details class="low-detail">
-            <summary>${low.length} 条低信息量内容</summary>
-            <div class="digest-list muted-list">
-              ${low.map(post => renderDigestItem(post, timezone)).join('')}
-            </div>
-          </details>
-        ` : ''}
-      </article>
-    `;
-  }).join('');
-}
-
-function renderDigestItem(post, timezone) {
-  const analysis = bestAnalysis(post);
-  const level = signalLevel(post);
-  const summary = analysis.summary || post.summary || '';
-  const original = String(post.text || '').trim();
-  const originalText = escapeHtml(original || '无可读取正文');
-  const originalBlock = level === 'low'
-    ? `
-        <details class="original-detail">
-          <summary>原文内容</summary>
-          <p>${originalText}</p>
-        </details>
-      `
-    : `
-        <div class="original-detail original-detail-open">
-          <span class="original-label">原文内容</span>
-          <p>${originalText}</p>
-        </div>
-      `;
-  return `
-    <div class="digest-item">
-      <div class="digest-item-main">
-        <span class="pill ${level}">${levelLabel(level)}</span>
-        <span class="digest-time">${escapeHtml(formatDate(post.createdAt, timezone))}</span>
-        <p class="digest-summary">${escapeHtml(summary)}</p>
-        ${investmentSignalLine(analysis.investmentSignal)}
-        ${originalBlock}
-      </div>
-      <a class="post-link" href="${escapeHtml(post.url)}" target="_blank" rel="noreferrer">原文</a>
-    </div>
-  `;
-}
-
 function render() {
   renderSummary();
   renderAccountOptions();
   renderAlerts();
+  renderSidePanel();
+  renderFeed();
+}
+
+function setQuery(value) {
+  state.query = value;
+  if (elements.searchInput && elements.searchInput.value !== value) elements.searchInput.value = value;
+  if (elements.sideSearchInput && elements.sideSearchInput.value !== value) elements.sideSearchInput.value = value;
   renderFeed();
 }
 
@@ -483,7 +391,7 @@ async function loadData() {
   } catch (err) {
     elements.emptyState.hidden = false;
     elements.emptyState.innerHTML = `
-      <h2>无法加载离线数据</h2>
+      <h2>Unable to load radar data</h2>
       <p>${escapeHtml(err.message)}</p>
     `;
   }
@@ -494,10 +402,10 @@ elements.accountFilter.addEventListener('change', event => {
   renderFeed();
 });
 
-elements.searchInput.addEventListener('input', event => {
-  state.query = event.target.value;
-  renderFeed();
-});
+elements.searchInput.addEventListener('input', event => setQuery(event.target.value));
+if (elements.sideSearchInput) {
+  elements.sideSearchInput.addEventListener('input', event => setQuery(event.target.value));
+}
 
 for (const button of elements.signalFilters) {
   button.addEventListener('click', () => {
