@@ -476,7 +476,7 @@ function render() {
 
 async function loadData() {
   try {
-    const response = await fetch('/data/latest.json', { cache: 'no-store' });
+    const response = await fetch('data/latest.json', { cache: 'no-store' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.data = await response.json();
     render();
