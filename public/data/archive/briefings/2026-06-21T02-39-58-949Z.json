@@ -1,0 +1,2587 @@
+{
+  "generatedAt": "2026-06-21T02:39:58.949Z",
+  "source": {
+    "latestGeneratedAt": "2026-06-21T02:39:58.949Z",
+    "postCount": 39,
+    "accounts": [
+      {
+        "handle": "swyx",
+        "name": "Swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "postCount": 1,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "bio": "Practical AI tutorials and interviews for busy people | Join 150K+ readers at https://t.co/XYKTmGVH14",
+        "postCount": 2,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "amandaaskell",
+        "name": "Amanda Askell",
+        "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI.\nPersonal account. All opinions come from my training data.",
+        "postCount": 3,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "bio": "ceo @replit. civilizationist",
+        "postCount": 2,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "rauchg",
+        "name": "Guillermo Rauch",
+        "bio": "@vercel CEO",
+        "postCount": 1,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "postCount": 1,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "steipete",
+        "name": "Peter Steinberger",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "postCount": 1,
+        "sourceType": "feed",
+        "sourceLabel": "Follow Builders"
+      },
+      {
+        "handle": "jamesai",
+        "name": "在悉尼和稀泥",
+        "bio": "🚀 做过产品，踩过坑，亏过百万，也赚过\n📖 记录真实的赚钱过程，研究副业、出海方法，分享真实经历",
+        "postCount": 1,
+        "sourceType": "x-api",
+        "sourceLabel": "X API"
+      },
+      {
+        "handle": "0xsunnft",
+        "name": "OxSun",
+        "bio": "Talk is cheap, show me the wallet.",
+        "postCount": 1,
+        "sourceType": "x-api",
+        "sourceLabel": "X API"
+      },
+      {
+        "handle": "philo2022",
+        "name": "Philo",
+        "bio": "Creator, Artist, Creator of @dopamindai & https://t.co/CiW3w1GiB2 & Art Gallery https://t.co/FbODek76Fh | Blog: https://t.co/b6PsjnsGoA | My Artwork: @PhiloArt2020 | En: @Philo1024",
+        "postCount": 2,
+        "sourceType": "x-api",
+        "sourceLabel": "X API"
+      },
+      {
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "bio": "Retired. 只活一次等于没活。",
+        "postCount": 3,
+        "sourceType": "x-api",
+        "sourceLabel": "X API"
+      },
+      {
+        "handle": "zephyr_z9",
+        "name": "Zephyr",
+        "bio": "AI & Chips | Not Investment Advice | DYOD",
+        "postCount": 3,
+        "sourceType": "x-api",
+        "sourceLabel": "X API"
+      },
+      {
+        "handle": "jukan05",
+        "name": "Jukan",
+        "bio": "Tech otakus save the world | Not Investment Advice | DYODD",
+        "postCount": 3,
+        "sourceType": "x-api",
+        "sourceLabel": "X API"
+      },
+      {
+        "handle": "aleabitoreddit",
+        "name": "Serenity",
+        "bio": "I only use X, beware of imposters. \n\nAI/Semi Supply Chain Analyst\n\nNot investment advice, DYODD. Now publishing free research on AI chokepoints.",
+        "postCount": 3,
+        "sourceType": "x-api",
+        "sourceLabel": "X API"
+      },
+      {
+        "handle": "dotey",
+        "name": "宝玉",
+        "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+        "postCount": 3,
+        "sourceType": "x-api",
+        "sourceLabel": "X API"
+      },
+      {
+        "handle": "mmmusol",
+        "name": "Musolsol",
+        "bio": "06 |  21年入web3 |\n长期主义 | 不定时投机\n侠客交易员 | 宏观 | AI | 文学\nFounder of @SWUFEBA\n投名状于@0xUClub @bamboozcrypto 门下\nStart From the Bottom.",
+        "postCount": 3,
+        "sourceType": "x-api",
+        "sourceLabel": "X API"
+      },
+      {
+        "handle": "wolfyxbt",
+        "name": "杀破狼 WolfyXBT",
+        "bio": "目前专注 5 件事：炒币、打飞机、找番号、Vibe Coding、建设 @CHILABS_｜币安返佣：https://t.co/AUJdXS2sTr｜交易 Memecoin 推荐使用币安 Web3 钱包：https://t.co/msPjqdJALu",
+        "postCount": 3,
+        "sourceType": "x-api",
+        "sourceLabel": "X API"
+      },
+      {
+        "handle": "thenanyu",
+        "name": "Nan Yu",
+        "bio": "head of product @linear",
+        "postCount": 2,
+        "sourceType": "x-api",
+        "sourceLabel": "X API"
+      },
+      {
+        "handle": "realmadhuguru",
+        "name": "Madhu Guru",
+        "bio": "Prev: Product Leader at Google - Gemini, Veo, Nano Banana.",
+        "postCount": 1,
+        "sourceType": "x-api",
+        "sourceLabel": "X API"
+      }
+    ],
+    "errors": [],
+    "stats": {
+      "accountsConfigured": 36,
+      "accountsWithNewPosts": 19,
+      "totalPosts": 39,
+      "errors": 0,
+      "feedAccounts": 13,
+      "xApiAccounts": 23,
+      "feedPosts": 11,
+      "xApiPosts": 28,
+      "skippedXApiAccounts": 0,
+      "xApiPostReadsEstimated": 138,
+      "xApiUserReadsEstimated": 23,
+      "xApiUserCacheHits": 0
+    },
+    "sources": {
+      "feedAccounts": 13,
+      "xApiAccounts": 23,
+      "feedPosts": 11,
+      "xApiPosts": 28,
+      "skippedXApiAccounts": 0,
+      "xApiPostReadsEstimated": 138,
+      "xApiUserReadsEstimated": 23,
+      "xApiUserCacheHits": 0,
+      "feeds": [
+        {
+          "id": "follow-builders",
+          "name": "Follow Builders",
+          "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
+          "generatedAt": "2026-06-20T07:37:23.218Z",
+          "fresh": true,
+          "accountsAvailable": 13,
+          "accountsMatched": 13,
+          "accountsCovered": 13,
+          "accountsWithNewPosts": 7,
+          "postsUsed": 11,
+          "errors": []
+        }
+      ]
+    }
+  },
+  "summary": "本次有 7 条高信号内容，聚合为 7 个主题，重点关注：AI 模型成本 / 产品机会；Claude Code Artifacts；INTC / Apple / 政策催化",
+  "counts": {
+    "high": 7,
+    "mid": 7,
+    "low": 25,
+    "total": 39,
+    "topics": 7
+  },
+  "digest": {
+    "version": "daily-briefing-v1",
+    "generatedAt": "2026-06-21T02:39:58.949Z",
+    "lead": {
+      "title": "今日摘要",
+      "text": "本次扫描 39 条帖子，筛出 7 条高信号。重点集中在：AI 模型成本 / 产品机会、Claude Code Artifacts、INTC / Apple / 政策催化。"
+    },
+    "counts": {
+      "high": 7,
+      "mid": 7,
+      "low": 25,
+      "total": 39,
+      "topics": 7
+    },
+    "topStories": [
+      {
+        "id": "2068363092904276316",
+        "title": "这些问题跟传统软件工程一样，你都能在软件工程里面找到答案，只不过执行的主体不再是人，而是人+Agent。",
+        "handle": "dotey",
+        "name": "宝玉",
+        "createdAt": "2026-06-20T15:59:24.000Z",
+        "url": "https://x.com/dotey/status/2068363092904276316",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": null
+        },
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "产品 / 公司"
+        ]
+      },
+      {
+        "id": "2068350509027876876",
+        "title": "The Product role is having an identity crisis too.",
+        "handle": "realmadhuguru",
+        "name": "Madhu Guru",
+        "createdAt": "2026-06-20T15:09:24.000Z",
+        "url": "https://x.com/realmadhuguru/status/2068350509027876876",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": null
+        },
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "市场 / 投资",
+          "产品 / 公司"
+        ]
+      },
+      {
+        "id": "2068301039946887269",
+        "title": "I think u must be new here.",
+        "handle": "aleabitoreddit",
+        "name": "Serenity",
+        "createdAt": "2026-06-20T11:52:49.000Z",
+        "url": "https://x.com/aleabitoreddit/status/2068301039946887269",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": null
+        },
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "市场 / 投资",
+          "安全 / 风险"
+        ]
+      },
+      {
+        "id": "2068242802950156574",
+        "title": "用顶级AI，就像点一碗牛肉粉 第一次看到这句话的时候笑了一下，但现在回头想想， 这可能是我见过最实诚的AI产品描述了。",
+        "handle": "mmmusol",
+        "name": "Musolsol",
+        "createdAt": "2026-06-20T08:01:24.000Z",
+        "url": "https://x.com/mmmusol/status/2068242802950156574",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": null
+        },
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "产品 / 公司"
+        ]
+      }
+    ],
+    "topicArchive": [
+      {
+        "id": "tech-ai-model-cost",
+        "title": "AI 模型成本 / 产品机会",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "sourceCount": 6,
+        "handles": [
+          "zephyr_z9",
+          "dotey",
+          "realmadhuguru",
+          "wolfyxbt",
+          "rauchg"
+        ],
+        "tags": [
+          "AI / 模型",
+          "产品 / 公司",
+          "市场 / 投资",
+          "Crypto / Web3",
+          "安全 / 风险"
+        ],
+        "items": [
+          {
+            "id": "2068468107543445888",
+            "title": "Zhipu's goal for 2026 was $1B ARR (pretty sure they will beat this) Anthropic and OpenAI were probably at $40B-$50B ARR each by May",
+            "handle": "zephyr_z9",
+            "name": "Zephyr",
+            "createdAt": "2026-06-20T22:56:41.000Z",
+            "url": "https://x.com/zephyr_z9/status/2068468107543445888",
+            "signal": {
+              "level": "mid",
+              "label": "中信号",
+              "importance": null
+            },
+            "investmentSignal": null,
+            "tags": [
+              "AI / 模型"
+            ]
+          },
+          {
+            "id": "2068363092904276316",
+            "title": "这些问题跟传统软件工程一样，你都能在软件工程里面找到答案，只不过执行的主体不再是人，而是人+Agent。",
+            "handle": "dotey",
+            "name": "宝玉",
+            "createdAt": "2026-06-20T15:59:24.000Z",
+            "url": "https://x.com/dotey/status/2068363092904276316",
+            "signal": {
+              "level": "high",
+              "label": "高信号",
+              "importance": null
+            },
+            "investmentSignal": null,
+            "tags": [
+              "AI / 模型",
+              "产品 / 公司"
+            ]
+          },
+          {
+            "id": "2068350509027876876",
+            "title": "The Product role is having an identity crisis too.",
+            "handle": "realmadhuguru",
+            "name": "Madhu Guru",
+            "createdAt": "2026-06-20T15:09:24.000Z",
+            "url": "https://x.com/realmadhuguru/status/2068350509027876876",
+            "signal": {
+              "level": "high",
+              "label": "高信号",
+              "importance": null
+            },
+            "investmentSignal": null,
+            "tags": [
+              "AI / 模型",
+              "市场 / 投资",
+              "产品 / 公司"
+            ]
+          },
+          {
+            "id": "2068344627250573629",
+            "title": "我宣布 BNBChain 的预测市场之争结束了 币安直接把 @predictdotfun 接到币安 CEX 和币安钱包里边了，现在在币安 CEX 和币安钱包都可以走 Predict 的流动性直接下注世界杯了，亲儿子无疑了，接入 CEX 这是币安可以给到的最大力度的扶持了，杀死比赛了。",
+            "handle": "wolfyxbt",
+            "name": "杀破狼 WolfyXBT",
+            "createdAt": "2026-06-20T14:46:01.000Z",
+            "url": "https://x.com/wolfyxbt/status/2068344627250573629",
+            "signal": {
+              "level": "mid",
+              "label": "中信号",
+              "importance": null
+            },
+            "investmentSignal": null,
+            "tags": [
+              "AI / 模型",
+              "Crypto / Web3"
+            ]
+          },
+          {
+            "id": "2068231396015890449",
+            "title": "一点不同意见。",
+            "handle": "dotey",
+            "name": "宝玉",
+            "createdAt": "2026-06-20T07:16:05.000Z",
+            "url": "https://x.com/dotey/status/2068231396015890449",
+            "signal": {
+              "level": "high",
+              "label": "高信号",
+              "importance": null
+            },
+            "investmentSignal": null,
+            "tags": [
+              "AI / 模型",
+              "安全 / 风险"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tech-claude-code-artifacts",
+        "title": "Claude Code Artifacts",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "sourceCount": 2,
+        "handles": [
+          "mmmusol",
+          "petergyang"
+        ],
+        "tags": [
+          "AI / 模型",
+          "产品 / 公司",
+          "综合"
+        ],
+        "items": [
+          {
+            "id": "2068242802950156574",
+            "title": "用顶级AI，就像点一碗牛肉粉 第一次看到这句话的时候笑了一下，但现在回头想想， 这可能是我见过最实诚的AI产品描述了。",
+            "handle": "mmmusol",
+            "name": "Musolsol",
+            "createdAt": "2026-06-20T08:01:24.000Z",
+            "url": "https://x.com/mmmusol/status/2068242802950156574",
+            "signal": {
+              "level": "high",
+              "label": "高信号",
+              "importance": null
+            },
+            "investmentSignal": null,
+            "tags": [
+              "AI / 模型",
+              "产品 / 公司"
+            ]
+          },
+          {
+            "id": "2068175172960690266",
+            "title": "I used to be a die-hard Claude Code user.",
+            "handle": "petergyang",
+            "name": "Peter Yang",
+            "createdAt": "2026-06-20T03:32:40.000Z",
+            "url": "https://x.com/petergyang/status/2068175172960690266",
+            "signal": {
+              "level": "mid",
+              "label": "中信号",
+              "importance": null
+            },
+            "investmentSignal": null,
+            "tags": [
+              "综合"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "investment-intc-policy",
+        "title": "INTC / Apple / 政策催化",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "sourceCount": 1,
+        "handles": [
+          "aleabitoreddit"
+        ],
+        "tags": [
+          "AI / 模型",
+          "市场 / 投资",
+          "安全 / 风险"
+        ],
+        "items": [
+          {
+            "id": "2068301039946887269",
+            "title": "I think u must be new here.",
+            "handle": "aleabitoreddit",
+            "name": "Serenity",
+            "createdAt": "2026-06-20T11:52:49.000Z",
+            "url": "https://x.com/aleabitoreddit/status/2068301039946887269",
+            "signal": {
+              "level": "high",
+              "label": "高信号",
+              "importance": null
+            },
+            "investmentSignal": null,
+            "tags": [
+              "AI / 模型",
+              "市场 / 投资",
+              "安全 / 风险"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tech-fable",
+        "title": "Fable",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "sourceCount": 1,
+        "handles": [
+          "0xsunnft"
+        ],
+        "tags": [
+          "AI / 模型",
+          "Crypto / Web3",
+          "市场 / 投资"
+        ],
+        "items": [
+          {
+            "id": "2068216709568233975",
+            "title": "最近越来越体会到成为一名全市场交易员的重要性。",
+            "handle": "0xsunnft",
+            "name": "OxSun",
+            "createdAt": "2026-06-20T06:17:43.000Z",
+            "url": "https://x.com/0xsunnft/status/2068216709568233975",
+            "signal": {
+              "level": "high",
+              "label": "高信号",
+              "importance": null
+            },
+            "investmentSignal": null,
+            "tags": [
+              "AI / 模型",
+              "Crypto / Web3",
+              "市场 / 投资"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "investment-nav-ai-discount",
+        "title": "NAV 折价 + AI 增长敞口",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": 4
+        },
+        "sourceCount": 1,
+        "handles": [
+          "aleabitoreddit"
+        ],
+        "tags": [
+          "AI / 模型",
+          "市场 / 投资"
+        ],
+        "items": [
+          {
+            "id": "2068180134667182470",
+            "title": "In terms of personal notes: 1.",
+            "handle": "aleabitoreddit",
+            "name": "Serenity",
+            "createdAt": "2026-06-20T03:52:23.000Z",
+            "url": "https://x.com/aleabitoreddit/status/2068180134667182470",
+            "signal": {
+              "level": "high",
+              "label": "高信号",
+              "importance": null
+            },
+            "investmentSignal": null,
+            "tags": [
+              "AI / 模型",
+              "市场 / 投资"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tech-asml-euv-export",
+        "title": "ASML / EUV / 出口管制",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": 3
+        },
+        "sourceCount": 2,
+        "handles": [
+          "jukan05"
+        ],
+        "tags": [
+          "综合"
+        ],
+        "items": [
+          {
+            "id": "2068515104103285190",
+            "title": "Korea’s June semiconductor export unit prices (Historical figures are based on full-month data, while June 2026 figures are based on June 1–20 preliminary data) - DRAM (excluding modules) export unit price: $82,260/kg, ...",
+            "handle": "jukan05",
+            "name": "Jukan",
+            "createdAt": "2026-06-21T02:03:26.000Z",
+            "url": "https://x.com/jukan05/status/2068515104103285190",
+            "signal": {
+              "level": "mid",
+              "label": "中信号",
+              "importance": null
+            },
+            "investmentSignal": null,
+            "tags": [
+              "综合"
+            ]
+          },
+          {
+            "id": "2068503582803197993",
+            "title": "South Korea Preliminary Exports (June 1–20) - MLCC: +24% YoY, +23% MoM - Semiconductor Manufacturing Equipment: +38% YoY, +43% MoM",
+            "handle": "jukan05",
+            "name": "Jukan",
+            "createdAt": "2026-06-21T01:17:39.000Z",
+            "url": "https://x.com/jukan05/status/2068503582803197993",
+            "signal": {
+              "level": "mid",
+              "label": "中信号",
+              "importance": null
+            },
+            "investmentSignal": null,
+            "tags": [
+              "综合"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "investment-$RDDT",
+        "title": "$RDDT 投资线索",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": 3
+        },
+        "sourceCount": 1,
+        "handles": [
+          "aleabitoreddit"
+        ],
+        "tags": [
+          "市场 / 投资"
+        ],
+        "items": [
+          {
+            "id": "2068269343033655490",
+            "title": "I’m just posting this since people seem really curious about X’s revenue sharing program.",
+            "handle": "aleabitoreddit",
+            "name": "Serenity",
+            "createdAt": "2026-06-20T09:46:52.000Z",
+            "url": "https://x.com/aleabitoreddit/status/2068269343033655490",
+            "signal": {
+              "level": "mid",
+              "label": "中信号",
+              "importance": null
+            },
+            "investmentSignal": null,
+            "tags": [
+              "市场 / 投资"
+            ]
+          }
+        ]
+      }
+    ],
+    "midStories": [
+      {
+        "id": "2068515104103285190",
+        "title": "Korea’s June semiconductor export unit prices (Historical figures are based on full-month data, while June 2026 figures are based on June 1–20 preliminary data) - DRAM (excluding modules) export unit price: $82,260/kg, ...",
+        "handle": "jukan05",
+        "name": "Jukan",
+        "createdAt": "2026-06-21T02:03:26.000Z",
+        "url": "https://x.com/jukan05/status/2068515104103285190",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": null
+        },
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ]
+      },
+      {
+        "id": "2068503582803197993",
+        "title": "South Korea Preliminary Exports (June 1–20) - MLCC: +24% YoY, +23% MoM - Semiconductor Manufacturing Equipment: +38% YoY, +43% MoM",
+        "handle": "jukan05",
+        "name": "Jukan",
+        "createdAt": "2026-06-21T01:17:39.000Z",
+        "url": "https://x.com/jukan05/status/2068503582803197993",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": null
+        },
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ]
+      },
+      {
+        "id": "2068468107543445888",
+        "title": "Zhipu's goal for 2026 was $1B ARR (pretty sure they will beat this) Anthropic and OpenAI were probably at $40B-$50B ARR each by May",
+        "handle": "zephyr_z9",
+        "name": "Zephyr",
+        "createdAt": "2026-06-20T22:56:41.000Z",
+        "url": "https://x.com/zephyr_z9/status/2068468107543445888",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": null
+        },
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型"
+        ]
+      },
+      {
+        "id": "2068344627250573629",
+        "title": "我宣布 BNBChain 的预测市场之争结束了 币安直接把 @predictdotfun 接到币安 CEX 和币安钱包里边了，现在在币安 CEX 和币安钱包都可以走 Predict 的流动性直接下注世界杯了，亲儿子无疑了，接入 CEX 这是币安可以给到的最大力度的扶持了，杀死比赛了。",
+        "handle": "wolfyxbt",
+        "name": "杀破狼 WolfyXBT",
+        "createdAt": "2026-06-20T14:46:01.000Z",
+        "url": "https://x.com/wolfyxbt/status/2068344627250573629",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": null
+        },
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "Crypto / Web3"
+        ]
+      },
+      {
+        "id": "2068269343033655490",
+        "title": "I’m just posting this since people seem really curious about X’s revenue sharing program.",
+        "handle": "aleabitoreddit",
+        "name": "Serenity",
+        "createdAt": "2026-06-20T09:46:52.000Z",
+        "url": "https://x.com/aleabitoreddit/status/2068269343033655490",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": null
+        },
+        "investmentSignal": null,
+        "tags": [
+          "市场 / 投资"
+        ]
+      },
+      {
+        "id": "2068175172960690266",
+        "title": "I used to be a die-hard Claude Code user.",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "createdAt": "2026-06-20T03:32:40.000Z",
+        "url": "https://x.com/petergyang/status/2068175172960690266",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": null
+        },
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ]
+      },
+      {
+        "id": "2068165988005380478",
+        "title": "The next hot programming language is… markdown.",
+        "handle": "rauchg",
+        "name": "Guillermo Rauch",
+        "createdAt": "2026-06-20T02:56:10.000Z",
+        "url": "https://x.com/rauchg/status/2068165988005380478",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": null
+        },
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "Crypto / Web3"
+        ]
+      }
+    ],
+    "lowSignal": {
+      "count": 25,
+      "items": [
+        {
+          "id": "2068517413763821920",
+          "title": "如果一个人要开公司、招员工，或者是招募合伙人一起做事，必须要考虑的第一个最重要的点，就是一定要把对方当成一个活生生的人，而非工具。",
+          "handle": "mmmusol",
+          "name": "Musolsol",
+          "createdAt": "2026-06-21T02:12:37.000Z",
+          "url": "https://x.com/mmmusol/status/2068517413763821920",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "产品 / 公司"
+          ]
+        },
+        {
+          "id": "2068501546313437419",
+          "title": "South Korea Preliminary Exports (June 1–20) - DRAM (including modules): +342% YoY, +3% MoM - Flash Memory (NAND): +336% YoY, +28% MoM - SSD: +405% YoY, +25% MoM - MCP (HBM): +209% YoY, +51% MoM",
+          "handle": "jukan05",
+          "name": "Jukan",
+          "createdAt": "2026-06-21T01:09:34.000Z",
+          "url": "https://x.com/jukan05/status/2068501546313437419",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "综合"
+          ]
+        },
+        {
+          "id": "2068479958679441561",
+          "title": "People may not like it or think it's quite illogical But a large percentage of Big Tech's CAPEX, debt raised, and equity raises is going straight up into the balance sheets of the memory trio Next year numbers will be c...",
+          "handle": "zephyr_z9",
+          "name": "Zephyr",
+          "createdAt": "2026-06-20T23:43:47.000Z",
+          "url": "https://x.com/zephyr_z9/status/2068479958679441561",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型"
+          ]
+        },
+        {
+          "id": "2068465806011416908",
+          "title": "3.5 year breakeven",
+          "handle": "zephyr_z9",
+          "name": "Zephyr",
+          "createdAt": "2026-06-20T22:47:33.000Z",
+          "url": "https://x.com/zephyr_z9/status/2068465806011416908",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "综合"
+          ]
+        },
+        {
+          "id": "2068396602973143274",
+          "title": "Hey devs at @Outlook and @gmail you can point your agents at this tweet and they will fix it for you",
+          "handle": "thenanyu",
+          "name": "Nan Yu",
+          "createdAt": "2026-06-20T18:12:33.000Z",
+          "url": "https://x.com/thenanyu/status/2068396602973143274",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型"
+          ]
+        },
+        {
+          "id": "2068345836686487888",
+          "title": "初见成效",
+          "handle": "philo2022",
+          "name": "Philo",
+          "createdAt": "2026-06-20T14:50:50.000Z",
+          "url": "https://x.com/philo2022/status/2068345836686487888",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "综合"
+          ]
+        },
+        {
+          "id": "2068341689010270236",
+          "title": "今日邮轮抵达黑山港口科托尔 Котор🇲🇪这个国家尚未加入欧盟，但生活方式与欧洲人似乎没有什么不同。只是，清晨邮轮驶入峡湾时，景色的尺度似乎突然变大了，让这里看起来更像新西兰或者加拿大。",
+          "handle": "turingou",
+          "name": "郭宇 guoyu.eth",
+          "createdAt": "2026-06-20T14:34:21.000Z",
+          "url": "https://x.com/turingou/status/2068341689010270236",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "综合"
+          ]
+        },
+        {
+          "id": "2068337315060064444",
+          "title": "从展望台遥望海上邮轮 ILMA，在克罗地亚的最后一站，我们开车去察夫塔特小镇散步，这里的三角梅开得很好。",
+          "handle": "turingou",
+          "name": "郭宇 guoyu.eth",
+          "createdAt": "2026-06-20T14:16:58.000Z",
+          "url": "https://x.com/turingou/status/2068337315060064444",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "综合"
+          ]
+        },
+        {
+          "id": "2068322099026862492",
+          "title": "杜布罗夫尼克的午后散步。这座小城四处是有趣的细节与可爱的夏日色彩。",
+          "handle": "turingou",
+          "name": "郭宇 guoyu.eth",
+          "createdAt": "2026-06-20T13:16:30.000Z",
+          "url": "https://x.com/turingou/status/2068322099026862492",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "综合"
+          ]
+        },
+        {
+          "id": "2068318470215811080",
+          "title": "Why isn’t the default for pasted text in email apps to take on the font treatment surrounding/preceding it?",
+          "handle": "thenanyu",
+          "name": "Nan Yu",
+          "createdAt": "2026-06-20T13:02:05.000Z",
+          "url": "https://x.com/thenanyu/status/2068318470215811080",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型"
+          ]
+        },
+        {
+          "id": "2068304387534164375",
+          "title": "感谢马斯克，感谢 X 团队，感谢我的父母，感谢大家。",
+          "handle": "wolfyxbt",
+          "name": "杀破狼 WolfyXBT",
+          "createdAt": "2026-06-20T12:06:07.000Z",
+          "url": "https://x.com/wolfyxbt/status/2068304387534164375",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "综合"
+          ]
+        },
+        {
+          "id": "2068292420907995635",
+          "title": "币圈很多项目和产品，99% 的用户都是中国人，然后网站或产品界面都非得搞成英文的，还不提供任何中文选项，然后还标榜自己站在用户的角度去设计产品，你设计个几把，太傻逼了。",
+          "handle": "wolfyxbt",
+          "name": "杀破狼 WolfyXBT",
+          "createdAt": "2026-06-20T11:18:34.000Z",
+          "url": "https://x.com/wolfyxbt/status/2068292420907995635",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "产品 / 公司"
+          ]
+        },
+        {
+          "id": "2068267599700627493",
+          "title": "王晶如果做vibe coding，也会很出色吧。",
+          "handle": "jamesai",
+          "name": "在悉尼和稀泥",
+          "createdAt": "2026-06-20T09:39:56.000Z",
+          "url": "https://x.com/jamesai/status/2068267599700627493",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型"
+          ]
+        },
+        {
+          "id": "2068244969580834904",
+          "title": "另外beefapi QQ 群今晚 8 点还有个抽奖， 400 元奖池，奖品是额度券，进群还能领 $3 试用额度 大家可以扫码进群交流，顺便碰碰运气~ 端午安康呀",
+          "handle": "mmmusol",
+          "name": "Musolsol",
+          "createdAt": "2026-06-20T08:10:01.000Z",
+          "url": "https://x.com/mmmusol/status/2068244969580834904",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "综合"
+          ]
+        },
+        {
+          "id": "2068238004708094148",
+          "title": "另外没有否定原文的意思，时常更新 Agents.md 这事本身没问题的",
+          "handle": "dotey",
+          "name": "宝玉",
+          "createdAt": "2026-06-20T07:42:20.000Z",
+          "url": "https://x.com/dotey/status/2068238004708094148",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型"
+          ]
+        },
+        {
+          "id": "2068233518858342887",
+          "title": "10 years ago, you will be asked by @bendhalpern and @jessleenyc to write your first blog on @thepracticaldev. it is very important that you answer. *now @MLHacks, who are producing the first ever physical daily newspape...",
+          "handle": "swyx",
+          "name": "Swyx",
+          "createdAt": "2026-06-20T07:24:31.000Z",
+          "url": "https://x.com/swyx/status/2068233518858342887",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型",
+            "安全 / 风险"
+          ]
+        },
+        {
+          "id": "2068218515723866477",
+          "title": "I had chronic pain for most of my life until a doctor did an MRI of the pain source and found a congenital condition that was then fixed with surgery.",
+          "handle": "amandaaskell",
+          "name": "Amanda Askell",
+          "createdAt": "2026-06-20T06:24:54.000Z",
+          "url": "https://x.com/AmandaAskell/status/2068218515723866477",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型"
+          ]
+        },
+        {
+          "id": "2068204606119874728",
+          "title": "SF I have an idea..",
+          "handle": "nikunj",
+          "name": "Nikunj Kothari",
+          "createdAt": "2026-06-20T05:29:38.000Z",
+          "url": "https://x.com/nikunj/status/2068204606119874728",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "综合"
+          ]
+        },
+        {
+          "id": "2068199277277401419",
+          "title": "Hannes speaks both developer and agents.",
+          "handle": "steipete",
+          "name": "Peter Steinberger",
+          "createdAt": "2026-06-20T05:08:27.000Z",
+          "url": "https://x.com/steipete/status/2068199277277401419",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型"
+          ]
+        },
+        {
+          "id": "2068192140510064675",
+          "title": "一切行为都可以是一个筛选行为，一切表达也可以是一个筛选行为。",
+          "handle": "philo2022",
+          "name": "Philo",
+          "createdAt": "2026-06-20T04:40:06.000Z",
+          "url": "https://x.com/philo2022/status/2068192140510064675",
+          "signal": {
+            "level": "low",
+            "label": "低信号",
+            "importance": null
+          },
+          "investmentSignal": null,
+          "tags": [
+            "产品 / 公司"
+          ]
+        }
+      ]
+    }
+  },
+  "topics": [
+    {
+      "id": "tech-ai-model-cost",
+      "title": "AI 模型成本 / 产品机会",
+      "category": "technology",
+      "signal": {
+        "level": "high",
+        "label": "高信号",
+        "importance": 4
+      },
+      "sourceCount": 6,
+      "handles": [
+        "zephyr_z9",
+        "dotey",
+        "realmadhuguru",
+        "wolfyxbt",
+        "rauchg"
+      ],
+      "tags": [
+        "AI / 模型",
+        "产品 / 公司",
+        "市场 / 投资",
+        "Crypto / Web3",
+        "安全 / 风险"
+      ],
+      "updatedAt": "2026-06-20T22:56:41.000Z",
+      "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。；这类内容可能提示真实风险或资金损失，适合优先核对细节和来源。",
+      "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+      "risk": "",
+      "posts": [
+        {
+          "id": "2068468107543445888",
+          "handle": "zephyr_z9",
+          "name": "Zephyr",
+          "createdAt": "2026-06-20T22:56:41.000Z",
+          "url": "https://x.com/zephyr_z9/status/2068468107543445888",
+          "signal": {
+            "level": "mid",
+            "label": "中信号",
+            "importance": null
+          },
+          "title": "Zhipu's goal for 2026 was $1B ARR (pretty sure they will beat this) Anthropic and OpenAI were probably at $40B-$50B ARR each by May",
+          "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+          "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+          "risk": "",
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型"
+          ],
+          "textPreview": "Zhipu's goal for 2026 was $1B ARR (pretty sure they will beat this) Anthropic and OpenAI were probably at $40B-$50B ARR each by May"
+        },
+        {
+          "id": "2068363092904276316",
+          "handle": "dotey",
+          "name": "宝玉",
+          "createdAt": "2026-06-20T15:59:24.000Z",
+          "url": "https://x.com/dotey/status/2068363092904276316",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": null
+          },
+          "title": "这些问题跟传统软件工程一样，你都能在软件工程里面找到答案，只不过执行的主体不再是人，而是人+Agent。",
+          "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+          "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+          "risk": "",
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型",
+            "产品 / 公司"
+          ],
+          "textPreview": "这些问题跟传统软件工程一样，你都能在软件工程里面找到答案，只不过执行的主体不再是人，而是人+Agent。"
+        },
+        {
+          "id": "2068350509027876876",
+          "handle": "realmadhuguru",
+          "name": "Madhu Guru",
+          "createdAt": "2026-06-20T15:09:24.000Z",
+          "url": "https://x.com/realmadhuguru/status/2068350509027876876",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": null
+          },
+          "title": "The Product role is having an identity crisis too.",
+          "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+          "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+          "risk": "",
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型",
+            "市场 / 投资",
+            "产品 / 公司"
+          ],
+          "textPreview": "The Product role is having an identity crisis too."
+        },
+        {
+          "id": "2068344627250573629",
+          "handle": "wolfyxbt",
+          "name": "杀破狼 WolfyXBT",
+          "createdAt": "2026-06-20T14:46:01.000Z",
+          "url": "https://x.com/wolfyxbt/status/2068344627250573629",
+          "signal": {
+            "level": "mid",
+            "label": "中信号",
+            "importance": null
+          },
+          "title": "我宣布 BNBChain 的预测市场之争结束了 币安直接把 @predictdotfun 接到币安 CEX 和币安钱包里边了，现在在币安 CEX 和币安钱包都可以走 Predict 的流动性直接下注世界杯了，亲儿子无疑了，接入 CEX 这是币安可以给到的最大力度的扶持了，杀死比赛了。",
+          "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+          "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+          "risk": "",
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型",
+            "Crypto / Web3"
+          ],
+          "textPreview": "我宣布 BNBChain 的预测市场之争结束了 币安直接把 @predictdotfun 接到币安 CEX 和币安钱包里边了，现在在币安 CEX 和币安钱包都可以走 Predict 的流动性直接下注世界杯了，亲儿子无疑了，接入 CEX 这是币安可以给到的最大力度的扶持了，杀死比赛了。"
+        },
+        {
+          "id": "2068231396015890449",
+          "handle": "dotey",
+          "name": "宝玉",
+          "createdAt": "2026-06-20T07:16:05.000Z",
+          "url": "https://x.com/dotey/status/2068231396015890449",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": null
+          },
+          "title": "一点不同意见。",
+          "whyItMatters": "这类内容可能提示真实风险或资金损失，适合优先核对细节和来源。",
+          "action": "建议打开原文核对涉事项目、金额、时间线和来源。",
+          "risk": "",
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型",
+            "安全 / 风险"
+          ],
+          "textPreview": "一点不同意见。"
+        },
+        {
+          "id": "2068165988005380478",
+          "handle": "rauchg",
+          "name": "Guillermo Rauch",
+          "createdAt": "2026-06-20T02:56:10.000Z",
+          "url": "https://x.com/rauchg/status/2068165988005380478",
+          "signal": {
+            "level": "mid",
+            "label": "中信号",
+            "importance": null
+          },
+          "title": "The next hot programming language is… markdown.",
+          "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+          "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+          "risk": "",
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型",
+            "Crypto / Web3"
+          ],
+          "textPreview": "The next hot programming language is… markdown."
+        }
+      ]
+    },
+    {
+      "id": "tech-claude-code-artifacts",
+      "title": "Claude Code Artifacts",
+      "category": "technology",
+      "signal": {
+        "level": "high",
+        "label": "高信号",
+        "importance": 4
+      },
+      "sourceCount": 2,
+      "handles": [
+        "mmmusol",
+        "petergyang"
+      ],
+      "tags": [
+        "AI / 模型",
+        "产品 / 公司",
+        "综合"
+      ],
+      "updatedAt": "2026-06-20T08:01:24.000Z",
+      "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。；这条内容有一定上下文价值，但未必需要深入处理。",
+      "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+      "risk": "",
+      "posts": [
+        {
+          "id": "2068242802950156574",
+          "handle": "mmmusol",
+          "name": "Musolsol",
+          "createdAt": "2026-06-20T08:01:24.000Z",
+          "url": "https://x.com/mmmusol/status/2068242802950156574",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": null
+          },
+          "title": "用顶级AI，就像点一碗牛肉粉 第一次看到这句话的时候笑了一下，但现在回头想想， 这可能是我见过最实诚的AI产品描述了。",
+          "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+          "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+          "risk": "",
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型",
+            "产品 / 公司"
+          ],
+          "textPreview": "用顶级AI，就像点一碗牛肉粉 第一次看到这句话的时候笑了一下，但现在回头想想， 这可能是我见过最实诚的AI产品描述了。"
+        },
+        {
+          "id": "2068175172960690266",
+          "handle": "petergyang",
+          "name": "Peter Yang",
+          "createdAt": "2026-06-20T03:32:40.000Z",
+          "url": "https://x.com/petergyang/status/2068175172960690266",
+          "signal": {
+            "level": "mid",
+            "label": "中信号",
+            "importance": null
+          },
+          "title": "I used to be a die-hard Claude Code user.",
+          "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+          "action": "建议快速浏览，保留原文链接即可。",
+          "risk": "",
+          "investmentSignal": null,
+          "tags": [
+            "综合"
+          ],
+          "textPreview": "I used to be a die-hard Claude Code user."
+        }
+      ]
+    },
+    {
+      "id": "investment-intc-policy",
+      "title": "INTC / Apple / 政策催化",
+      "category": "investment",
+      "signal": {
+        "level": "high",
+        "label": "高信号",
+        "importance": 4
+      },
+      "sourceCount": 1,
+      "handles": [
+        "aleabitoreddit"
+      ],
+      "tags": [
+        "AI / 模型",
+        "市场 / 投资",
+        "安全 / 风险"
+      ],
+      "updatedAt": "2026-06-20T11:52:49.000Z",
+      "whyItMatters": "这类内容可能提示真实风险或资金损失，适合优先核对细节和来源。",
+      "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+      "risk": "",
+      "posts": [
+        {
+          "id": "2068301039946887269",
+          "handle": "aleabitoreddit",
+          "name": "Serenity",
+          "createdAt": "2026-06-20T11:52:49.000Z",
+          "url": "https://x.com/aleabitoreddit/status/2068301039946887269",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": null
+          },
+          "title": "I think u must be new here.",
+          "whyItMatters": "这类内容可能提示真实风险或资金损失，适合优先核对细节和来源。",
+          "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+          "risk": "",
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型",
+            "市场 / 投资",
+            "安全 / 风险"
+          ],
+          "textPreview": "I think u must be new here."
+        }
+      ]
+    },
+    {
+      "id": "tech-fable",
+      "title": "Fable",
+      "category": "technology",
+      "signal": {
+        "level": "high",
+        "label": "高信号",
+        "importance": 4
+      },
+      "sourceCount": 1,
+      "handles": [
+        "0xsunnft"
+      ],
+      "tags": [
+        "AI / 模型",
+        "Crypto / Web3",
+        "市场 / 投资"
+      ],
+      "updatedAt": "2026-06-20T06:17:43.000Z",
+      "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+      "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+      "risk": "",
+      "posts": [
+        {
+          "id": "2068216709568233975",
+          "handle": "0xsunnft",
+          "name": "OxSun",
+          "createdAt": "2026-06-20T06:17:43.000Z",
+          "url": "https://x.com/0xsunnft/status/2068216709568233975",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": null
+          },
+          "title": "最近越来越体会到成为一名全市场交易员的重要性。",
+          "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+          "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+          "risk": "",
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型",
+            "Crypto / Web3",
+            "市场 / 投资"
+          ],
+          "textPreview": "最近越来越体会到成为一名全市场交易员的重要性。"
+        }
+      ]
+    },
+    {
+      "id": "investment-nav-ai-discount",
+      "title": "NAV 折价 + AI 增长敞口",
+      "category": "investment",
+      "signal": {
+        "level": "high",
+        "label": "高信号",
+        "importance": 4
+      },
+      "sourceCount": 1,
+      "handles": [
+        "aleabitoreddit"
+      ],
+      "tags": [
+        "AI / 模型",
+        "市场 / 投资"
+      ],
+      "updatedAt": "2026-06-20T03:52:23.000Z",
+      "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+      "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+      "risk": "",
+      "posts": [
+        {
+          "id": "2068180134667182470",
+          "handle": "aleabitoreddit",
+          "name": "Serenity",
+          "createdAt": "2026-06-20T03:52:23.000Z",
+          "url": "https://x.com/aleabitoreddit/status/2068180134667182470",
+          "signal": {
+            "level": "high",
+            "label": "高信号",
+            "importance": null
+          },
+          "title": "In terms of personal notes: 1.",
+          "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+          "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+          "risk": "",
+          "investmentSignal": null,
+          "tags": [
+            "AI / 模型",
+            "市场 / 投资"
+          ],
+          "textPreview": "In terms of personal notes: 1."
+        }
+      ]
+    },
+    {
+      "id": "tech-asml-euv-export",
+      "title": "ASML / EUV / 出口管制",
+      "category": "technology",
+      "signal": {
+        "level": "mid",
+        "label": "中信号",
+        "importance": 3
+      },
+      "sourceCount": 2,
+      "handles": [
+        "jukan05"
+      ],
+      "tags": [
+        "综合"
+      ],
+      "updatedAt": "2026-06-21T02:03:26.000Z",
+      "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+      "action": "建议快速浏览，保留原文链接即可。",
+      "risk": "",
+      "posts": [
+        {
+          "id": "2068515104103285190",
+          "handle": "jukan05",
+          "name": "Jukan",
+          "createdAt": "2026-06-21T02:03:26.000Z",
+          "url": "https://x.com/jukan05/status/2068515104103285190",
+          "signal": {
+            "level": "mid",
+            "label": "中信号",
+            "importance": null
+          },
+          "title": "Korea’s June semiconductor export unit prices (Historical figures are based on full-month data, while June 2026 figures are based on June 1–20 preliminary data) - DRAM (excluding modules) export unit price: $82,260/kg, ...",
+          "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+          "action": "建议快速浏览，保留原文链接即可。",
+          "risk": "",
+          "investmentSignal": null,
+          "tags": [
+            "综合"
+          ],
+          "textPreview": "Korea’s June semiconductor export unit prices (Historical figures are based on full-month data, while June 2026 figures are based on June 1–20 preliminary data) - DRAM (excluding modules) export unit price: $82,260/kg, ..."
+        },
+        {
+          "id": "2068503582803197993",
+          "handle": "jukan05",
+          "name": "Jukan",
+          "createdAt": "2026-06-21T01:17:39.000Z",
+          "url": "https://x.com/jukan05/status/2068503582803197993",
+          "signal": {
+            "level": "mid",
+            "label": "中信号",
+            "importance": null
+          },
+          "title": "South Korea Preliminary Exports (June 1–20) - MLCC: +24% YoY, +23% MoM - Semiconductor Manufacturing Equipment: +38% YoY, +43% MoM",
+          "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+          "action": "建议快速浏览，保留原文链接即可。",
+          "risk": "",
+          "investmentSignal": null,
+          "tags": [
+            "综合"
+          ],
+          "textPreview": "South Korea Preliminary Exports (June 1–20) - MLCC: +24% YoY, +23% MoM - Semiconductor Manufacturing Equipment: +38% YoY, +43% MoM"
+        }
+      ]
+    },
+    {
+      "id": "investment-$RDDT",
+      "title": "$RDDT 投资线索",
+      "category": "investment",
+      "signal": {
+        "level": "mid",
+        "label": "中信号",
+        "importance": 3
+      },
+      "sourceCount": 1,
+      "handles": [
+        "aleabitoreddit"
+      ],
+      "tags": [
+        "市场 / 投资"
+      ],
+      "updatedAt": "2026-06-20T09:46:52.000Z",
+      "whyItMatters": "它可能包含标的、估值、催化剂或持仓倾向线索，适合后续交叉验证。",
+      "action": "建议提取标的、倾向、催化剂和风险，只作为研究线索，不直接当作交易依据。",
+      "risk": "",
+      "posts": [
+        {
+          "id": "2068269343033655490",
+          "handle": "aleabitoreddit",
+          "name": "Serenity",
+          "createdAt": "2026-06-20T09:46:52.000Z",
+          "url": "https://x.com/aleabitoreddit/status/2068269343033655490",
+          "signal": {
+            "level": "mid",
+            "label": "中信号",
+            "importance": null
+          },
+          "title": "I’m just posting this since people seem really curious about X’s revenue sharing program.",
+          "whyItMatters": "它可能包含标的、估值、催化剂或持仓倾向线索，适合后续交叉验证。",
+          "action": "建议提取标的、倾向、催化剂和风险，只作为研究线索，不直接当作交易依据。",
+          "risk": "",
+          "investmentSignal": null,
+          "tags": [
+            "市场 / 投资"
+          ],
+          "textPreview": "I’m just posting this since people seem really curious about X’s revenue sharing program."
+        }
+      ]
+    }
+  ],
+  "sections": {
+    "top": [
+      {
+        "id": "2068363092904276316",
+        "handle": "dotey",
+        "name": "宝玉",
+        "createdAt": "2026-06-20T15:59:24.000Z",
+        "url": "https://x.com/dotey/status/2068363092904276316",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": null
+        },
+        "title": "这些问题跟传统软件工程一样，你都能在软件工程里面找到答案，只不过执行的主体不再是人，而是人+Agent。",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "产品 / 公司"
+        ],
+        "textPreview": "这些问题跟传统软件工程一样，你都能在软件工程里面找到答案，只不过执行的主体不再是人，而是人+Agent。"
+      },
+      {
+        "id": "2068350509027876876",
+        "handle": "realmadhuguru",
+        "name": "Madhu Guru",
+        "createdAt": "2026-06-20T15:09:24.000Z",
+        "url": "https://x.com/realmadhuguru/status/2068350509027876876",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": null
+        },
+        "title": "The Product role is having an identity crisis too.",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "市场 / 投资",
+          "产品 / 公司"
+        ],
+        "textPreview": "The Product role is having an identity crisis too."
+      },
+      {
+        "id": "2068301039946887269",
+        "handle": "aleabitoreddit",
+        "name": "Serenity",
+        "createdAt": "2026-06-20T11:52:49.000Z",
+        "url": "https://x.com/aleabitoreddit/status/2068301039946887269",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": null
+        },
+        "title": "I think u must be new here.",
+        "whyItMatters": "这类内容可能提示真实风险或资金损失，适合优先核对细节和来源。",
+        "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "市场 / 投资",
+          "安全 / 风险"
+        ],
+        "textPreview": "I think u must be new here."
+      },
+      {
+        "id": "2068242802950156574",
+        "handle": "mmmusol",
+        "name": "Musolsol",
+        "createdAt": "2026-06-20T08:01:24.000Z",
+        "url": "https://x.com/mmmusol/status/2068242802950156574",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": null
+        },
+        "title": "用顶级AI，就像点一碗牛肉粉 第一次看到这句话的时候笑了一下，但现在回头想想， 这可能是我见过最实诚的AI产品描述了。",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "产品 / 公司"
+        ],
+        "textPreview": "用顶级AI，就像点一碗牛肉粉 第一次看到这句话的时候笑了一下，但现在回头想想， 这可能是我见过最实诚的AI产品描述了。"
+      },
+      {
+        "id": "2068231396015890449",
+        "handle": "dotey",
+        "name": "宝玉",
+        "createdAt": "2026-06-20T07:16:05.000Z",
+        "url": "https://x.com/dotey/status/2068231396015890449",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": null
+        },
+        "title": "一点不同意见。",
+        "whyItMatters": "这类内容可能提示真实风险或资金损失，适合优先核对细节和来源。",
+        "action": "建议打开原文核对涉事项目、金额、时间线和来源。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "安全 / 风险"
+        ],
+        "textPreview": "一点不同意见。"
+      }
+    ],
+    "investment": [
+      {
+        "id": "2068350509027876876",
+        "handle": "realmadhuguru",
+        "name": "Madhu Guru",
+        "createdAt": "2026-06-20T15:09:24.000Z",
+        "url": "https://x.com/realmadhuguru/status/2068350509027876876",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": null
+        },
+        "title": "The Product role is having an identity crisis too.",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "市场 / 投资",
+          "产品 / 公司"
+        ],
+        "textPreview": "The Product role is having an identity crisis too."
+      },
+      {
+        "id": "2068301039946887269",
+        "handle": "aleabitoreddit",
+        "name": "Serenity",
+        "createdAt": "2026-06-20T11:52:49.000Z",
+        "url": "https://x.com/aleabitoreddit/status/2068301039946887269",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": null
+        },
+        "title": "I think u must be new here.",
+        "whyItMatters": "这类内容可能提示真实风险或资金损失，适合优先核对细节和来源。",
+        "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "市场 / 投资",
+          "安全 / 风险"
+        ],
+        "textPreview": "I think u must be new here."
+      },
+      {
+        "id": "2068242802950156574",
+        "handle": "mmmusol",
+        "name": "Musolsol",
+        "createdAt": "2026-06-20T08:01:24.000Z",
+        "url": "https://x.com/mmmusol/status/2068242802950156574",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": null
+        },
+        "title": "用顶级AI，就像点一碗牛肉粉 第一次看到这句话的时候笑了一下，但现在回头想想， 这可能是我见过最实诚的AI产品描述了。",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "产品 / 公司"
+        ],
+        "textPreview": "用顶级AI，就像点一碗牛肉粉 第一次看到这句话的时候笑了一下，但现在回头想想， 这可能是我见过最实诚的AI产品描述了。"
+      },
+      {
+        "id": "2068216709568233975",
+        "handle": "0xsunnft",
+        "name": "OxSun",
+        "createdAt": "2026-06-20T06:17:43.000Z",
+        "url": "https://x.com/0xsunnft/status/2068216709568233975",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": null
+        },
+        "title": "最近越来越体会到成为一名全市场交易员的重要性。",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "Crypto / Web3",
+          "市场 / 投资"
+        ],
+        "textPreview": "最近越来越体会到成为一名全市场交易员的重要性。"
+      },
+      {
+        "id": "2068180134667182470",
+        "handle": "aleabitoreddit",
+        "name": "Serenity",
+        "createdAt": "2026-06-20T03:52:23.000Z",
+        "url": "https://x.com/aleabitoreddit/status/2068180134667182470",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": null
+        },
+        "title": "In terms of personal notes: 1.",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "市场 / 投资"
+        ],
+        "textPreview": "In terms of personal notes: 1."
+      },
+      {
+        "id": "2068515104103285190",
+        "handle": "jukan05",
+        "name": "Jukan",
+        "createdAt": "2026-06-21T02:03:26.000Z",
+        "url": "https://x.com/jukan05/status/2068515104103285190",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": null
+        },
+        "title": "Korea’s June semiconductor export unit prices (Historical figures are based on full-month data, while June 2026 figures are based on June 1–20 preliminary data) - DRAM (excluding modules) export unit price: $82,260/kg, ...",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ],
+        "textPreview": "Korea’s June semiconductor export unit prices (Historical figures are based on full-month data, while June 2026 figures are based on June 1–20 preliminary data) - DRAM (excluding modules) export unit price: $82,260/kg, ..."
+      },
+      {
+        "id": "2068468107543445888",
+        "handle": "zephyr_z9",
+        "name": "Zephyr",
+        "createdAt": "2026-06-20T22:56:41.000Z",
+        "url": "https://x.com/zephyr_z9/status/2068468107543445888",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": null
+        },
+        "title": "Zhipu's goal for 2026 was $1B ARR (pretty sure they will beat this) Anthropic and OpenAI were probably at $40B-$50B ARR each by May",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型"
+        ],
+        "textPreview": "Zhipu's goal for 2026 was $1B ARR (pretty sure they will beat this) Anthropic and OpenAI were probably at $40B-$50B ARR each by May"
+      },
+      {
+        "id": "2068344627250573629",
+        "handle": "wolfyxbt",
+        "name": "杀破狼 WolfyXBT",
+        "createdAt": "2026-06-20T14:46:01.000Z",
+        "url": "https://x.com/wolfyxbt/status/2068344627250573629",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": null
+        },
+        "title": "我宣布 BNBChain 的预测市场之争结束了 币安直接把 @predictdotfun 接到币安 CEX 和币安钱包里边了，现在在币安 CEX 和币安钱包都可以走 Predict 的流动性直接下注世界杯了，亲儿子无疑了，接入 CEX 这是币安可以给到的最大力度的扶持了，杀死比赛了。",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "Crypto / Web3"
+        ],
+        "textPreview": "我宣布 BNBChain 的预测市场之争结束了 币安直接把 @predictdotfun 接到币安 CEX 和币安钱包里边了，现在在币安 CEX 和币安钱包都可以走 Predict 的流动性直接下注世界杯了，亲儿子无疑了，接入 CEX 这是币安可以给到的最大力度的扶持了，杀死比赛了。"
+      },
+      {
+        "id": "2068269343033655490",
+        "handle": "aleabitoreddit",
+        "name": "Serenity",
+        "createdAt": "2026-06-20T09:46:52.000Z",
+        "url": "https://x.com/aleabitoreddit/status/2068269343033655490",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": null
+        },
+        "title": "I’m just posting this since people seem really curious about X’s revenue sharing program.",
+        "whyItMatters": "它可能包含标的、估值、催化剂或持仓倾向线索，适合后续交叉验证。",
+        "action": "建议提取标的、倾向、催化剂和风险，只作为研究线索，不直接当作交易依据。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "市场 / 投资"
+        ],
+        "textPreview": "I’m just posting this since people seem really curious about X’s revenue sharing program."
+      }
+    ],
+    "technology": [
+      {
+        "id": "2068363092904276316",
+        "handle": "dotey",
+        "name": "宝玉",
+        "createdAt": "2026-06-20T15:59:24.000Z",
+        "url": "https://x.com/dotey/status/2068363092904276316",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": null
+        },
+        "title": "这些问题跟传统软件工程一样，你都能在软件工程里面找到答案，只不过执行的主体不再是人，而是人+Agent。",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议先判断是否有新信息或具体行动线索，再决定是否精读。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "产品 / 公司"
+        ],
+        "textPreview": "这些问题跟传统软件工程一样，你都能在软件工程里面找到答案，只不过执行的主体不再是人，而是人+Agent。"
+      },
+      {
+        "id": "2068231396015890449",
+        "handle": "dotey",
+        "name": "宝玉",
+        "createdAt": "2026-06-20T07:16:05.000Z",
+        "url": "https://x.com/dotey/status/2068231396015890449",
+        "signal": {
+          "level": "high",
+          "label": "高信号",
+          "importance": null
+        },
+        "title": "一点不同意见。",
+        "whyItMatters": "这类内容可能提示真实风险或资金损失，适合优先核对细节和来源。",
+        "action": "建议打开原文核对涉事项目、金额、时间线和来源。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "安全 / 风险"
+        ],
+        "textPreview": "一点不同意见。"
+      },
+      {
+        "id": "2068503582803197993",
+        "handle": "jukan05",
+        "name": "Jukan",
+        "createdAt": "2026-06-21T01:17:39.000Z",
+        "url": "https://x.com/jukan05/status/2068503582803197993",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": null
+        },
+        "title": "South Korea Preliminary Exports (June 1–20) - MLCC: +24% YoY, +23% MoM - Semiconductor Manufacturing Equipment: +38% YoY, +43% MoM",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ],
+        "textPreview": "South Korea Preliminary Exports (June 1–20) - MLCC: +24% YoY, +23% MoM - Semiconductor Manufacturing Equipment: +38% YoY, +43% MoM"
+      },
+      {
+        "id": "2068175172960690266",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "createdAt": "2026-06-20T03:32:40.000Z",
+        "url": "https://x.com/petergyang/status/2068175172960690266",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": null
+        },
+        "title": "I used to be a die-hard Claude Code user.",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ],
+        "textPreview": "I used to be a die-hard Claude Code user."
+      },
+      {
+        "id": "2068165988005380478",
+        "handle": "rauchg",
+        "name": "Guillermo Rauch",
+        "createdAt": "2026-06-20T02:56:10.000Z",
+        "url": "https://x.com/rauchg/status/2068165988005380478",
+        "signal": {
+          "level": "mid",
+          "label": "中信号",
+          "importance": null
+        },
+        "title": "The next hot programming language is… markdown.",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "Crypto / Web3"
+        ],
+        "textPreview": "The next hot programming language is… markdown."
+      }
+    ],
+    "risk": [],
+    "reading": [],
+    "other": [],
+    "lowSignal": [
+      {
+        "id": "2068517413763821920",
+        "handle": "mmmusol",
+        "name": "Musolsol",
+        "createdAt": "2026-06-21T02:12:37.000Z",
+        "url": "https://x.com/mmmusol/status/2068517413763821920",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "如果一个人要开公司、招员工，或者是招募合伙人一起做事，必须要考虑的第一个最重要的点，就是一定要把对方当成一个活生生的人，而非工具。",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "产品 / 公司"
+        ],
+        "textPreview": "如果一个人要开公司、招员工，或者是招募合伙人一起做事，必须要考虑的第一个最重要的点，就是一定要把对方当成一个活生生的人，而非工具。"
+      },
+      {
+        "id": "2068501546313437419",
+        "handle": "jukan05",
+        "name": "Jukan",
+        "createdAt": "2026-06-21T01:09:34.000Z",
+        "url": "https://x.com/jukan05/status/2068501546313437419",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "South Korea Preliminary Exports (June 1–20) - DRAM (including modules): +342% YoY, +3% MoM - Flash Memory (NAND): +336% YoY, +28% MoM - SSD: +405% YoY, +25% MoM - MCP (HBM): +209% YoY, +51% MoM",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ],
+        "textPreview": "South Korea Preliminary Exports (June 1–20) - DRAM (including modules): +342% YoY, +3% MoM - Flash Memory (NAND): +336% YoY, +28% MoM - SSD: +405% YoY, +25% MoM - MCP (HBM): +209% YoY, +51% MoM"
+      },
+      {
+        "id": "2068479958679441561",
+        "handle": "zephyr_z9",
+        "name": "Zephyr",
+        "createdAt": "2026-06-20T23:43:47.000Z",
+        "url": "https://x.com/zephyr_z9/status/2068479958679441561",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "People may not like it or think it's quite illogical But a large percentage of Big Tech's CAPEX, debt raised, and equity raises is going straight up into the balance sheets of the memory trio Next year numbers will be c...",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型"
+        ],
+        "textPreview": "People may not like it or think it's quite illogical But a large percentage of Big Tech's CAPEX, debt raised, and equity raises is going straight up into the balance sheets of the memory trio Next year numbers will be c..."
+      },
+      {
+        "id": "2068465806011416908",
+        "handle": "zephyr_z9",
+        "name": "Zephyr",
+        "createdAt": "2026-06-20T22:47:33.000Z",
+        "url": "https://x.com/zephyr_z9/status/2068465806011416908",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "3.5 year breakeven",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ],
+        "textPreview": "3.5 year breakeven"
+      },
+      {
+        "id": "2068396602973143274",
+        "handle": "thenanyu",
+        "name": "Nan Yu",
+        "createdAt": "2026-06-20T18:12:33.000Z",
+        "url": "https://x.com/thenanyu/status/2068396602973143274",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "Hey devs at @Outlook and @gmail you can point your agents at this tweet and they will fix it for you",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型"
+        ],
+        "textPreview": "Hey devs at @Outlook and @gmail you can point your agents at this tweet and they will fix it for you"
+      },
+      {
+        "id": "2068345836686487888",
+        "handle": "philo2022",
+        "name": "Philo",
+        "createdAt": "2026-06-20T14:50:50.000Z",
+        "url": "https://x.com/philo2022/status/2068345836686487888",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "初见成效",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ],
+        "textPreview": "初见成效"
+      },
+      {
+        "id": "2068341689010270236",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "createdAt": "2026-06-20T14:34:21.000Z",
+        "url": "https://x.com/turingou/status/2068341689010270236",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "今日邮轮抵达黑山港口科托尔 Котор🇲🇪这个国家尚未加入欧盟，但生活方式与欧洲人似乎没有什么不同。只是，清晨邮轮驶入峡湾时，景色的尺度似乎突然变大了，让这里看起来更像新西兰或者加拿大。",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ],
+        "textPreview": "今日邮轮抵达黑山港口科托尔 Котор🇲🇪这个国家尚未加入欧盟，但生活方式与欧洲人似乎没有什么不同。只是，清晨邮轮驶入峡湾时，景色的尺度似乎突然变大了，让这里看起来更像新西兰或者加拿大。"
+      },
+      {
+        "id": "2068337315060064444",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "createdAt": "2026-06-20T14:16:58.000Z",
+        "url": "https://x.com/turingou/status/2068337315060064444",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "从展望台遥望海上邮轮 ILMA，在克罗地亚的最后一站，我们开车去察夫塔特小镇散步，这里的三角梅开得很好。",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ],
+        "textPreview": "从展望台遥望海上邮轮 ILMA，在克罗地亚的最后一站，我们开车去察夫塔特小镇散步，这里的三角梅开得很好。"
+      },
+      {
+        "id": "2068322099026862492",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "createdAt": "2026-06-20T13:16:30.000Z",
+        "url": "https://x.com/turingou/status/2068322099026862492",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "杜布罗夫尼克的午后散步。这座小城四处是有趣的细节与可爱的夏日色彩。",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ],
+        "textPreview": "杜布罗夫尼克的午后散步。这座小城四处是有趣的细节与可爱的夏日色彩。"
+      },
+      {
+        "id": "2068318470215811080",
+        "handle": "thenanyu",
+        "name": "Nan Yu",
+        "createdAt": "2026-06-20T13:02:05.000Z",
+        "url": "https://x.com/thenanyu/status/2068318470215811080",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "Why isn’t the default for pasted text in email apps to take on the font treatment surrounding/preceding it?",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型"
+        ],
+        "textPreview": "Why isn’t the default for pasted text in email apps to take on the font treatment surrounding/preceding it?"
+      },
+      {
+        "id": "2068304387534164375",
+        "handle": "wolfyxbt",
+        "name": "杀破狼 WolfyXBT",
+        "createdAt": "2026-06-20T12:06:07.000Z",
+        "url": "https://x.com/wolfyxbt/status/2068304387534164375",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "感谢马斯克，感谢 X 团队，感谢我的父母，感谢大家。",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ],
+        "textPreview": "感谢马斯克，感谢 X 团队，感谢我的父母，感谢大家。"
+      },
+      {
+        "id": "2068292420907995635",
+        "handle": "wolfyxbt",
+        "name": "杀破狼 WolfyXBT",
+        "createdAt": "2026-06-20T11:18:34.000Z",
+        "url": "https://x.com/wolfyxbt/status/2068292420907995635",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "币圈很多项目和产品，99% 的用户都是中国人，然后网站或产品界面都非得搞成英文的，还不提供任何中文选项，然后还标榜自己站在用户的角度去设计产品，你设计个几把，太傻逼了。",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "产品 / 公司"
+        ],
+        "textPreview": "币圈很多项目和产品，99% 的用户都是中国人，然后网站或产品界面都非得搞成英文的，还不提供任何中文选项，然后还标榜自己站在用户的角度去设计产品，你设计个几把，太傻逼了。"
+      },
+      {
+        "id": "2068267599700627493",
+        "handle": "jamesai",
+        "name": "在悉尼和稀泥",
+        "createdAt": "2026-06-20T09:39:56.000Z",
+        "url": "https://x.com/jamesai/status/2068267599700627493",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "王晶如果做vibe coding，也会很出色吧。",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型"
+        ],
+        "textPreview": "王晶如果做vibe coding，也会很出色吧。"
+      },
+      {
+        "id": "2068244969580834904",
+        "handle": "mmmusol",
+        "name": "Musolsol",
+        "createdAt": "2026-06-20T08:10:01.000Z",
+        "url": "https://x.com/mmmusol/status/2068244969580834904",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "另外beefapi QQ 群今晚 8 点还有个抽奖， 400 元奖池，奖品是额度券，进群还能领 $3 试用额度 大家可以扫码进群交流，顺便碰碰运气~ 端午安康呀",
+        "whyItMatters": "偏社交互动，信息密度较低。",
+        "action": "建议低优先级处理，除非该账号本身很重要。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ],
+        "textPreview": "另外beefapi QQ 群今晚 8 点还有个抽奖， 400 元奖池，奖品是额度券，进群还能领 $3 试用额度 大家可以扫码进群交流，顺便碰碰运气~ 端午安康呀"
+      },
+      {
+        "id": "2068238004708094148",
+        "handle": "dotey",
+        "name": "宝玉",
+        "createdAt": "2026-06-20T07:42:20.000Z",
+        "url": "https://x.com/dotey/status/2068238004708094148",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "另外没有否定原文的意思，时常更新 Agents.md 这事本身没问题的",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型"
+        ],
+        "textPreview": "另外没有否定原文的意思，时常更新 Agents.md 这事本身没问题的"
+      },
+      {
+        "id": "2068233518858342887",
+        "handle": "swyx",
+        "name": "Swyx",
+        "createdAt": "2026-06-20T07:24:31.000Z",
+        "url": "https://x.com/swyx/status/2068233518858342887",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "10 years ago, you will be asked by @bendhalpern and @jessleenyc to write your first blog on @thepracticaldev. it is very important that you answer. *now @MLHacks, who are producing the first ever physical daily newspape...",
+        "whyItMatters": "这类内容可能提示真实风险或资金损失，适合优先核对细节和来源。",
+        "action": "建议打开原文核对涉事项目、金额、时间线和来源。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型",
+          "安全 / 风险"
+        ],
+        "textPreview": "10 years ago, you will be asked by @bendhalpern and @jessleenyc to write your first blog on @thepracticaldev. it is very important that you answer. *now @MLHacks, who are producing the first ever physical daily newspape..."
+      },
+      {
+        "id": "2068218515723866477",
+        "handle": "amandaaskell",
+        "name": "Amanda Askell",
+        "createdAt": "2026-06-20T06:24:54.000Z",
+        "url": "https://x.com/AmandaAskell/status/2068218515723866477",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "I had chronic pain for most of my life until a doctor did an MRI of the pain source and found a congenital condition that was then fixed with surgery.",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型"
+        ],
+        "textPreview": "I had chronic pain for most of my life until a doctor did an MRI of the pain source and found a congenital condition that was then fixed with surgery."
+      },
+      {
+        "id": "2068204606119874728",
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "createdAt": "2026-06-20T05:29:38.000Z",
+        "url": "https://x.com/nikunj/status/2068204606119874728",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "SF I have an idea..",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ],
+        "textPreview": "SF I have an idea.."
+      },
+      {
+        "id": "2068199277277401419",
+        "handle": "steipete",
+        "name": "Peter Steinberger",
+        "createdAt": "2026-06-20T05:08:27.000Z",
+        "url": "https://x.com/steipete/status/2068199277277401419",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "Hannes speaks both developer and agents.",
+        "whyItMatters": "它可能包含 AI 能力、成本、产品或工作流的新变化，适合判断是否值得学习或跟进。",
+        "action": "建议记录具体变化点，并观察它是否影响工具选型、产品机会或成本结构。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "AI / 模型"
+        ],
+        "textPreview": "Hannes speaks both developer and agents."
+      },
+      {
+        "id": "2068192140510064675",
+        "handle": "philo2022",
+        "name": "Philo",
+        "createdAt": "2026-06-20T04:40:06.000Z",
+        "url": "https://x.com/philo2022/status/2068192140510064675",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "一切行为都可以是一个筛选行为，一切表达也可以是一个筛选行为。",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "产品 / 公司"
+        ],
+        "textPreview": "一切行为都可以是一个筛选行为，一切表达也可以是一个筛选行为。"
+      },
+      {
+        "id": "2068182309719728159",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "createdAt": "2026-06-20T04:01:02.000Z",
+        "url": "https://x.com/amasad/status/2068182309719728159",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "“The best conference experience I’ve had this year”",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ],
+        "textPreview": "“The best conference experience I’ve had this year”"
+      },
+      {
+        "id": "2068177018479403065",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "createdAt": "2026-06-20T03:40:00.000Z",
+        "url": "https://x.com/amasad/status/2068177018479403065",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "Vibecon recap",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ],
+        "textPreview": "Vibecon recap"
+      },
+      {
+        "id": "2068164193451475387",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "createdAt": "2026-06-20T02:49:03.000Z",
+        "url": "https://x.com/petergyang/status/2068164193451475387",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "It was all a dream 🥲",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ],
+        "textPreview": "It was all a dream 🥲"
+      },
+      {
+        "id": "2068162192927756544",
+        "handle": "amandaaskell",
+        "name": "Amanda Askell",
+        "createdAt": "2026-06-20T02:41:06.000Z",
+        "url": "https://x.com/AmandaAskell/status/2068162192927756544",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "A counter to this is \"yes but people *don't* ignore it\".",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ],
+        "textPreview": "A counter to this is \"yes but people *don't* ignore it\"."
+      },
+      {
+        "id": "2068162191740764622",
+        "handle": "amandaaskell",
+        "name": "Amanda Askell",
+        "createdAt": "2026-06-20T02:41:05.000Z",
+        "url": "https://x.com/AmandaAskell/status/2068162191740764622",
+        "signal": {
+          "level": "low",
+          "label": "低信号",
+          "importance": null
+        },
+        "title": "The view that we shouldn't do more medical scans because incidental findings cause a lot of harm doesn't sit well with me.",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "risk": "",
+        "investmentSignal": null,
+        "tags": [
+          "综合"
+        ],
+        "textPreview": "The view that we shouldn't do more medical scans because incidental findings cause a lot of harm doesn't sit well with me."
+      }
+    ]
+  }
+}

@@ -1,6 +1,88 @@
 {
   "runs": [
     {
+      "generatedAt": "2026-06-21T02:42:06.540Z",
+      "postsArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\posts\\2026-06-21T02-42-06-540Z.json",
+      "briefingArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\briefings\\2026-06-21T02-42-06-540Z.json",
+      "postsArchiveUrl": "/data/archive/posts/2026-06-21T02-42-06-540Z.json",
+      "briefingArchiveUrl": "/data/archive/briefings/2026-06-21T02-42-06-540Z.json",
+      "reportPath": "C:\\Users\\icecream\\Documents\\X\\reports\\x-radar-2026-06-21T02-44-27-419Z.md",
+      "latestDataPath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\latest.json",
+      "latestBriefingPath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\briefing.json",
+      "newPosts": 37,
+      "accountsWithNewPosts": 19,
+      "highSignals": 14,
+      "midSignals": 6,
+      "lowSignals": 17,
+      "errors": 0,
+      "sourceStats": {
+        "feedAccounts": 13,
+        "xApiAccounts": 23,
+        "feedPosts": 9,
+        "xApiPosts": 28,
+        "skippedXApiAccounts": 0,
+        "xApiPostReadsEstimated": 138,
+        "xApiUserReadsEstimated": 23,
+        "xApiUserCacheHits": 0,
+        "feeds": [
+          {
+            "id": "follow-builders",
+            "name": "Follow Builders",
+            "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
+            "generatedAt": "2026-06-20T07:37:23.218Z",
+            "fresh": true,
+            "accountsAvailable": 13,
+            "accountsMatched": 13,
+            "accountsCovered": 13,
+            "accountsWithNewPosts": 7,
+            "postsUsed": 9,
+            "errors": []
+          }
+        ]
+      },
+      "codexAnalysisUpdatedAt": "2026-06-21T02:47:37.473Z"
+    },
+    {
+      "generatedAt": "2026-06-21T02:39:58.949Z",
+      "dryRun": false,
+      "postsArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\posts\\2026-06-21T02-39-58-949Z.json",
+      "briefingArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\briefings\\2026-06-21T02-39-58-949Z.json",
+      "postsArchiveUrl": "data/archive/posts/2026-06-21T02-39-58-949Z.json",
+      "briefingArchiveUrl": "data/archive/briefings/2026-06-21T02-39-58-949Z.json",
+      "reportPath": "C:\\Users\\icecream\\Documents\\X\\reports\\x-radar-2026-06-21T02-42-18-128Z.md",
+      "newPosts": 39,
+      "accountsWithNewPosts": 19,
+      "highSignals": 7,
+      "midSignals": 7,
+      "lowSignals": 25,
+      "sourceStats": {
+        "feedAccounts": 13,
+        "xApiAccounts": 23,
+        "feedPosts": 11,
+        "xApiPosts": 28,
+        "skippedXApiAccounts": 0,
+        "xApiPostReadsEstimated": 138,
+        "xApiUserReadsEstimated": 23,
+        "xApiUserCacheHits": 0,
+        "feeds": [
+          {
+            "id": "follow-builders",
+            "name": "Follow Builders",
+            "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
+            "generatedAt": "2026-06-20T07:37:23.218Z",
+            "fresh": true,
+            "accountsAvailable": 13,
+            "accountsMatched": 13,
+            "accountsCovered": 13,
+            "accountsWithNewPosts": 7,
+            "postsUsed": 11,
+            "errors": []
+          }
+        ]
+      },
+      "errors": 0
+    },
+    {
       "generatedAt": "2026-06-20T02:45:13.901Z",
       "postsArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\posts\\2026-06-20T02-45-13-901Z.json",
       "briefingArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\briefings\\2026-06-20T02-45-13-901Z.json",

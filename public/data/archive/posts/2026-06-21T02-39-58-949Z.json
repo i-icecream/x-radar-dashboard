@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T02:42:06.540Z",
+  "generatedAt": "2026-06-21T02:39:58.949Z",
   "window": {
     "lookbackHours": 24,
     "timezone": "Asia/Shanghai",
@@ -9,11 +9,11 @@
   "stats": {
     "accountsConfigured": 36,
     "accountsWithNewPosts": 19,
-    "totalPosts": 37,
+    "totalPosts": 39,
     "errors": 0,
     "feedAccounts": 13,
     "xApiAccounts": 23,
-    "feedPosts": 9,
+    "feedPosts": 11,
     "xApiPosts": 28,
     "skippedXApiAccounts": 0,
     "xApiPostReadsEstimated": 138,
@@ -23,7 +23,7 @@
   "sources": {
     "feedAccounts": 13,
     "xApiAccounts": 23,
-    "feedPosts": 9,
+    "feedPosts": 11,
     "xApiPosts": 28,
     "skippedXApiAccounts": 0,
     "xApiPostReadsEstimated": 138,
@@ -40,7 +40,7 @@
         "accountsMatched": 13,
         "accountsCovered": 13,
         "accountsWithNewPosts": 7,
-        "postsUsed": 9,
+        "postsUsed": 11,
         "errors": []
       }
     ]
@@ -67,7 +67,7 @@
       "handle": "amandaaskell",
       "name": "Amanda Askell",
       "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI.\nPersonal account. All opinions come from my training data.",
-      "postCount": 1,
+      "postCount": 3,
       "sourceType": "feed",
       "sourceLabel": "Follow Builders"
     },
@@ -112,14 +112,6 @@
       "sourceLabel": "X API"
     },
     {
-      "handle": "philo2022",
-      "name": "Philo",
-      "bio": "Creator, Artist, Creator of @dopamindai & https://t.co/CiW3w1GiB2 & Art Gallery https://t.co/FbODek76Fh | Blog: https://t.co/b6PsjnsGoA | My Artwork: @PhiloArt2020 | En: @Philo1024",
-      "postCount": 2,
-      "sourceType": "x-api",
-      "sourceLabel": "X API"
-    },
-    {
       "handle": "0xsunnft",
       "name": "OxSun",
       "bio": "Talk is cheap, show me the wallet.",
@@ -128,17 +120,17 @@
       "sourceLabel": "X API"
     },
     {
-      "handle": "turingou",
-      "name": "郭宇 guoyu.eth",
-      "bio": "Retired. 只活一次等于没活。",
-      "postCount": 3,
+      "handle": "philo2022",
+      "name": "Philo",
+      "bio": "Creator, Artist, Creator of @dopamindai & https://t.co/CiW3w1GiB2 & Art Gallery https://t.co/FbODek76Fh | Blog: https://t.co/b6PsjnsGoA | My Artwork: @PhiloArt2020 | En: @Philo1024",
+      "postCount": 2,
       "sourceType": "x-api",
       "sourceLabel": "X API"
     },
     {
-      "handle": "dotey",
-      "name": "宝玉",
-      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "handle": "turingou",
+      "name": "郭宇 guoyu.eth",
+      "bio": "Retired. 只活一次等于没活。",
       "postCount": 3,
       "sourceType": "x-api",
       "sourceLabel": "X API"
@@ -160,17 +152,25 @@
       "sourceLabel": "X API"
     },
     {
-      "handle": "mmmusol",
-      "name": "Musolsol",
-      "bio": "06 |  21年入web3 |\n长期主义 | 不定时投机\n侠客交易员 | 宏观 | AI | 文学\nFounder of @SWUFEBA\n投名状于@0xUClub @bamboozcrypto 门下\nStart From the Bottom.",
+      "handle": "aleabitoreddit",
+      "name": "Serenity",
+      "bio": "I only use X, beware of imposters. \n\nAI/Semi Supply Chain Analyst\n\nNot investment advice, DYODD. Now publishing free research on AI chokepoints.",
       "postCount": 3,
       "sourceType": "x-api",
       "sourceLabel": "X API"
     },
     {
-      "handle": "aleabitoreddit",
-      "name": "Serenity",
-      "bio": "I only use X, beware of imposters. \n\nAI/Semi Supply Chain Analyst\n\nNot investment advice, DYODD. Now publishing free research on AI chokepoints.",
+      "handle": "dotey",
+      "name": "宝玉",
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "postCount": 3,
+      "sourceType": "x-api",
+      "sourceLabel": "X API"
+    },
+    {
+      "handle": "mmmusol",
+      "name": "Musolsol",
+      "bio": "06 |  21年入web3 |\n长期主义 | 不定时投机\n侠客交易员 | 宏观 | AI | 文学\nFounder of @SWUFEBA\n投名状于@0xUClub @bamboozcrypto 门下\nStart From the Bottom.",
       "postCount": 3,
       "sourceType": "x-api",
       "sourceLabel": "X API"
@@ -232,20 +232,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "作者强调小型创业公司招人和合作时要先把对方当成具体的人，理解其赚钱、成长和情绪环境诉求。",
-        "insight": "这是一条关于早期团队管理的提醒：激励和关系质量会直接影响执行，而不是任务下发后自然完成。",
-        "whyItMatters": "适合反思合伙、招聘和带年轻团队时的管理基本盘。",
-        "action": "如有招聘或组队计划，可核对岗位是否同时覆盖收入、成长和工作环境预期。",
-        "risk": "偏管理心得，没有具体公司或工具信息。",
-        "investmentSignal": null,
-        "tags": [
-          "创业管理",
-          "团队建设"
-        ],
-        "importance": 3
       }
     },
     {
@@ -257,9 +243,9 @@
       "createdAt": "2026-06-21T02:03:26.000Z",
       "url": "https://x.com/jukan05/status/2068515104103285190",
       "metrics": {
-        "likes": 107,
+        "likes": 98,
         "reposts": 7,
-        "replies": 9,
+        "replies": 8,
         "quotes": 2
       },
       "score": 72,
@@ -279,26 +265,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Jukan 列出韩国 6 月 1-20 日半导体出口单价：DRAM、NAND、HBM 等同比大幅上涨，部分品类环比继续走强。",
-        "insight": "存储价格上行仍在出口数据中被验证，HBM 与 NAND 的价格动能尤其值得跟踪。",
-        "whyItMatters": "这是判断存储周期、AI 资本开支传导和上游利润弹性的高频线索。",
-        "action": "继续跟踪韩国完整月度出口、三星/SK 海力士/美光价格和毛利率指引。",
-        "risk": "6 月数据为 1-20 日初值，完整月度可能修正。",
-        "investmentSignal": {
-          "target": "DRAM/NAND/HBM 存储链",
-          "tilt": "bullish",
-          "thesis": "韩国出口单价同比数倍增长且部分品类环比上升，显示存储景气仍强。",
-          "evidence": "DRAM、Flash、MCP(HBM) export unit price 同比大幅上涨"
-        },
-        "tags": [
-          "半导体",
-          "存储",
-          "韩国出口"
-        ],
-        "importance": 5
       }
     },
     {
@@ -310,7 +276,7 @@
       "createdAt": "2026-06-21T01:17:39.000Z",
       "url": "https://x.com/jukan05/status/2068503582803197993",
       "metrics": {
-        "likes": 130,
+        "likes": 128,
         "reposts": 17,
         "replies": 1,
         "quotes": 4
@@ -332,26 +298,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Jukan 提到韩国 6 月 1-20 日 MLCC 出口同比增长 24%、半导体制造设备同比增长 38%，环比也显著增长。",
-        "insight": "除存储外，被动元件和半导体设备出口也出现较强短期数据。",
-        "whyItMatters": "有助于观察 AI/电子周期是否向更广泛的硬件链扩散。",
-        "action": "核对 MLCC、韩国设备厂和全球晶圆厂资本开支数据是否同步改善。",
-        "risk": "只是短窗口出口数据，未拆分价格、量和一次性订单因素。",
-        "investmentSignal": {
-          "target": "MLCC 与半导体设备链",
-          "tilt": "watching",
-          "thesis": "韩国初步出口数据显示 MLCC 和半导体制造设备同比、环比均增长。",
-          "evidence": "MLCC +24% YoY; Semiconductor Manufacturing Equipment +38% YoY"
-        },
-        "tags": [
-          "半导体设备",
-          "MLCC",
-          "韩国出口"
-        ],
-        "importance": 4
       }
     },
     {
@@ -363,7 +309,7 @@
       "createdAt": "2026-06-21T01:09:34.000Z",
       "url": "https://x.com/jukan05/status/2068501546313437419",
       "metrics": {
-        "likes": 174,
+        "likes": 171,
         "reposts": 29,
         "replies": 7,
         "quotes": 13
@@ -385,26 +331,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Jukan 列出韩国 6 月 1-20 日 DRAM、NAND、SSD、HBM 出口额同比大幅增长，SSD 和 HBM 环比也明显上升。",
-        "insight": "存储上行不仅体现在价格，也体现在多个出口品类的金额动能。",
-        "whyItMatters": "可作为存储股和 AI 服务器供应链景气度的交叉验证。",
-        "action": "把这组数据与美光、SK 海力士、三星以及 SSD 控制器/模组厂的业绩节奏对照。",
-        "risk": "出口额增长可能混合价格、产品结构和出货量，需拆分验证。",
-        "investmentSignal": {
-          "target": "DRAM/NAND/SSD/HBM",
-          "tilt": "bullish",
-          "thesis": "韩国 6 月前 20 日相关出口额同比成倍增长，HBM 环比增长 51%。",
-          "evidence": "MCP (HBM): +209% YoY, +51% MoM"
-        },
-        "tags": [
-          "存储",
-          "HBM",
-          "SSD"
-        ],
-        "importance": 5
       }
     },
     {
@@ -416,7 +342,7 @@
       "createdAt": "2026-06-20T23:43:47.000Z",
       "url": "https://x.com/zephyr_z9/status/2068479958679441561",
       "metrics": {
-        "likes": 336,
+        "likes": 332,
         "reposts": 26,
         "replies": 26,
         "quotes": 2
@@ -438,26 +364,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Zephyr 认为大量 Big Tech 资本开支、债务和股权融资正在流向三大存储厂商，明年数据会很夸张。",
-        "insight": "作者把 AI 资本开支的主要财务受益者指向存储三巨头，而不只是云厂商或模型公司。",
-        "whyItMatters": "这是存储板块利润弹性和估值重估的明确投资线索。",
-        "action": "重点核对 MU、三星、SK 海力士的订单、ASP、HBM 产能和 2027 年利润预期。",
-        "risk": "原文没有列出具体测算，且“明年会很夸张”属于方向性判断。",
-        "investmentSignal": {
-          "target": "memory trio",
-          "tilt": "bullish",
-          "thesis": "Big Tech 的 CAPEX 和融资正在转化为存储厂商收入和资产负债表扩张。",
-          "evidence": "Big Tech's CAPEX, debt raised, and equity raises is going straight up into the balance sheets"
-        },
-        "tags": [
-          "AI资本开支",
-          "存储",
-          "美股"
-        ],
-        "importance": 4
       }
     },
     {
@@ -491,26 +397,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Zephyr 称智谱 2026 年目标是 10 亿美元 ARR，并认为可能超过，同时估计 Anthropic 和 OpenAI 5 月时各自已在 400-500 亿美元 ARR 水平。",
-        "insight": "作者在对比中美头部 AI 应用/模型公司的收入速度，暗示市场可能低估智谱增长。",
-        "whyItMatters": "智谱 ARR 与海外头部公司的相对位置，是主权 AI 和中国 AI 资产重估的重要线索。",
-        "action": "核对智谱公开收入、客户结构、GLM 5.2 发布后的付费转化和相关上市公司映射。",
-        "risk": "ARR 数字来自作者判断，离线文本没有原始来源。",
-        "investmentSignal": {
-          "target": "智谱 AI",
-          "tilt": "bullish",
-          "thesis": "作者认为智谱 2026 年 10 亿美元 ARR 目标可能被超过。",
-          "evidence": "Zhipu's goal for 2026 was $1B ARR (pretty sure they will beat this)"
-        },
-        "tags": [
-          "AI收入",
-          "智谱",
-          "ARR"
-        ],
-        "importance": 4
       }
     },
     {
@@ -522,7 +408,7 @@
       "createdAt": "2026-06-20T22:47:33.000Z",
       "url": "https://x.com/zephyr_z9/status/2068465806011416908",
       "metrics": {
-        "likes": 373,
+        "likes": 370,
         "reposts": 4,
         "replies": 15,
         "quotes": 1
@@ -544,20 +430,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Zephyr 只写到“3.5 年回本”，但离线文本缺少被引用内容，无法判断具体资产或测算对象。",
-        "insight": "可能是对某项投资回收期的简短评论，但上下文不足。",
-        "whyItMatters": "没有标的和计算基础，当前只能作为待查线索。",
-        "action": "需要打开原文或补齐引用内容后再判断。",
-        "risk": "缺少引用上下文，不能推断对象或投资含义。",
-        "investmentSignal": null,
-        "tags": [
-          "低信号",
-          "缺上下文"
-        ],
-        "importance": 1
       }
     },
     {
@@ -591,20 +463,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Nan Yu 吐槽 Outlook 和 Gmail 的开发者可以让 agent 阅读这条反馈并修复相关问题。",
-        "insight": "这是对邮件产品体验问题和 agent 修复流程的轻量调侃。",
-        "whyItMatters": "可作为用户对邮件工具基础体验不满的弱信号。",
-        "action": "无需跟进，除非正在研究邮件客户端体验。",
-        "risk": "没有明确描述具体 bug。",
-        "investmentSignal": null,
-        "tags": [
-          "低信号",
-          "邮件产品"
-        ],
-        "importance": 1
       }
     },
     {
@@ -616,7 +474,7 @@
       "createdAt": "2026-06-20T15:59:24.000Z",
       "url": "https://x.com/dotey/status/2068363092904276316",
       "metrics": {
-        "likes": 22,
+        "likes": 21,
         "reposts": 3,
         "replies": 23,
         "quotes": 1
@@ -639,21 +497,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "宝玉系统总结了用 Agent 写代码仍要遵循传统软件工程：需求分析、系统设计、代码审查、自动化测试、CI、端到端测试和灰度发布。",
-        "insight": "核心观点是 AI 编程放大执行力，但稳定交付仍依赖工程流程和人类审查。",
-        "whyItMatters": "对任何用 Codex/Claude Code 做真实项目的人都有可执行的流程价值。",
-        "action": "把现有 AI 开发流程按需求澄清、计划拆分、测试覆盖、灰度发布四块做一次自查。",
-        "risk": "偏方法论，但细节足够具体。",
-        "investmentSignal": null,
-        "tags": [
-          "AI编程",
-          "软件工程",
-          "Agent"
-        ],
-        "importance": 5
       }
     },
     {
@@ -689,21 +532,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Madhu Guru 认为 PM 角色也在 AI 时代发生分化：旧式 PM 用 AI 生产更多文档，Builder PM 则用 agent 做研究、分析、生成方案并输出原型。",
-        "insight": "PM 的价值正在从文档产出转向判断、工作流设计和可运行原型。",
-        "whyItMatters": "这直接影响产品团队招聘、PM 能力模型和 AI 原生组织分工。",
-        "action": "将 PM 工作流从 PRD 数量转向 research-agent、analytics-query、prototype-first 的能力清单。",
-        "risk": "是职业趋势判断，不是单个产品发布。",
-        "investmentSignal": null,
-        "tags": [
-          "产品管理",
-          "AI工作流",
-          "Builder PM"
-        ],
-        "importance": 5
       }
     },
     {
@@ -737,19 +565,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "低信息量：只写“初见成效”并附链接，离线状态下无法判断具体内容。",
-        "insight": "缺少可分析主体。",
-        "whyItMatters": "当前对雷达目标贡献很低。",
-        "action": "跳过。",
-        "risk": "链接内容不可见。",
-        "investmentSignal": null,
-        "tags": [
-          "低信号"
-        ],
-        "importance": 1
       }
     },
     {
@@ -784,26 +599,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "WolfyXBT 称币安已把 Predict.fun 接入币安 CEX 和钱包，认为 BNBChain 预测市场竞争基本结束，并提到拉新活动。",
-        "insight": "Predict.fun 获得币安交易所和钱包入口，是 BNBChain 预测市场分发和流动性的重要扶持。",
-        "whyItMatters": "这可能改变 BNBChain 预测市场生态的用户获取和胜负格局。",
-        "action": "核对 Predict.fun 接入范围、真实成交量、币安活动规则和 BNBChain 其他预测市场对手。",
-        "risk": "帖子含推广邀请链接，作者判断可能带有利益倾向。",
-        "investmentSignal": {
-          "target": "Predict.fun / BNBChain 预测市场",
-          "tilt": "bullish",
-          "thesis": "币安 CEX 和币安钱包入口提供强分发与流动性支持。",
-          "evidence": "币安直接把 @predictdotfun 接到币安 CEX 和币安钱包"
-        },
-        "tags": [
-          "Crypto",
-          "BNBChain",
-          "预测市场"
-        ],
-        "importance": 4
       }
     },
     {
@@ -837,20 +632,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "低信息量：郭宇记录邮轮抵达黑山科托尔及当地景色感受。",
-        "insight": "旅行记录，对技术、产品和投资雷达没有明显增量。",
-        "whyItMatters": "可略过。",
-        "action": "跳过。",
-        "risk": "仅为生活内容。",
-        "investmentSignal": null,
-        "tags": [
-          "生活",
-          "低信号"
-        ],
-        "importance": 1
       }
     },
     {
@@ -884,20 +665,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "低信息量：郭宇分享在克罗地亚察夫塔特小镇看邮轮和三角梅。",
-        "insight": "旅行照片/日常记录。",
-        "whyItMatters": "对当前雷达目标无明显价值。",
-        "action": "跳过。",
-        "risk": "无可执行信息。",
-        "investmentSignal": null,
-        "tags": [
-          "生活",
-          "低信号"
-        ],
-        "importance": 1
       }
     },
     {
@@ -931,20 +698,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "低信息量：郭宇分享杜布罗夫尼克午后散步和城市细节。",
-        "insight": "生活/旅行内容。",
-        "whyItMatters": "不影响技术或投资判断。",
-        "action": "跳过。",
-        "risk": "无实质信号。",
-        "investmentSignal": null,
-        "tags": [
-          "生活",
-          "低信号"
-        ],
-        "importance": 1
       }
     },
     {
@@ -978,21 +731,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Nan Yu 问为什么邮件应用粘贴文本默认不继承周围字体样式，认为这个基础体验问题仍未解决很离谱。",
-        "insight": "这是一个具体的生产力软件 UX 痛点。",
-        "whyItMatters": "对构建编辑器、邮件或富文本输入产品有参考价值。",
-        "action": "如涉及富文本编辑器，可把粘贴后样式继承作为默认体验检查项。",
-        "risk": "只是单点体验反馈。",
-        "investmentSignal": null,
-        "tags": [
-          "UX",
-          "邮件",
-          "富文本"
-        ],
-        "importance": 3
       }
     },
     {
@@ -1004,9 +742,9 @@
       "createdAt": "2026-06-20T12:06:07.000Z",
       "url": "https://x.com/wolfyxbt/status/2068304387534164375",
       "metrics": {
-        "likes": 613,
+        "likes": 612,
         "reposts": 8,
-        "replies": 373,
+        "replies": 372,
         "quotes": 9
       },
       "score": 36,
@@ -1026,19 +764,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "低信息量：WolfyXBT 发感谢类内容并附图，离线文本没有具体事件。",
-        "insight": "社交/情绪内容。",
-        "whyItMatters": "当前无可用信号。",
-        "action": "跳过。",
-        "risk": "图片内容未解析。",
-        "investmentSignal": null,
-        "tags": [
-          "低信号"
-        ],
-        "importance": 1
       }
     },
     {
@@ -1050,8 +775,8 @@
       "createdAt": "2026-06-20T11:52:49.000Z",
       "url": "https://x.com/aleabitoreddit/status/2068301039946887269",
       "metrics": {
-        "likes": 1883,
-        "reposts": 94,
+        "likes": 1880,
+        "reposts": 93,
         "replies": 245,
         "quotes": 13
       },
@@ -1074,26 +799,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Serenity 回顾自己一些最初被质疑但后来获得验证的投资想法，包括 AXTI、CVKD 和 INSP，强调原创观点早期常遭强烈反对。",
-        "insight": "作者在为逆向研究框架辩护：早期争议不一定等于错误，关键是后续基本面和机构验证。",
-        "whyItMatters": "可用于识别“被市场误读但有验证路径”的小盘/主题投资线索。",
-        "action": "复盘作者提到的 AXTI、CVKD、INSP 的验证证据和当前估值，区分已兑现与仍有空间的部分。",
-        "risk": "带有事后复盘性质，不能直接推断未来收益。",
-        "investmentSignal": {
-          "target": "AXTI / CVKD / INSP",
-          "tilt": "holding",
-          "thesis": "作者称这些原创想法早期遭质疑，后来被新闻、财报或机构行为验证。",
-          "evidence": "$AXTI ... Reuters, Epiwafer company earnings, and institutions validated"
-        },
-        "tags": [
-          "Serenity",
-          "小盘股",
-          "逆向投资"
-        ],
-        "importance": 4
       }
     },
     {
@@ -1105,7 +810,7 @@
       "createdAt": "2026-06-20T11:18:34.000Z",
       "url": "https://x.com/wolfyxbt/status/2068292420907995635",
       "metrics": {
-        "likes": 378,
+        "likes": 377,
         "reposts": 9,
         "replies": 214,
         "quotes": 8
@@ -1127,21 +832,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "WolfyXBT 批评许多币圈项目用户大多是中国人，却只做英文界面且不提供中文选项。",
-        "insight": "这是加密产品本地化和用户匹配问题，指出产品语言与真实用户结构脱节。",
-        "whyItMatters": "对面向中文用户的 Web3 产品增长和转化有直接参考。",
-        "action": "如果评估币圈产品，检查用户地域、语言支持和社区运营是否一致。",
-        "risk": "缺少具体项目名单。",
-        "investmentSignal": null,
-        "tags": [
-          "Crypto",
-          "本地化",
-          "产品体验"
-        ],
-        "importance": 3
       }
     },
     {
@@ -1175,26 +865,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Serenity 分享 X 收入分成项目情况，称自己没想到每两周能获得 1 亿以上浏览量，即使免费也会继续分享想法。",
-        "insight": "这说明高频投资内容创作者在 X 上能获得巨大分发，但核心动机仍是与同好交流观点。",
-        "whyItMatters": "对理解投资 KOL 的激励、内容供给和 X 分发机制有参考价值。",
-        "action": "无需投资跟进，可关注其观点产出是否受流量激励影响。",
-        "risk": "截图细节未离线解析。",
-        "investmentSignal": {
-          "target": "X revenue sharing / RDDT 社群",
-          "tilt": "neutral",
-          "thesis": "作者说明自己在 X 上的巨大浏览量和收入分成体验，但表示核心仍是分享投资想法。",
-          "evidence": "100M+ times every 2 weeks"
-        },
-        "tags": [
-          "X平台",
-          "创作者经济",
-          "投资KOL"
-        ],
-        "importance": 3
       }
     },
     {
@@ -1228,20 +898,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "James 认为一个人会不会利用 AI，往往在 AI 出现前就已由其原有能力和创作方式决定。",
-        "insight": "AI 使用能力更多放大已有的审美、执行和表达习惯，而不是凭空创造能力。",
-        "whyItMatters": "有助于判断团队中谁更可能成为 AI-native builder。",
-        "action": "评估 AI 工具采用时，关注候选人原本的问题拆解和产出习惯。",
-        "risk": "偏观点表达，缺少具体案例细节。",
-        "investmentSignal": null,
-        "tags": [
-          "AI使用",
-          "人才判断"
-        ],
-        "importance": 3
       }
     },
     {
@@ -1275,20 +931,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "低信息量：Musolsol 发布 BeefAPI QQ 群抽奖和试用额度活动。",
-        "insight": "这是活动推广。",
-        "whyItMatters": "除非正在测试 BeefAPI，否则价值有限。",
-        "action": "跳过或仅作为服务推广记录。",
-        "risk": "推广性质强。",
-        "investmentSignal": null,
-        "tags": [
-          "推广",
-          "低信号"
-        ],
-        "importance": 1
       }
     },
     {
@@ -1323,21 +965,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Musolsol 以真实使用体验推广 BeefAPI，称其解决了 Claude Code 和 Codex 开发中官方 API 贵、中转站不稳定或定价不清的问题。",
-        "insight": "AI 编程重度用户对低成本、稳定、易配置模型 API 中转有明确需求。",
-        "whyItMatters": "这反映了 AI devtool 基础设施里价格、稳定性和模型切换体验的真实痛点。",
-        "action": "若评估 BeefAPI 或类似服务，重点测试稳定性、计费透明度、模型覆盖和合规风险。",
-        "risk": "帖子是推广文，需独立验证服务质量和安全性。",
-        "investmentSignal": null,
-        "tags": [
-          "AI API",
-          "开发工具",
-          "推广"
-        ],
-        "importance": 3
       }
     },
     {
@@ -1371,20 +998,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "宝玉补充说明自己并非否定经常更新 Agents.md，这件事本身没有问题。",
-        "insight": "这是对前一条 AGENTS.md 讨论的限定：问题不在更新文档，而在是否把错误归因正确。",
-        "whyItMatters": "可帮助避免误读其软件工程观点。",
-        "action": "与主帖合并阅读即可。",
-        "risk": "单独看信息量较低。",
-        "investmentSignal": null,
-        "tags": [
-          "AI编程",
-          "补充说明"
-        ],
-        "importance": 2
       }
     },
     {
@@ -1421,20 +1034,6 @@
         "id": "follow-builders",
         "label": "Follow Builders",
         "generatedAt": "2026-06-20T07:37:23.218Z"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "swyx 回顾十年前被邀请在 DEV 写第一篇博客，并提到 MLHacks 正在 AI Engineer 活动制作实体日报。",
-        "insight": "这是创作者路径和 AI Engineer 社群媒体实验的轻量记录。",
-        "whyItMatters": "对关注开发者社区和活动内容形态有一定参考。",
-        "action": "无需优先跟进，除非关注 AI Engineer 现场内容。",
-        "risk": "主要是纪念和活动提及。",
-        "investmentSignal": null,
-        "tags": [
-          "开发者社区",
-          "AI活动"
-        ],
-        "importance": 2
       }
     },
     {
@@ -1446,7 +1045,7 @@
       "createdAt": "2026-06-20T07:16:05.000Z",
       "url": "https://x.com/dotey/status/2068231396015890449",
       "metrics": {
-        "likes": 127,
+        "likes": 126,
         "reposts": 12,
         "replies": 57,
         "quotes": 9
@@ -1469,21 +1068,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "宝玉认为程序错误应先恢复生产、再找根因、最后按根因防复发；只有当问题源于项目特有约定缺失时才应写进 AGENTS.md。",
-        "insight": "他反对把所有 AI 编程事故都归咎于提示文档，主张用测试、架构、代码审查或项目知识分别解决。",
-        "whyItMatters": "这是 AI 编程事故复盘和项目规范设计的高质量判断框架。",
-        "action": "把现有 AGENTS.md 规则和测试缺口分开治理：项目知识写文档，业务边界写测试。",
-        "risk": "需要结合具体事故才能落地。",
-        "investmentSignal": null,
-        "tags": [
-          "AGENTS.md",
-          "事故复盘",
-          "AI编程"
-        ],
-        "importance": 5
       }
     },
     {
@@ -1519,20 +1103,6 @@
         "id": "follow-builders",
         "label": "Follow Builders",
         "generatedAt": "2026-06-20T07:37:23.218Z"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Amanda Askell 讲述自己多年慢性疼痛直到医生做 MRI 才发现先天问题并手术解决，质疑医生是否因担心患者误读结果而过度限制检查。",
-        "insight": "这是一条关于医疗信息透明和患者自主权的个人经历。",
-        "whyItMatters": "对 AI 医疗、患者数据可见性和诊断流程讨论有弱相关价值。",
-        "action": "作为医疗信息透明案例保存即可，不做医学推断。",
-        "risk": "个人经历不能泛化为临床建议。",
-        "investmentSignal": null,
-        "tags": [
-          "医疗体验",
-          "信息透明"
-        ],
-        "importance": 2
       }
     },
     {
@@ -1568,27 +1138,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "OxSun 强调成为全市场交易员的重要性，并用智谱、Hype、BTC、Anthropic、SNDK、MU、NBIS 等例子说明跨市场敏感度能提升机会捕捉。",
-        "insight": "作者把 AI、加密、Pre-IPO 和美股存储链放在同一机会框架里，核心是识别催化剂后在流动性更好的市场表达。",
-        "whyItMatters": "这是很具体的跨资产交易方法论，且列出多条已发生的标的线索。",
-        "action": "复盘智谱、Hype、BTC 空头、Anthropic 私募、SNDK/MU/NBIS 的催化剂与持仓难点，建立跨市场观察表。",
-        "risk": "多为事后案例，未来复制需严格区分催化剂、估值和流动性。",
-        "investmentSignal": {
-          "target": "智谱 / Hype / BTC / Anthropic / SNDK / MU / NBIS",
-          "tilt": "researching",
-          "thesis": "跨市场理解能把主权 AI、加密监管、Pre-IPO 和存储需求变化转化为更好的交易表达。",
-          "evidence": "同一时间买入 $SNDK、$MU、$NBIS 等，都能吃到3~4倍的涨幅"
-        },
-        "tags": [
-          "全市场交易",
-          "AI",
-          "Crypto",
-          "存储"
-        ],
-        "importance": 5
       }
     },
     {
@@ -1624,19 +1173,6 @@
         "id": "follow-builders",
         "label": "Follow Builders",
         "generatedAt": "2026-06-20T07:37:23.218Z"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "低信息量：Nikunj 只写“SF I have an idea..”并附链接。",
-        "insight": "缺少可见上下文。",
-        "whyItMatters": "当前无法判断想法内容。",
-        "action": "跳过。",
-        "risk": "链接/图片内容未离线解析。",
-        "investmentSignal": null,
-        "tags": [
-          "低信号"
-        ],
-        "importance": 1
       }
     },
     {
@@ -1672,20 +1208,6 @@
         "id": "follow-builders",
         "label": "Follow Builders",
         "generatedAt": "2026-06-20T07:37:23.218Z"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Peter Steinberger 称 Hannes 同时懂开发者和 agents，并表示很高兴他加入团队。",
-        "insight": "这是一次团队/人才信号，说明懂开发者体验和 agent 的人正在被重视。",
-        "whyItMatters": "对 AI devtool 人才流动有轻微信号价值。",
-        "action": "如关注相关公司，可查 Hannes 加入的是哪个团队及负责方向。",
-        "risk": "引用上下文缺失，具体公司和职位不明。",
-        "investmentSignal": null,
-        "tags": [
-          "AI人才",
-          "开发者工具"
-        ],
-        "importance": 2
       }
     },
     {
@@ -1719,20 +1241,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Philo 认为行为和表达都是筛选机制，极致表达会吸引契合的人、用户或合作伙伴，追求所有人喜欢会走向平庸。",
-        "insight": "这是产品和个人品牌定位的观点：明确取舍比泛化讨好更重要。",
-        "whyItMatters": "对创作者、产品定位和早期用户选择有一定启发。",
-        "action": "如在做产品定位，可检查是否为了迎合所有人而稀释了核心用户画像。",
-        "risk": "偏哲学表达，缺少具体案例。",
-        "investmentSignal": null,
-        "tags": [
-          "产品定位",
-          "个人品牌"
-        ],
-        "importance": 2
       }
     },
     {
@@ -1768,20 +1276,6 @@
         "id": "follow-builders",
         "label": "Follow Builders",
         "generatedAt": "2026-06-20T07:37:23.218Z"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "低信息量：Amjad 转发称“这是今年最好的会议体验”，但离线文本没有会议细节。",
-        "insight": "活动评价类内容。",
-        "whyItMatters": "无法判断具体经验或产品信号。",
-        "action": "跳过。",
-        "risk": "引用内容不可见。",
-        "investmentSignal": null,
-        "tags": [
-          "低信号",
-          "活动"
-        ],
-        "importance": 1
       }
     },
     {
@@ -1816,27 +1310,6 @@
       "source": {
         "type": "x-api",
         "label": "X API"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Serenity 列出一组个人研究笔记，涉及 Priortech/CAMT、WYFI、Wistron/Wiwynn、Sin-American Silicon/GlobalWafers、Iljin Holdings 等控股折价和 AI/电力链机会。",
-        "insight": "重点是寻找被市场忽视的控股公司折价、AI 服务器供应链和电力设备 NAV 折价机会。",
-        "whyItMatters": "这是本次扫描中最密集的小盘/海外供应链投资线索之一。",
-        "action": "逐个核对持股比例、市值、NAV 折价、独立增长、治理和解锁机制，优先看 Wistron/Wiwynn 与 Priortech/CAMT。",
-        "risk": "NAV 折价未必能解锁，韩国/台湾控股结构和流动性风险需单独验证。",
-        "investmentSignal": {
-          "target": "Priortech/CAMT, WYFI, Wistron/Wiwynn, Sin-American Silicon/GlobalWafers, Iljin Holdings/Iljin Electric",
-          "tilt": "researching",
-          "thesis": "作者筛选控股公司 NAV 折价与 AI/电力供应链增长错配机会。",
-          "evidence": "Wistron ... owns 35.46% of Wiwynn ... Sin-American Silicon ... stake value is ~$7.9B"
-        },
-        "tags": [
-          "Serenity",
-          "NAV折价",
-          "AI供应链",
-          "小盘股"
-        ],
-        "importance": 5
       }
     },
     {
@@ -1872,20 +1345,6 @@
         "id": "follow-builders",
         "label": "Follow Builders",
         "generatedAt": "2026-06-20T07:37:23.218Z"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "低信息量：Amjad 发布 Vibecon recap 链接，离线文本没有摘要内容。",
-        "insight": "活动回顾入口，但缺少可见信息。",
-        "whyItMatters": "当前不能判断是否有产品或行业信号。",
-        "action": "跳过或之后补充网页内容再看。",
-        "risk": "链接内容不可见。",
-        "investmentSignal": null,
-        "tags": [
-          "低信号",
-          "活动"
-        ],
-        "importance": 1
       }
     },
     {
@@ -1921,21 +1380,6 @@
         "id": "follow-builders",
         "label": "Follow Builders",
         "generatedAt": "2026-06-20T07:37:23.218Z"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Peter Yang 称自己曾是 Claude Code 重度用户，但因 GPT-5.5、Fast mode、额度、手机远程控制、浏览器和电脑控制能力而被 Codex 打动，同时仍看好 Claude、Fable 等竞争。",
-        "insight": "AI 编程工具竞争正在从模型质量扩展到额度、速度、远程控制、浏览器/电脑操作和前端能力。",
-        "whyItMatters": "这是高价值用户对 Codex 与 Claude Code 差异化的直接反馈。",
-        "action": "关注 Codex 浏览器/电脑控制工作流，以及 Claude/Fable 在设计和前端能力上的反击。",
-        "risk": "包含个人偏好，且 Fable 回归等状态需另行确认。",
-        "investmentSignal": null,
-        "tags": [
-          "Codex",
-          "Claude Code",
-          "AI编程工具"
-        ],
-        "importance": 4
       }
     },
     {
@@ -1972,22 +1416,6 @@
         "id": "follow-builders",
         "label": "Follow Builders",
         "generatedAt": "2026-06-20T07:37:23.218Z"
-      },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "Guillermo Rauch 认为下一门热门编程语言是 Markdown，并展示 eve agent 用 instructions.md 和 skills 目录即可定义、部署。",
-        "insight": "Vercel/eve 的方向是把 agent 编程抽象为普通人可读写的 Markdown 指令和技能目录。",
-        "whyItMatters": "这代表 agent 平台的低门槛配置化趋势，可能影响开发者工具和部署平台形态。",
-        "action": "跟踪 eve 的技能/指令规范、部署方式和与现有 Vercel 工作流的结合。",
-        "risk": "帖子是产品愿景表达，实际能力和采用度还需验证。",
-        "investmentSignal": null,
-        "tags": [
-          "Vercel",
-          "eve",
-          "Agent",
-          "Markdown"
-        ],
-        "importance": 4
       }
     },
     {
@@ -2023,26 +1451,78 @@
         "id": "follow-builders",
         "label": "Follow Builders",
         "generatedAt": "2026-06-20T07:37:23.218Z"
+      }
+    },
+    {
+      "id": "2068162192927756544",
+      "handle": "amandaaskell",
+      "name": "Amanda Askell",
+      "text": "A counter to this is \"yes but people *don't* ignore it\". But not ignoring things on scans is our norm because, until recently, we only did scans if there was a clear need. If we move to a scan-more-often paradigm, the norms of what we do with that information will surely adjust.",
+      "summary": "A counter to this is \"yes but people *don't* ignore it\".",
+      "createdAt": "2026-06-20T02:41:06.000Z",
+      "url": "https://x.com/AmandaAskell/status/2068162192927756544",
+      "metrics": {
+        "likes": 332,
+        "reposts": 11,
+        "replies": 26,
+        "quotes": 0
       },
-      "codexAnalysis": {
-        "method": "codex-analysis-v1",
-        "llmSummary": "低信息量：Peter Yang 只写“It was all a dream”并附链接，离线状态下无法判断上下文。",
-        "insight": "缺少具体内容。",
-        "whyItMatters": "当前无可用信号。",
-        "action": "跳过。",
-        "risk": "链接/图片内容不可见。",
-        "investmentSignal": null,
-        "tags": [
-          "低信号"
+      "score": 36,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "综合"
         ],
-        "importance": 1
+        "type": "动态",
+        "signal": "低信号",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": null,
+      "quotedPostId": null,
+      "source": {
+        "type": "feed",
+        "id": "follow-builders",
+        "label": "Follow Builders",
+        "generatedAt": "2026-06-20T07:37:23.218Z"
+      }
+    },
+    {
+      "id": "2068162191740764622",
+      "handle": "amandaaskell",
+      "name": "Amanda Askell",
+      "text": "The view that we shouldn't do more medical scans because incidental findings cause a lot of harm doesn't sit well with me. It seems like the issue it points to isn't the scan but the response to it. If you see something on a scan but have no other symptoms, you could ignore it.",
+      "summary": "The view that we shouldn't do more medical scans because incidental findings cause a lot of harm doesn't sit well with me.",
+      "createdAt": "2026-06-20T02:41:05.000Z",
+      "url": "https://x.com/AmandaAskell/status/2068162191740764622",
+      "metrics": {
+        "likes": 774,
+        "reposts": 24,
+        "replies": 66,
+        "quotes": 0
+      },
+      "score": 36,
+      "analysis": {
+        "method": "local-rules-v1",
+        "topics": [
+          "综合"
+        ],
+        "type": "动态",
+        "signal": "低信号",
+        "whyItMatters": "这条内容有一定上下文价值，但未必需要深入处理。",
+        "action": "建议快速浏览，保留原文链接即可。",
+        "caveat": "本分析由本地规则生成，不是 LLM 深度总结。"
+      },
+      "lang": null,
+      "quotedPostId": null,
+      "source": {
+        "type": "feed",
+        "id": "follow-builders",
+        "label": "Follow Builders",
+        "generatedAt": "2026-06-20T07:37:23.218Z"
       }
     }
   ],
-  "errors": [],
-  "codexAnalysis": {
-    "method": "codex-analysis-v1",
-    "updatedAt": "2026-06-21T02:47:37.473Z",
-    "merged": 37
-  }
+  "errors": []
 }

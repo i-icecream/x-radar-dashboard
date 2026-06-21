@@ -11,6 +11,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CONFIG_PATH = join(ROOT, 'config', 'sources.json');
 const ENV_PATH = join(ROOT, '.env');
 const STATE_PATH = join(ROOT, 'state', 'seen-posts.json');
+const USER_CACHE_PATH = join(ROOT, 'state', 'user-cache.json');
 const REPORTS_DIR = join(ROOT, 'reports');
 const LATEST_DATA_PATH = join(ROOT, 'public', 'data', 'latest.json');
 const LATEST_BRIEFING_PATH = join(ROOT, 'public', 'data', 'briefing.json');
@@ -18,6 +19,7 @@ const ARCHIVE_DIR = join(ROOT, 'public', 'data', 'archive');
 const ARCHIVE_INDEX_PATH = join(ARCHIVE_DIR, 'index.json');
 const X_API_BASE = 'https://api.x.com/2';
 const REQUEST_TIMEOUT_MS = 30_000;
+const USER_CACHE_TTL_MS = 30 * 24 * 60 * 60 * 1000;
 const execFileAsync = promisify(execFile);
 
 const args = new Set(process.argv.slice(2));
@@ -146,6 +148,43 @@ async function loadState() {
   };
 }
 
+async function loadUserCache() {
+  const cache = await readJson(USER_CACHE_PATH, { usersByHandle: {}, updatedAt: null });
+  return {
+    usersByHandle: cache.usersByHandle || {},
+    updatedAt: cache.updatedAt || null,
+    dirty: false
+  };
+}
+
+function isFreshCachedUser(user) {
+  if (!user?.id) return false;
+  const updatedAt = new Date(user.updatedAt || 0).getTime();
+  return Number.isFinite(updatedAt) && Date.now() - updatedAt <= USER_CACHE_TTL_MS;
+}
+
+function cacheUser(userCache, user, generatedAt = new Date().toISOString()) {
+  const handle = cleanHandle(user?.username);
+  if (!handle || !user?.id) return;
+  userCache.usersByHandle[handle] = {
+    id: String(user.id),
+    username: user.username || handle,
+    name: user.name || user.username || handle,
+    description: user.description || '',
+    updatedAt: generatedAt
+  };
+  userCache.updatedAt = generatedAt;
+  userCache.dirty = true;
+}
+
+async function saveUserCache(userCache) {
+  if (!userCache?.dirty) return null;
+  const { dirty, ...serializable } = userCache;
+  await writeJson(USER_CACHE_PATH, serializable);
+  userCache.dirty = false;
+  return USER_CACHE_PATH;
+}
+
 async function xFetch(path, bearerToken) {
   const url = `${X_API_BASE}${path}`;
   let res;
@@ -246,16 +285,39 @@ async function fetchJsonUrl(url) {
   return data;
 }
 
-async function lookupUsers(accounts, bearerToken) {
+async function lookupUsers(accounts, bearerToken, userCache = { usersByHandle: {} }) {
   const byHandle = new Map();
   const errors = [];
-  for (let i = 0; i < accounts.length; i += 100) {
-    const batch = accounts.slice(i, i + 100);
+  const missingAccounts = [];
+
+  for (const account of accounts) {
+    const handle = cleanHandle(account.handle);
+    const cached = userCache.usersByHandle?.[handle];
+    if (isFreshCachedUser(cached)) {
+      byHandle.set(handle, {
+        id: cached.id,
+        username: cached.username || handle,
+        name: cached.name || account.name || handle,
+        description: cached.description || ''
+      });
+    } else {
+      missingAccounts.push(account);
+    }
+  }
+
+  let userReads = 0;
+  const fetchedAt = new Date().toISOString();
+  for (let i = 0; i < missingAccounts.length; i += 100) {
+    const batch = missingAccounts.slice(i, i + 100);
     const usernames = batch.map(account => account.handle).join(',');
+    if (!usernames) continue;
+    userReads += batch.length;
     try {
       const data = await xFetch(`/users/by?usernames=${encodeURIComponent(usernames)}&user.fields=name,description,username`, bearerToken);
       for (const user of data.data || []) {
-        byHandle.set(user.username.toLowerCase(), user);
+        const handle = cleanHandle(user.username);
+        byHandle.set(handle, user);
+        cacheUser(userCache, user, fetchedAt);
       }
       for (const err of data.errors || []) {
         errors.push(`User lookup: ${err.value || err.detail || JSON.stringify(err)}`);
@@ -264,7 +326,7 @@ async function lookupUsers(accounts, bearerToken) {
       errors.push(`User lookup batch failed: ${err.message}`);
     }
   }
-  return { byHandle, errors };
+  return { byHandle, errors, userReads, cacheHits: accounts.length - missingAccounts.length };
 }
 
 async function discoverFollowing(handle, bearerToken, limit = 200) {
@@ -475,9 +537,10 @@ async function fetchRecentPosts(config, bearerToken, state, options = {}) {
   const feedResult = await fetchFeedAccounts(config, state);
   const fallbackAccounts = config.accounts.filter(account => !feedResult.coveredHandles.has(account.handle));
   const apiAccounts = options.feedOnly ? [] : fallbackAccounts;
-  const { byHandle, errors: lookupErrors } = apiAccounts.length
-    ? await lookupUsers(apiAccounts, bearerToken)
-    : { byHandle: new Map(), errors: [] };
+  const lookupResult = apiAccounts.length
+    ? await lookupUsers(apiAccounts, bearerToken, options.userCache)
+    : { byHandle: new Map(), errors: [], userReads: 0, cacheHits: 0 };
+  const { byHandle, errors: lookupErrors } = lookupResult;
   const errors = [...feedResult.errors, ...lookupErrors];
   const accounts = [...feedResult.accounts];
   let xApiPosts = 0;
@@ -523,7 +586,8 @@ async function fetchRecentPosts(config, bearerToken, state, options = {}) {
       xApiPosts,
       skippedXApiAccounts: options.feedOnly ? fallbackAccounts.length : 0,
       xApiPostReadsEstimated: apiAccounts.length * Math.max(5, config.maxPostsPerAccount * 2),
-      xApiUserReadsEstimated: apiAccounts.length,
+      xApiUserReadsEstimated: lookupResult.userReads,
+      xApiUserCacheHits: lookupResult.cacheHits,
       feeds: feedResult.sourceStats
     }
   };
@@ -780,7 +844,8 @@ function buildLatestData({ config, accounts, errors, generatedAt, sourceStats })
       xApiPosts: sourceStats?.xApiPosts || 0,
       skippedXApiAccounts: sourceStats?.skippedXApiAccounts || 0,
       xApiPostReadsEstimated: sourceStats?.xApiPostReadsEstimated || 0,
-      xApiUserReadsEstimated: sourceStats?.xApiUserReadsEstimated || 0
+      xApiUserReadsEstimated: sourceStats?.xApiUserReadsEstimated || 0,
+      xApiUserCacheHits: sourceStats?.xApiUserCacheHits || 0
     },
     sources: sourceStats || null,
     analysisMethod: 'local-rules-v1',
@@ -1115,19 +1180,22 @@ async function saveRunArchive({ latestData, briefing, reportPath, generatedAt, d
   };
 }
 
-function estimateReadCost(config) {
+function estimateReadCost(config, userCache = { usersByHandle: {} }) {
   const accounts = config.accounts.length;
   const feedHandles = new Set((config.feedSources || []).flatMap(source => source.handles || []));
   const feedCoveredAccounts = config.accounts.filter(account => feedHandles.has(account.handle)).length;
-  const xApiAccounts = Math.max(0, accounts - feedCoveredAccounts);
+  const xApiAccountsList = config.accounts.filter(account => !feedHandles.has(account.handle));
+  const xApiAccounts = xApiAccountsList.length;
+  const cachedUserReads = xApiAccountsList.filter(account => isFreshCachedUser(userCache.usersByHandle?.[account.handle])).length;
+  const userReads = xApiAccounts - cachedUserReads;
   const postsRequested = xApiAccounts * Math.max(5, config.maxPostsPerAccount * 2);
-  const userReads = xApiAccounts;
   const postReadCost = postsRequested * 0.005;
   const userReadCost = userReads * 0.010;
   return {
     accounts,
     feedCoveredAccounts,
     xApiAccounts,
+    cachedXApiUsers: cachedUserReads,
     estimatedPostReadsPerRun: postsRequested,
     estimatedUserReadsPerRun: userReads,
     officialPostReadUnitPriceUsd: 0.005,
@@ -1140,7 +1208,8 @@ function estimateReadCost(config) {
 async function main() {
   const config = await loadConfig();
   if (estimateCost) {
-    console.log(JSON.stringify(estimateReadCost(config), null, 2));
+    const userCache = await loadUserCache();
+    console.log(JSON.stringify(estimateReadCost(config, userCache), null, 2));
     return;
   }
 
@@ -1168,8 +1237,9 @@ async function main() {
   }
 
   const state = await loadState();
+  const userCache = await loadUserCache();
   const generatedAt = new Date().toISOString();
-  const result = await fetchRecentPosts(config, env.X_BEARER_TOKEN, state, { feedOnly });
+  const result = await fetchRecentPosts(config, env.X_BEARER_TOKEN, state, { feedOnly, userCache });
   const markdown = renderReport({
     config,
     accounts: result.accounts,
@@ -1189,6 +1259,7 @@ async function main() {
   const latestDataPath = await saveLatestData(latestData);
   const latestBriefingPath = await saveLatestBriefing(briefing);
   const archive = await saveRunArchive({ latestData, briefing, reportPath, generatedAt, dryRun });
+  const userCachePath = await saveUserCache(userCache);
 
   const surfaced = latestData.posts;
   if (!dryRun) {
@@ -1224,6 +1295,7 @@ async function main() {
     latestBriefingPath,
     postsArchivePath: archive.postsArchivePath,
     briefingArchivePath: archive.briefingArchivePath,
+    userCachePath,
     newPosts: surfaced.length,
     accountsWithNewPosts: result.accounts.length,
     sourceStats: result.sourceStats,
