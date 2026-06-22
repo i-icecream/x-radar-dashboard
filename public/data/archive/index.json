@@ -1,6 +1,48 @@
 {
   "runs": [
     {
+      "generatedAt": "2026-06-22T13:24:48.196Z",
+      "postsArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\posts\\2026-06-22T13-24-48-196Z.json",
+      "briefingArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\briefings\\2026-06-22T13-24-48-196Z.json",
+      "postsArchiveUrl": "/data/archive/posts/2026-06-22T13-24-48-196Z.json",
+      "briefingArchiveUrl": "/data/archive/briefings/2026-06-22T13-24-48-196Z.json",
+      "reportPath": "C:\\Users\\icecream\\Documents\\X\\reports\\x-radar-2026-06-22T13-27-24-889Z.md",
+      "latestDataPath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\latest.json",
+      "latestBriefingPath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\briefing.json",
+      "newPosts": 45,
+      "accountsWithNewPosts": 19,
+      "highSignals": 12,
+      "midSignals": 7,
+      "lowSignals": 26,
+      "errors": 1,
+      "sourceStats": {
+        "feedAccounts": 10,
+        "xApiAccounts": 26,
+        "feedPosts": 22,
+        "xApiPosts": 23,
+        "skippedXApiAccounts": 0,
+        "xApiPostReadsEstimated": 156,
+        "xApiUserReadsEstimated": 4,
+        "xApiUserCacheHits": 22,
+        "feeds": [
+          {
+            "id": "follow-builders",
+            "name": "Follow Builders",
+            "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
+            "generatedAt": "2026-06-22T08:29:37.749Z",
+            "fresh": true,
+            "accountsAvailable": 11,
+            "accountsMatched": 10,
+            "accountsCovered": 10,
+            "accountsWithNewPosts": 10,
+            "postsUsed": 22,
+            "errors": []
+          }
+        ]
+      },
+      "codexAnalysisUpdatedAt": "2026-06-22T13:30:15.442Z"
+    },
+    {
       "generatedAt": "2026-06-21T02:42:06.540Z",
       "postsArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\posts\\2026-06-21T02-42-06-540Z.json",
       "briefingArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\briefings\\2026-06-21T02-42-06-540Z.json",
