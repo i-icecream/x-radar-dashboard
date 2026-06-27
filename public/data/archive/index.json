@@ -1,6 +1,50 @@
 {
   "runs": [
     {
+      "generatedAt": "2026-06-27T01:04:18.037Z",
+      "postsArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\posts\\2026-06-27T01-04-18-037Z.json",
+      "briefingArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\briefings\\2026-06-27T01-04-18-037Z.json",
+      "postsArchiveUrl": "/data/archive/posts/2026-06-27T01-04-18-037Z.json",
+      "briefingArchiveUrl": "/data/archive/briefings/2026-06-27T01-04-18-037Z.json",
+      "reportPath": "C:\\Users\\icecream\\Documents\\X\\reports\\x-radar-2026-06-27T01-07-17-650Z.md",
+      "latestDataPath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\latest.json",
+      "latestBriefingPath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\briefing.json",
+      "newPosts": 57,
+      "accountsWithNewPosts": 24,
+      "highSignals": 18,
+      "midSignals": 8,
+      "lowSignals": 31,
+      "errors": 1,
+      "sourceStats": {
+        "feedAccounts": 0,
+        "xApiAccounts": 36,
+        "feedPosts": 0,
+        "xApiPosts": 57,
+        "skippedXApiAccounts": 0,
+        "xApiPostReadsEstimated": 216,
+        "xApiUserReadsEstimated": 0,
+        "xApiUserCacheHits": 36,
+        "feeds": [
+          {
+            "id": "follow-builders",
+            "name": "Follow Builders",
+            "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
+            "generatedAt": null,
+            "fresh": false,
+            "accountsAvailable": 0,
+            "accountsMatched": 0,
+            "accountsCovered": 0,
+            "accountsWithNewPosts": 0,
+            "postsUsed": 0,
+            "errors": [
+              "fetch failed"
+            ]
+          }
+        ]
+      },
+      "codexAnalysisUpdatedAt": "2026-06-27T01:10:29.050Z"
+    },
+    {
       "generatedAt": "2026-06-26T01:02:15.648Z",
       "postsArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\posts\\2026-06-26T01-02-15-648Z.json",
       "briefingArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\briefings\\2026-06-26T01-02-15-648Z.json",
