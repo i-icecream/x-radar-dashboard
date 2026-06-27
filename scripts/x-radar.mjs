@@ -416,6 +416,14 @@ function isFeedFresh(feedData, feedSource) {
   return Date.now() - generatedAt <= maxAgeMs;
 }
 
+function describeError(err) {
+  const message = err?.message || String(err);
+  const cause = err?.cause;
+  if (!cause) return message;
+  const causeDetail = [cause.code, cause.message].filter(Boolean).join(': ');
+  return causeDetail ? `${message} (${causeDetail})` : message;
+}
+
 function isFeedPostAllowed(tweet, config) {
   if (!tweet?.id) return false;
   const createdAt = new Date(tweet.createdAt || 0).getTime();
@@ -460,6 +468,17 @@ async function fetchFeedAccounts(config, state) {
   const coveredHandles = new Set();
   const sourceStats = [];
   const configuredByHandle = new Map(config.accounts.map(account => [account.handle, account]));
+  let skippedXApiAccounts = 0;
+
+  function reserveConfiguredFeedHandles(feedSource, stat) {
+    const handles = feedSource.handles.filter(handle => configuredByHandle.has(handle));
+    for (const handle of handles) coveredHandles.add(handle);
+    stat.accountsMatched = handles.length;
+    stat.accountsCovered = handles.length;
+    stat.skippedXApiAccounts = handles.length;
+    skippedXApiAccounts += handles.length;
+    return handles.length;
+  }
 
   for (const feedSource of config.feedSources || []) {
     const stat = {
@@ -473,6 +492,7 @@ async function fetchFeedAccounts(config, state) {
       accountsCovered: 0,
       accountsWithNewPosts: 0,
       postsUsed: 0,
+      skippedXApiAccounts: 0,
       errors: []
     };
 
@@ -482,15 +502,18 @@ async function fetchFeedAccounts(config, state) {
       stat.generatedAt = feedData?.generatedAt || null;
       stat.fresh = isFeedFresh(feedData, feedSource);
       if (!stat.fresh) {
+        const skipped = reserveConfiguredFeedHandles(feedSource, stat);
         stat.errors.push(`Feed is older than ${feedSource.maxAgeHours}h.`);
         sourceStats.push(stat);
-        errors.push(`${feedSource.name}: feed is stale, falling back to X API for covered accounts.`);
+        errors.push(`${feedSource.name}: feed is stale. Skipped ${skipped} feed-covered accounts instead of falling back to X API.`);
         continue;
       }
     } catch (err) {
-      stat.errors.push(err.message);
+      const skipped = reserveConfiguredFeedHandles(feedSource, stat);
+      const message = describeError(err);
+      stat.errors.push(message);
       sourceStats.push(stat);
-      errors.push(`${feedSource.name}: ${err.message}. Falling back to X API for covered accounts.`);
+      errors.push(`${feedSource.name}: ${message}. Skipped ${skipped} feed-covered accounts instead of falling back to X API.`);
       continue;
     }
 
@@ -530,7 +553,7 @@ async function fetchFeedAccounts(config, state) {
     sourceStats.push(stat);
   }
 
-  return { accounts, errors, coveredHandles, sourceStats };
+  return { accounts, errors, coveredHandles, skippedXApiAccounts, sourceStats };
 }
 
 async function fetchRecentPosts(config, bearerToken, state, options = {}) {
@@ -584,7 +607,7 @@ async function fetchRecentPosts(config, bearerToken, state, options = {}) {
       xApiAccounts: apiAccounts.length,
       feedPosts,
       xApiPosts,
-      skippedXApiAccounts: options.feedOnly ? fallbackAccounts.length : 0,
+      skippedXApiAccounts: options.feedOnly ? fallbackAccounts.length : feedResult.skippedXApiAccounts,
       xApiPostReadsEstimated: apiAccounts.length * Math.max(5, config.maxPostsPerAccount * 2),
       xApiUserReadsEstimated: lookupResult.userReads,
       xApiUserCacheHits: lookupResult.cacheHits,
@@ -764,6 +787,9 @@ function renderReport({ config, accounts, errors, generatedAt, sourceStats }) {
   lines.push(`窗口：最近 ${config.lookbackHours} 小时`);
   lines.push(`新帖子：${totalPosts} 条，账号：${accounts.length} 个`);
   if (sourceStats) {
+    if (sourceStats.skippedXApiAccounts) {
+      lines.push(`Skipped X API accounts: ${sourceStats.skippedXApiAccounts}`);
+    }
     lines.push(`来源：Feed ${sourceStats.feedAccounts || 0} 个账号 / X API ${sourceStats.xApiAccounts || 0} 个账号`);
   }
   lines.push('');
