@@ -5,9 +5,9 @@
   "type": "module",
   "description": "Fetch, deduplicate, and summarize recent posts from selected X accounts.",
   "scripts": {
-    "scan": "node scripts/x-radar.mjs",
-    "scan:dry": "node scripts/x-radar.mjs --dry-run",
-    "scan:feed": "node scripts/x-radar.mjs --feed-only --dry-run",
+    "scan": "node --use-env-proxy scripts/x-radar.mjs",
+    "scan:dry": "node --use-env-proxy scripts/x-radar.mjs --dry-run",
+    "scan:feed": "node --use-env-proxy scripts/x-radar.mjs --feed-only --dry-run",
     "cost": "node scripts/x-radar.mjs --estimate-cost",
     "dashboard": "node scripts/serve-dashboard.mjs"
   },

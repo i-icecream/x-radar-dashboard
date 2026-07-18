@@ -19,6 +19,8 @@ const ARCHIVE_DIR = join(ROOT, 'public', 'data', 'archive');
 const ARCHIVE_INDEX_PATH = join(ARCHIVE_DIR, 'index.json');
 const X_API_BASE = 'https://api.x.com/2';
 const REQUEST_TIMEOUT_MS = 30_000;
+const FEED_FETCH_ATTEMPTS = 3;
+const FEED_RETRY_BASE_DELAY_MS = 1_000;
 const USER_CACHE_TTL_MS = 30 * 24 * 60 * 60 * 1000;
 const execFileAsync = promisify(execFile);
 
@@ -67,6 +69,18 @@ async function mapLimit(items, limit, task) {
 
 function isTimeoutError(err) {
   return err?.name === 'TimeoutError' || err?.name === 'AbortError';
+}
+
+function isCreditsDepletedError(err) {
+  const message = String(err?.message || err || '').toLowerCase();
+  return [
+    'credits depleted',
+    'credit balance depleted',
+    'insufficient credits',
+    'not enough credits',
+    'usage cap exceeded',
+    'billing limit exceeded'
+  ].some(pattern => message.includes(pattern));
 }
 
 async function readJson(path, fallback) {
@@ -265,30 +279,44 @@ async function xFetchWithPowerShell(url, bearerToken, originalError) {
 }
 
 async function fetchJsonUrl(url) {
-  const res = await fetch(url, {
-    headers: {
-      Accept: 'application/json',
-      'User-Agent': 'x-radar-local/1.0'
-    },
-    signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS)
-  });
-  const text = await res.text();
-  let data = null;
-  try {
-    data = text ? JSON.parse(text) : null;
-  } catch {
-    throw new Error(`Feed returned invalid JSON from ${url}`);
+  let lastError = null;
+
+  for (let attempt = 1; attempt <= FEED_FETCH_ATTEMPTS; attempt += 1) {
+    try {
+      const res = await fetch(url, {
+        headers: {
+          Accept: 'application/json',
+          'User-Agent': 'x-radar-local/1.0'
+        },
+        signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS)
+      });
+      const text = await res.text();
+      let data = null;
+      try {
+        data = text ? JSON.parse(text) : null;
+      } catch {
+        throw new Error(`Feed returned invalid JSON from ${url}`);
+      }
+      if (!res.ok) {
+        throw new Error(`Feed HTTP ${res.status}: ${data?.message || text || res.statusText}`);
+      }
+      return data;
+    } catch (err) {
+      lastError = err;
+      if (attempt < FEED_FETCH_ATTEMPTS) {
+        await new Promise(resolve => setTimeout(resolve, FEED_RETRY_BASE_DELAY_MS * attempt));
+      }
+    }
   }
-  if (!res.ok) {
-    throw new Error(`Feed HTTP ${res.status}: ${data?.message || text || res.statusText}`);
-  }
-  return data;
+
+  throw new Error(`Feed request failed after ${FEED_FETCH_ATTEMPTS} attempts: ${describeError(lastError)}`);
 }
 
 async function lookupUsers(accounts, bearerToken, userCache = { usersByHandle: {} }) {
   const byHandle = new Map();
   const errors = [];
   const missingAccounts = [];
+  let creditsDepleted = false;
 
   for (const account of accounts) {
     const handle = cleanHandle(account.handle);
@@ -324,9 +352,19 @@ async function lookupUsers(accounts, bearerToken, userCache = { usersByHandle: {
       }
     } catch (err) {
       errors.push(`User lookup batch failed: ${err.message}`);
+      if (isCreditsDepletedError(err)) {
+        creditsDepleted = true;
+        break;
+      }
     }
   }
-  return { byHandle, errors, userReads, cacheHits: accounts.length - missingAccounts.length };
+  return {
+    byHandle,
+    errors,
+    userReads,
+    cacheHits: accounts.length - missingAccounts.length,
+    creditsDepleted
+  };
 }
 
 async function discoverFollowing(handle, bearerToken, limit = 200) {
@@ -562,16 +600,26 @@ async function fetchRecentPosts(config, bearerToken, state, options = {}) {
   const apiAccounts = options.feedOnly ? [] : fallbackAccounts;
   const lookupResult = apiAccounts.length
     ? await lookupUsers(apiAccounts, bearerToken, options.userCache)
-    : { byHandle: new Map(), errors: [], userReads: 0, cacheHits: 0 };
+    : { byHandle: new Map(), errors: [], userReads: 0, cacheHits: 0, creditsDepleted: false };
   const { byHandle, errors: lookupErrors } = lookupResult;
   const errors = [...feedResult.errors, ...lookupErrors];
   const accounts = [...feedResult.accounts];
   let xApiPosts = 0;
+  let xApiAccountsAttempted = 0;
+  let apiCreditsDepleted = lookupResult.creditsDepleted;
+  let creditsDepletedAt = lookupResult.creditsDepleted ? 'user lookup' : null;
+  const creditSkippedHandles = new Set();
 
   async function fetchApiAccount(account) {
+    if (apiCreditsDepleted) {
+      creditSkippedHandles.add(account.handle);
+      return null;
+    }
+
     const user = byHandle.get(account.handle);
     if (!user) return null;
 
+    xApiAccountsAttempted += 1;
     try {
       const data = await xFetch(buildTweetQuery(user.id, config), bearerToken);
       const posts = [];
@@ -592,6 +640,14 @@ async function fetchRecentPosts(config, bearerToken, state, options = {}) {
         });
       }
     } catch (err) {
+      if (isCreditsDepletedError(err)) {
+        apiCreditsDepleted = true;
+        if (!creditsDepletedAt) {
+          creditsDepletedAt = `@${account.handle}`;
+          errors.push(`X API credits depleted at @${account.handle}. Skipped remaining API accounts for this run.`);
+        }
+        return null;
+      }
       errors.push(`@${account.handle}: ${err.message}`);
     }
   }
@@ -599,16 +655,23 @@ async function fetchRecentPosts(config, bearerToken, state, options = {}) {
   await mapLimit(apiAccounts, 4, fetchApiAccount);
 
   const feedPosts = feedResult.accounts.reduce((sum, account) => sum + account.posts.length, 0);
+  const skippedXApiAccountsDueToCredits = creditSkippedHandles.size;
   return {
     accounts,
     errors,
     sourceStats: {
       feedAccounts: feedResult.coveredHandles.size,
       xApiAccounts: apiAccounts.length,
+      xApiAccountsAttempted,
       feedPosts,
       xApiPosts,
-      skippedXApiAccounts: options.feedOnly ? fallbackAccounts.length : feedResult.skippedXApiAccounts,
-      xApiPostReadsEstimated: apiAccounts.length * Math.max(5, config.maxPostsPerAccount * 2),
+      skippedXApiAccounts: options.feedOnly
+        ? fallbackAccounts.length
+        : feedResult.skippedXApiAccounts + skippedXApiAccountsDueToCredits,
+      skippedXApiAccountsDueToCredits,
+      apiCreditsDepleted,
+      creditsDepletedAt,
+      xApiPostReadsEstimated: xApiAccountsAttempted * Math.max(5, config.maxPostsPerAccount * 2),
       xApiUserReadsEstimated: lookupResult.userReads,
       xApiUserCacheHits: lookupResult.cacheHits,
       feeds: feedResult.sourceStats
@@ -790,6 +853,9 @@ function renderReport({ config, accounts, errors, generatedAt, sourceStats }) {
     if (sourceStats.skippedXApiAccounts) {
       lines.push(`Skipped X API accounts: ${sourceStats.skippedXApiAccounts}`);
     }
+    if (sourceStats.apiCreditsDepleted) {
+      lines.push('X API credits depleted: remaining API requests were skipped automatically.');
+    }
     lines.push(`来源：Feed ${sourceStats.feedAccounts || 0} 个账号 / X API ${sourceStats.xApiAccounts || 0} 个账号`);
   }
   lines.push('');
@@ -866,9 +932,12 @@ function buildLatestData({ config, accounts, errors, generatedAt, sourceStats })
       errors: errors.length,
       feedAccounts: sourceStats?.feedAccounts || 0,
       xApiAccounts: sourceStats?.xApiAccounts ?? config.accounts.length,
+      xApiAccountsAttempted: sourceStats?.xApiAccountsAttempted || 0,
       feedPosts: sourceStats?.feedPosts || 0,
       xApiPosts: sourceStats?.xApiPosts || 0,
       skippedXApiAccounts: sourceStats?.skippedXApiAccounts || 0,
+      skippedXApiAccountsDueToCredits: sourceStats?.skippedXApiAccountsDueToCredits || 0,
+      apiCreditsDepleted: Boolean(sourceStats?.apiCreditsDepleted),
       xApiPostReadsEstimated: sourceStats?.xApiPostReadsEstimated || 0,
       xApiUserReadsEstimated: sourceStats?.xApiUserReadsEstimated || 0,
       xApiUserCacheHits: sourceStats?.xApiUserCacheHits || 0
@@ -1280,14 +1349,39 @@ async function main() {
     generatedAt,
     sourceStats: result.sourceStats
   });
-  const briefing = buildBriefing(latestData);
   const reportPath = await saveReport(markdown);
-  const latestDataPath = await saveLatestData(latestData);
-  const latestBriefingPath = await saveLatestBriefing(briefing);
-  const archive = await saveRunArchive({ latestData, briefing, reportPath, generatedAt, dryRun });
   const userCachePath = await saveUserCache(userCache);
 
   const surfaced = latestData.posts;
+  const preserveExistingDashboard = surfaced.length === 0 && result.sourceStats.apiCreditsDepleted;
+  if (preserveExistingDashboard) {
+    console.log(JSON.stringify({
+      status: 'skipped',
+      reason: 'x-api-credits-depleted-empty-scan',
+      message: 'X API credits are depleted and no feed posts were available. Existing dashboard data was preserved.',
+      dryRun,
+      feedOnly,
+      reportPath,
+      latestDataPath: null,
+      latestBriefingPath: null,
+      postsArchivePath: null,
+      briefingArchivePath: null,
+      preservedLatestDataPath: LATEST_DATA_PATH,
+      preservedLatestBriefingPath: LATEST_BRIEFING_PATH,
+      userCachePath,
+      newPosts: 0,
+      accountsWithNewPosts: 0,
+      sourceStats: result.sourceStats,
+      errors: result.errors
+    }, null, 2));
+    return;
+  }
+
+  const briefing = buildBriefing(latestData);
+  const latestDataPath = await saveLatestData(latestData);
+  const latestBriefingPath = await saveLatestBriefing(briefing);
+  const archive = await saveRunArchive({ latestData, briefing, reportPath, generatedAt, dryRun });
+
   if (!dryRun) {
     for (const post of surfaced) {
       state.seenPosts[post.id] = {
