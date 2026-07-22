@@ -1,6 +1,53 @@
 {
   "runs": [
     {
+      "generatedAt": "2026-07-22T01:02:39.001Z",
+      "postsArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\posts\\2026-07-22T01-02-39-001Z.json",
+      "briefingArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\briefings\\2026-07-22T01-02-39-001Z.json",
+      "postsArchiveUrl": "/data/archive/posts/2026-07-22T01-02-39-001Z.json",
+      "briefingArchiveUrl": "/data/archive/briefings/2026-07-22T01-02-39-001Z.json",
+      "reportPath": "C:\\Users\\icecream\\Documents\\X\\reports\\x-radar-2026-07-22T01-02-40-553Z.md",
+      "latestDataPath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\latest.json",
+      "latestBriefingPath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\briefing.json",
+      "newPosts": 9,
+      "accountsWithNewPosts": 5,
+      "highSignals": 3,
+      "midSignals": 0,
+      "lowSignals": 6,
+      "errors": 1,
+      "sourceStats": {
+        "feedAccounts": 13,
+        "xApiAccounts": 23,
+        "xApiAccountsAttempted": 0,
+        "feedPosts": 9,
+        "xApiPosts": 0,
+        "skippedXApiAccounts": 23,
+        "skippedXApiAccountsDueToCredits": 23,
+        "apiCreditsDepleted": true,
+        "creditsDepletedAt": "user lookup",
+        "xApiPostReadsEstimated": 0,
+        "xApiUserReadsEstimated": 20,
+        "xApiUserCacheHits": 3,
+        "feeds": [
+          {
+            "id": "follow-builders",
+            "name": "Follow Builders",
+            "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json",
+            "generatedAt": "2026-07-21T07:10:35.704Z",
+            "fresh": true,
+            "accountsAvailable": 14,
+            "accountsMatched": 13,
+            "accountsCovered": 13,
+            "accountsWithNewPosts": 5,
+            "postsUsed": 9,
+            "skippedXApiAccounts": 0,
+            "errors": []
+          }
+        ]
+      },
+      "codexAnalysisUpdatedAt": "2026-07-22T01:03:46.110Z"
+    },
+    {
       "generatedAt": "2026-07-21T01:00:37.086Z",
       "postsArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\posts\\2026-07-21T01-00-37-086Z.json",
       "briefingArchivePath": "C:\\Users\\icecream\\Documents\\X\\public\\data\\archive\\briefings\\2026-07-21T01-00-37-086Z.json",
